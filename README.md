@@ -1,27 +1,28 @@
-#
-
-DataBase Final Fourth Semester Project
+# DataBase Final Fourth Semester Project
 
 ## SuperVisor
 
-- Prof Samyan Wahla
-- Prof Nauman Babar
+- [Prof Samyan Wahla](https://www.linkedin.com/in/samyan-wahla-5b258938)
+- [Prof Nauman Babar](https://www.linkedin.com/in/naumanbabar)
 
 ---
 
 ## Collaborators
 
-- Abdul Mateen
-- Muhammad Ibrahim
+- [Abdul Mateen](https://linktr.ee/AbdulMateenzwl)
+- [Muhammad Ibrahim](https://linktr.ee/M_ibrahim_pro)
 - Muhammad Danish
-- Muhammad Ahmad
+- [Muhammad Ahmad](https://www.linkedin.com/in/muhammad-ahmad-782b34262)
 
 ---
 
 ## Topic
 
-- Under Discussion ---
+### Farmers’ Representator
 
 ## Stack Used
 
-- Under Discussion ---
+### FrontEnd
+- Winform
+### BackEnd
+- C#
