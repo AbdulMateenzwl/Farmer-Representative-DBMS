@@ -1,0 +1,26 @@
+E:\4th Semeter Record\DBMS Lab\Farmer_Representive_Final_Project(DB)\bin\Debug\Farmer_Representive_Final_Project(DB).exe.config
+E:\4th Semeter Record\DBMS Lab\Farmer_Representive_Final_Project(DB)\bin\Debug\Farmer_Representive_Final_Project(DB).exe
+E:\4th Semeter Record\DBMS Lab\Farmer_Representive_Final_Project(DB)\bin\Debug\Farmer_Representive_Final_Project(DB).pdb
+E:\4th Semeter Record\DBMS Lab\Farmer_Representive_Final_Project(DB)\obj\Debug\Farmer_Representive_Final_Project(DB).csproj.AssemblyReference.cache
+E:\4th Semeter Record\DBMS Lab\Farmer_Representive_Final_Project(DB)\obj\Debug\Farmer_Representive_Final_Project(DB).csproj.SuggestedBindingRedirects.cache
+E:\4th Semeter Record\DBMS Lab\Farmer_Representive_Final_Project(DB)\obj\Debug\Farmer_Representive_Final_Project_DB_.Form1.resources
+E:\4th Semeter Record\DBMS Lab\Farmer_Representive_Final_Project(DB)\obj\Debug\Farmer_Representive_Final_Project_DB_.Properties.Resources.resources
+E:\4th Semeter Record\DBMS Lab\Farmer_Representive_Final_Project(DB)\obj\Debug\Farmer_Representive_Final_Project(DB).csproj.GenerateResource.cache
+E:\4th Semeter Record\DBMS Lab\Farmer_Representive_Final_Project(DB)\obj\Debug\Farmer_Representive_Final_Project(DB).csproj.CoreCompileInputs.cache
+E:\4th Semeter Record\DBMS Lab\Farmer_Representive_Final_Project(DB)\obj\Debug\Farmer_Representive_Final_Project(DB).exe
+E:\4th Semeter Record\DBMS Lab\Farmer_Representive_Final_Project(DB)\obj\Debug\Farmer_Representive_Final_Project(DB).pdb
+E:\4th Semeter Record\DBMS Lab\Farmer_Representive_Final_Project(DB)\bin\Debug\Guna.UI2.dll
+E:\4th Semeter Record\DBMS Lab\Farmer_Representive_Final_Project(DB)\obj\Debug\Farmer_Representive_Final_Project(DB).csproj.CopyComplete
+C:\Users\star tech !\Downloads\Farmer_Representive_Final_Project(DB)\bin\Debug\Farmer_Representive_Final_Project(DB).exe.config
+C:\Users\star tech !\Downloads\Farmer_Representive_Final_Project(DB)\bin\Debug\Farmer_Representive_Final_Project(DB).exe
+C:\Users\star tech !\Downloads\Farmer_Representive_Final_Project(DB)\bin\Debug\Farmer_Representive_Final_Project(DB).pdb
+C:\Users\star tech !\Downloads\Farmer_Representive_Final_Project(DB)\bin\Debug\Guna.UI2.dll
+C:\Users\star tech !\Downloads\Farmer_Representive_Final_Project(DB)\obj\Debug\Farmer_Representive_Final_Project(DB).csproj.AssemblyReference.cache
+C:\Users\star tech !\Downloads\Farmer_Representive_Final_Project(DB)\obj\Debug\Farmer_Representive_Final_Project(DB).csproj.SuggestedBindingRedirects.cache
+C:\Users\star tech !\Downloads\Farmer_Representive_Final_Project(DB)\obj\Debug\Farmer_Representive_Final_Project_DB_.Template.resources
+C:\Users\star tech !\Downloads\Farmer_Representive_Final_Project(DB)\obj\Debug\Farmer_Representive_Final_Project_DB_.Properties.Resources.resources
+C:\Users\star tech !\Downloads\Farmer_Representive_Final_Project(DB)\obj\Debug\Farmer_Representive_Final_Project(DB).csproj.GenerateResource.cache
+C:\Users\star tech !\Downloads\Farmer_Representive_Final_Project(DB)\obj\Debug\Farmer_Representive_Final_Project(DB).csproj.CoreCompileInputs.cache
+C:\Users\star tech !\Downloads\Farmer_Representive_Final_Project(DB)\obj\Debug\Farmer_Representive_Final_Project(DB).csproj.CopyComplete
+C:\Users\star tech !\Downloads\Farmer_Representive_Final_Project(DB)\obj\Debug\Farmer_Representive_Final_Project(DB).exe
+C:\Users\star tech !\Downloads\Farmer_Representive_Final_Project(DB)\obj\Debug\Farmer_Representive_Final_Project(DB).pdb
