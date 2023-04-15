@@ -1,136 +1,145 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
   <Class Name="DB_Project_Final.BL.Credentials">
-    <Position X="7" Y="1.75" Width="1.5" />
+    <Position X="8.75" Y="7" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAIAAAAAAAAAAgAAAAAAAAAAABAAAAAAAAAAAAAgA=</HashCode>
+      <HashCode>AAACAAAAACAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
       <FileName>BL\Credentials.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="DB_Project_Final.BL.Delivery" Collapsed="true">
-    <Position X="14.5" Y="2.5" Width="1.5" />
+  <Class Name="DB_Project_Final.BL.Delivery">
+    <Position X="20.5" Y="7" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>BAAAABAQAAAAAAAAAAAAAAAACEAAQAAAAIAAAAAAAgA=</HashCode>
+      <HashCode>EAACAAQAAAAAEAAAAAAIAABAAAAAgABAAAAAAAAAAAA=</HashCode>
       <FileName>BL\Delivery.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="DB_Project_Final.BL.deliveryDetails" Collapsed="true">
-    <Position X="13.5" Y="1.5" Width="1.5" />
+  <Class Name="DB_Project_Final.BL.DeliveryDetails">
+    <Position X="17.5" Y="9.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AIQAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>BL\deliveryDetails.cs</FileName>
+      <HashCode>AAAAAACGAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BL\DeliveryDetails.cs</FileName>
+      <NewMemberFileName>BL\deliveryDetails.cs</NewMemberFileName>
     </TypeIdentifier>
   </Class>
   <Class Name="DB_Project_Final.BL.Driver">
-    <Position X="2.5" Y="5" Width="1.5" />
+    <Position X="17.5" Y="12" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAQAAAAAAAAAAAAAAAQAAAAACAAAAAAAAAAAAAAAAgA=</HashCode>
+      <HashCode>AAACAAAEAAAAAAAAAAAIAAAEAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>BL\Driver.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="DB_Project_Final.BL.Employee" Collapsed="true">
-    <Position X="12.25" Y="0.5" Width="1.5" />
+  <Class Name="DB_Project_Final.BL.Employee">
+    <Position X="10.25" Y="4.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAQAAAAAAAAgAAAAAAAAAAACAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <HashCode>AAACACAEAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAA=</HashCode>
       <FileName>BL\Employee.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="DB_Project_Final.BL.Farmer">
-    <Position X="2.5" Y="1.25" Width="1.5" />
+    <Position X="11.5" Y="13.25" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAQCAAAAAAAAAAAAAAAAAAAACAIAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAACAAAEAAAAAAAAAAAIAAAAAAAAAAACAAAAAAAAAAA=</HashCode>
       <FileName>BL\Farmer.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="DB_Project_Final.BL.Field">
-    <Position X="0.75" Y="3" Width="1.5" />
+    <Position X="14" Y="14" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAQAAAEAAAAAAAAAAAAEAAACCAAAAAAAAAAAAAAAAgA=</HashCode>
+      <HashCode>AAAGAAAEAAAAAAAAAAAIAAAAAAAAAAACAQAAAAAAAAA=</HashCode>
       <FileName>BL\Field.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="DB_Project_Final.BL.Lookup">
-    <Position X="7" Y="4.5" Width="1.5" />
+    <Position X="14.75" Y="9.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAIAAAAAgA=</HashCode>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAACAA=</HashCode>
       <FileName>BL\Lookup.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="DB_Project_Final.BL.Office" Collapsed="true">
-    <Position X="13.25" Y="5.5" Width="1.5" />
+  <Class Name="DB_Project_Final.BL.Office">
+    <Position X="11.5" Y="7" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAwA=</HashCode>
+      <HashCode>AAADAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAA=</HashCode>
       <FileName>BL\Office.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="DB_Project_Final.BL.Order" Collapsed="true">
-    <Position X="12.25" Y="3" Width="1.5" />
+  <Class Name="DB_Project_Final.BL.Order">
+    <Position X="17.5" Y="5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAQAABAAAAAAAQQAAAABAAAACAAAAAAAAAAAAAgAAgA=</HashCode>
+      <HashCode>GAACAAAEAAAAAAAAAAAMAAAAAQAAAAAAAAAAAAABAAA=</HashCode>
       <FileName>BL\Order.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="DB_Project_Final.BL.Organization">
-    <Position X="9.25" Y="3" Width="1.5" />
+    <Position X="5.75" Y="9.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAABAAAAAgAAAEAAAAAAICAAAAAAAAAAAAAwA=</HashCode>
+      <HashCode>AAAHEAAAAKAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAA=</HashCode>
       <FileName>BL\Organization.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="DB_Project_Final.BL.Person">
-    <Position X="4.75" Y="3" Width="1.5" />
+    <Position X="11.5" Y="9.25" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAASAAAAAABAAAAgAAAFgAAAABAAAAAAEAAACAAAAQA=</HashCode>
+      <HashCode>AAAHAEAAACAAAACAAAAAAAAAARAQAAAAAAAAAAAAEAg=</HashCode>
       <FileName>BL\Person.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="DB_Project_Final.BL.Product" Collapsed="true">
-    <Position X="12.75" Y="7.75" Width="1.5" />
+  <Class Name="DB_Project_Final.BL.Product">
+    <Position X="15" Y="5.25" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAQAAAACAEAAAAAAAAAAAAAACAAEAAAAAAAAACEAAgA=</HashCode>
+      <HashCode>IAACAAAEAAAAAgBAAAAIAAQAAAAAAAAAAQAAAAAAAAA=</HashCode>
       <FileName>BL\Product.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="DB_Project_Final.BL.Region" Collapsed="true">
-    <Position X="11" Y="7.25" Width="1.5" />
+  <Class Name="DB_Project_Final.BL.Region">
+    <Position X="8.75" Y="11.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAEAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAEAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>BL\Region.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="DB_Project_Final.BL.TransactionDetails" Collapsed="true">
-    <Position X="12.25" Y="4.25" Width="1.5" />
+  <Class Name="DB_Project_Final.BL.TransactionDetails">
+    <Position X="5.75" Y="7" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AIAAAAAAAAAAAAAAAAAAAAEAAQAAgAAAgAAAAAAAAgA=</HashCode>
+      <HashCode>AAACAACAAAAAAAAAAAAAAACAAACBAAEAAAAAAAAAAAA=</HashCode>
       <FileName>BL\TransactionDetails.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="DB_Project_Final.BL.Vehicle">
-    <Position X="0.75" Y="6.5" Width="1.5" />
+    <Position X="15.75" Y="14" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>IAAAAAAAEAAAAAAAAAAAAAAACAAAAACAAAQAAAAAAgA=</HashCode>
+      <HashCode>AAACAAAAAAAAABAAAAAIAAAAAIAAAAAAAAAAACAEAAA=</HashCode>
       <FileName>BL\Vehicle.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="DB_Project_Final.BL.Wallet" Collapsed="true">
-    <Position X="12" Y="6.25" Width="1.5" />
+  <Class Name="DB_Project_Final.BL.Wallet">
+    <Position X="8.75" Y="9.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAEAAAAAAAAAABAAAAAAAAAAAAAgA=</HashCode>
+      <HashCode>AAACAAAAAAAQAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
       <FileName>BL\Wallet.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="DB_Project_Final.BL.Warehouse" Collapsed="true">
-    <Position X="6" Y="7.75" Width="1.5" />
+  <Class Name="DB_Project_Final.BL.Warehouse">
+    <Position X="13" Y="4.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>gAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAgA=</HashCode>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAIAAAAA=</HashCode>
       <FileName>BL\Warehouse.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="DB_Project_Final.BL.warehouseProduct">
-    <Position X="8.75" Y="7" Width="1.5" />
+  <Class Name="DB_Project_Final.BL.WarehouseProduct">
+    <Position X="14.75" Y="3" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAABAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>BL\warehouseProduct.cs</FileName>
+      <HashCode>EAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BL\WarehouseProduct.cs</FileName>
+      <NewMemberFileName>BL\warehouseProduct.cs</NewMemberFileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DB_Project_Final.BL.FieldProduct">
+    <Position X="8" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BL\FieldProduct.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Font Name="Segoe UI" Size="9" />

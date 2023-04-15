@@ -8,13 +8,13 @@ namespace DB_Project_Final.BL
 {
     public class Delivery
     {
-        private int id { get; set; }
-        private int vehicleId { get; set; }
-        private int deliveryType { get; set; }
-        private int sourceId { get; set; }
-        private int destinationId { get; set; }
-        private int productId { get; set; }
-        private int currentStatus { get; set; }
-        private int managerId { get; set; }
+        private int Id { get; set; }
+        private int VehicleId { get; set; }
+        private int DeliveryType { get; set; }
+        private int SourceId { get; set; }
+        private int DestinationId { get; set; }
+        private int ProductId { get; set; }
+        private int CurrentStatus { get; set; }
+        private int ManagerId { get; set; }
     }
 }

@@ -48,11 +48,12 @@
   <ItemGroup>
     <Compile Include="BL\Credentials.cs" />
     <Compile Include="BL\Delivery.cs" />
-    <Compile Include="BL\deliveryDetails.cs" />
+    <Compile Include="BL\DeliveryDetails.cs" />
     <Compile Include="BL\Driver.cs" />
     <Compile Include="BL\Employee.cs" />
     <Compile Include="BL\Farmer.cs" />
     <Compile Include="BL\Field.cs" />
+    <Compile Include="BL\FieldProduct.cs" />
     <Compile Include="BL\Lookup.cs" />
     <Compile Include="BL\Office.cs" />
     <Compile Include="BL\Order.cs" />

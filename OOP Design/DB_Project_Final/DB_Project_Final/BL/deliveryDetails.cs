@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace DB_Project_Final.BL
 {
-    public class deliveryDetails
+    public class DeliveryDetails
     {
-        private int deliveryId { get; set; }
-        private int status { get; set; }
-        private DateTime timeStamp { get; set; }
+        private int DeliveryId { get; set; }
+        private int Status { get; set; }
+        private DateTime TimeStamp { get; set; }
     }
 }
