@@ -1,2 +1,137 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ClassDiagram /> 
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="DB_Project_Final.BL.Credentials">
+    <Position X="7" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAAAAgAAAAAAAAAAABAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>BL\Credentials.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DB_Project_Final.BL.Delivery" Collapsed="true">
+    <Position X="14.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAABAQAAAAAAAAAAAAAAAACEAAQAAAAIAAAAAAAgA=</HashCode>
+      <FileName>BL\Delivery.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DB_Project_Final.BL.deliveryDetails" Collapsed="true">
+    <Position X="13.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIQAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BL\deliveryDetails.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DB_Project_Final.BL.Driver">
+    <Position X="2.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAQAAAAACAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>BL\Driver.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DB_Project_Final.BL.Employee" Collapsed="true">
+    <Position X="12.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAgAAAAAAAAAAACAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>BL\Employee.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DB_Project_Final.BL.Farmer">
+    <Position X="2.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQCAAAAAAAAAAAAAAAAAAAACAIAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BL\Farmer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DB_Project_Final.BL.Field">
+    <Position X="0.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAEAAAAAAAAAAAAEAAACCAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>BL\Field.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DB_Project_Final.BL.Lookup">
+    <Position X="7" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAIAAAAAgA=</HashCode>
+      <FileName>BL\Lookup.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DB_Project_Final.BL.Office" Collapsed="true">
+    <Position X="13.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAwA=</HashCode>
+      <FileName>BL\Office.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DB_Project_Final.BL.Order" Collapsed="true">
+    <Position X="12.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAABAAAAAAAQQAAAABAAAACAAAAAAAAAAAAAgAAgA=</HashCode>
+      <FileName>BL\Order.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DB_Project_Final.BL.Organization">
+    <Position X="9.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAgAAAEAAAAAAICAAAAAAAAAAAAAwA=</HashCode>
+      <FileName>BL\Organization.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DB_Project_Final.BL.Person">
+    <Position X="4.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAASAAAAAABAAAAgAAAFgAAAABAAAAAAEAAACAAAAQA=</HashCode>
+      <FileName>BL\Person.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DB_Project_Final.BL.Product" Collapsed="true">
+    <Position X="12.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAACAEAAAAAAAAAAAAAACAAEAAAAAAAAACEAAgA=</HashCode>
+      <FileName>BL\Product.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DB_Project_Final.BL.Region" Collapsed="true">
+    <Position X="11" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAEAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BL\Region.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DB_Project_Final.BL.TransactionDetails" Collapsed="true">
+    <Position X="12.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAAAAAAAAEAAQAAgAAAgAAAAAAAAgA=</HashCode>
+      <FileName>BL\TransactionDetails.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DB_Project_Final.BL.Vehicle">
+    <Position X="0.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAEAAAAAAAAAAAAAAACAAAAACAAAQAAAAAAgA=</HashCode>
+      <FileName>BL\Vehicle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DB_Project_Final.BL.Wallet" Collapsed="true">
+    <Position X="12" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAAAAAAAABAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>BL\Wallet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DB_Project_Final.BL.Warehouse" Collapsed="true">
+    <Position X="6" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>BL\Warehouse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DB_Project_Final.BL.warehouseProduct">
+    <Position X="8.75" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BL\warehouseProduct.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
