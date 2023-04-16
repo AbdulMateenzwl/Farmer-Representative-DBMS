@@ -9,9 +9,9 @@ namespace DB_Project_Final.BL
 {
     public class Employee
     {
-        private int id { get; set; }
-        private int salary { get; set; }
-        private int designation { get; set; }
-        private int status { get; set; }
+        private int Id { get; set; }
+        private int Salary { get; set; }
+        private int Designation { get; set; }
+        private int Status { get; set; }
     }
 }

@@ -8,12 +8,12 @@ namespace DB_Project_Final.BL
 {
     public class Organization
     {
-        private int id { get; set; }
-        private string organizationName { get; set; }
-        private string email { get; set; }
-        private string address { get; set; }
-        private int regionId { get; set; }
-        private int walletId { get; set; }
-        private int credentailId { get; set; }
+        private int Id { get; set; }
+        private string OrganizationName { get; set; }
+        private string Email { get; set; }
+        private string Address { get; set; }
+        private int RegionId { get; set; }
+        private int WalletId { get; set; }
+        private int CredentailId { get; set; }
     }
 }

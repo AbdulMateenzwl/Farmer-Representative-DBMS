@@ -8,7 +8,7 @@ namespace DB_Project_Final.BL
 {
     public class Region
     {
-        private int regionId { get; set; }
-        private string regionName { get; set; }
+        private int RegionId { get; set; }
+        private string RegionName { get; set; }
     }
 }

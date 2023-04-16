@@ -65,7 +65,7 @@
     <Compile Include="BL\Vehicle.cs" />
     <Compile Include="BL\Wallet.cs" />
     <Compile Include="BL\Warehouse.cs" />
-    <Compile Include="BL\warehouseProduct.cs" />
+    <Compile Include="BL\WarehouseProduct.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>

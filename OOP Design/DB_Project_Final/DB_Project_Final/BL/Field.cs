@@ -8,11 +8,11 @@ namespace DB_Project_Final.BL
 {
     public class Field
     {
-       private int id { get; set; }
-       private int farmerId { get; set; }
-       private int regionId { get; set; }
-       private string location { get; set; }
-       private int status { get; set; }
-       private string managerId { get; set; }
+       private int Id { get; set; }
+       private int FarmerId { get; set; }
+       private int RegionId { get; set; }
+       private string Address { get; set; }
+       private int Status { get; set; }
+       private string ManagerId { get; set; }
     }
 }

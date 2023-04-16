@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace DB_Project_Final.BL
 {
-    public class warehouseProduct
+    public class WarehouseProduct
     {
-        private int warehouseId { get; set; }
-        private int productId { get; set; }
+        private int WarehouseId { get; set; }
+        private int ProductId { get; set; }
     }
 }

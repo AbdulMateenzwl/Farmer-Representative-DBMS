@@ -8,8 +8,8 @@ namespace DB_Project_Final.BL
 {
     public class Office
     {
-        private int id { get; set; }
-        private string address { get; set; }
-        private int walletId { get; set; }
+        private int Id { get; set; }
+        private string Address { get; set; }
+        private int WalletId { get; set; }
     }
 }

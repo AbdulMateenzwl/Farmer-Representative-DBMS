@@ -8,8 +8,8 @@ namespace DB_Project_Final.BL
 {
     public class Warehouse
     {
-        private int id { get; set; }
-        private int maxCapacity { get; set; }
-        private string address { get; set; }
+        private int Id { get; set; }
+        private int MaxCapacity { get; set; }
+        private string Address { get; set; }
     }
 }

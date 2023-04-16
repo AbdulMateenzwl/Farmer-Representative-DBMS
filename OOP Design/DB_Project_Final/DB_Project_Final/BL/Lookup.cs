@@ -8,8 +8,8 @@ namespace DB_Project_Final.BL
 {
     public class Lookup
     {
-        private int id { get; set; }
-        private string value { get; set; }
-        private int category { get; set; }
+        private int Id { get; set; }
+        private string Value { get; set; }
+        private int Category { get; set; }
     }
 }

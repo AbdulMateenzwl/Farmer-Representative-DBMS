@@ -9,8 +9,8 @@ namespace DB_Project_Final.BL
     public class Farmer
     {
         private int Id { get; set; }
-        private int status { get; set; }
-        private string address { get; set; }
-        private int managerId { get; set; }
+        private int Status { get; set; }
+        private string Address { get; set; }
+        private int ManagerId { get; set; }
     }
 }

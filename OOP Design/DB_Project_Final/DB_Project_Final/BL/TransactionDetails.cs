@@ -8,11 +8,11 @@ namespace DB_Project_Final.BL
 {
     public class TransactionDetails
     {
-        private int id { get; set; }
-        private int recevierId { get; set; }
-        private int senderId { get; set; }
-        private int amount { get; set; }
-        private int transactionType { get; set; }
-        private DateTime timeStamp { get; set; }
+        private int Id { get; set; }
+        private int RecevierId { get; set; }
+        private int SenderId { get; set; }
+        private int Amount { get; set; }
+        private int TransactionType { get; set; }
+        private DateTime TimeStamp { get; set; }
     }
 }

@@ -8,13 +8,13 @@ namespace DB_Project_Final.BL
 {
     public class Order
     {
-        private int id { get; set; }
-        private int productId { get; set; }
-        private int qunatity { get; set; }
-        private int requestedPrice { get; set; }
-        private int status { get; set; }
-        private int organizationId { get; set; }
-        private DateTime orderDate { get; set; }
-        private int managerId { get; set; }
+        private int Id { get; set; }
+        private int ProductId { get; set; }
+        private int Qunatity { get; set; }
+        private int RequestedPrice { get; set; }
+        private int Status { get; set; }
+        private int OrganizationId { get; set; }
+        private DateTime OrderDate { get; set; }
+        private int ManagerId { get; set; }
     }
 }

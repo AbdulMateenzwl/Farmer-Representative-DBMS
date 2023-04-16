@@ -8,9 +8,9 @@ namespace DB_Project_Final.BL
 {
     public class Wallet
     {
-        private int id { get; set; }
-        private int type { get; set; }
-        private int totalAmount { get; set; }
+        private int Id { get; set; }
+        private int Type { get; set; }
+        private int TotalAmount { get; set; }
           }
 }
     

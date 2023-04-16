@@ -8,14 +8,14 @@ namespace DB_Project_Final.BL
 {
     public class Product
     {
-        private int id { get; set; }
-        private string name { get; set; }
-        private int quality { get; set; }
-        private int unitPrice { get; set; }
-        private int categoryId { get; set; }
-        private int status { get; set; }
-        private int remainingUnits { get; set; }
-        private int managerId { get; set; }
+        private int Id { get; set; }
+        private string Name { get; set; }
+        private int Quality { get; set; }
+        private int UnitPrice { get; set; }
+        private int CategoryId { get; set; }
+        private int Status { get; set; }
+        private int RemainingUnits { get; set; }
+        private int ManagerId { get; set; }
 
     }
 }
