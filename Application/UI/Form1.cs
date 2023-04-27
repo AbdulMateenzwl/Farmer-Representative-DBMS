@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Farmer_Representive_Final_Project_DB_
 {
-    public partial class Template : Form
+    public partial class Form1 : Form
     {
-        public Template()
+        public Form1()
         {
             InitializeComponent();
         }
