@@ -16,7 +16,7 @@ namespace Farmer_Representive_Final_Project_DB_
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Template());
+            Application.Run(new FarmerForm());
         }
     }
 }
