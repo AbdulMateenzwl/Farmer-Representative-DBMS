@@ -1,6 +1,6 @@
 ﻿namespace Farmer_Representive_Final_Project_DB_
 {
-    partial class FarmerForm
+    partial class userControlFarmerPanel
     {
         /// <summary>
         /// Required designer variable.
@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FarmerForm));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(userControlFarmerPanel));
             this.panelMainMenu = new Guna.UI2.WinForms.Guna2GradientPanel();
             this.btnGroup = new Guna.UI2.WinForms.Guna2Button();
             this.btnProjects = new Guna.UI2.WinForms.Guna2Button();
@@ -43,12 +43,13 @@
             this.guna2HtmlLabel2 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2HtmlLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.elipseMenuPanel = new Guna.UI2.WinForms.Guna2Elipse(this.components);
-            this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
+            this.maxBtnFamer = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2DragControl1 = new Guna.UI2.WinForms.Guna2DragControl(this.components);
             this.guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
-            this.btnmini = new Guna.UI2.WinForms.Guna2ImageButton();
-            this.btnMax = new Guna.UI2.WinForms.Guna2ImageButton();
-            this.btnClose = new Guna.UI2.WinForms.Guna2ImageButton();
+            this.ResizeFarmerForm = new Guna.UI2.WinForms.Guna2ResizeForm(this.components);
+            this.closeBtnFarmer = new Guna.UI2.WinForms.Guna2ImageButton();
+            this.maxBtnFarmer = new Guna.UI2.WinForms.Guna2ImageButton();
+            this.minBtnFarmer = new Guna.UI2.WinForms.Guna2ImageButton();
             this.panelMainMenu.SuspendLayout();
             this.panelManagePpl.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
@@ -74,8 +75,9 @@
             this.panelMainMenu.MaximumSize = new System.Drawing.Size(320, 1200);
             this.panelMainMenu.MinimumSize = new System.Drawing.Size(90, 700);
             this.panelMainMenu.Name = "panelMainMenu";
-            this.panelMainMenu.Size = new System.Drawing.Size(280, 869);
+            this.panelMainMenu.Size = new System.Drawing.Size(302, 892);
             this.panelMainMenu.TabIndex = 1;
+            this.panelMainMenu.Paint += new System.Windows.Forms.PaintEventHandler(this.panelMainMenu_Paint);
             // 
             // btnGroup
             // 
@@ -100,16 +102,17 @@
             this.btnGroup.HoverState.BorderColor = System.Drawing.Color.White;
             this.btnGroup.HoverState.CustomBorderColor = System.Drawing.Color.White;
             this.btnGroup.HoverState.FillColor = System.Drawing.Color.White;
-            this.btnGroup.HoverState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(246)))), ((int)(((byte)(200)))), ((int)(((byte)(0)))));
+            this.btnGroup.HoverState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(211)))), ((int)(((byte)(102)))));
             this.btnGroup.HoverState.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image")));
             this.btnGroup.Image = ((System.Drawing.Image)(resources.GetObject("btnGroup.Image")));
             this.btnGroup.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.btnGroup.ImageSize = new System.Drawing.Size(25, 25);
             this.btnGroup.Location = new System.Drawing.Point(21, 329);
             this.btnGroup.Name = "btnGroup";
-            this.btnGroup.Size = new System.Drawing.Size(270, 45);
+            this.btnGroup.Size = new System.Drawing.Size(292, 45);
             this.btnGroup.TabIndex = 6;
-            this.btnGroup.Text = "Groups";
+            this.btnGroup.Text = "Wallet";
+            this.btnGroup.Click += new System.EventHandler(this.btnGroup_Click);
             // 
             // btnProjects
             // 
@@ -134,16 +137,17 @@
             this.btnProjects.HoverState.BorderColor = System.Drawing.Color.White;
             this.btnProjects.HoverState.CustomBorderColor = System.Drawing.Color.White;
             this.btnProjects.HoverState.FillColor = System.Drawing.Color.White;
-            this.btnProjects.HoverState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(246)))), ((int)(((byte)(200)))), ((int)(((byte)(0)))));
+            this.btnProjects.HoverState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(211)))), ((int)(((byte)(102)))));
             this.btnProjects.HoverState.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image1")));
             this.btnProjects.Image = ((System.Drawing.Image)(resources.GetObject("btnProjects.Image")));
             this.btnProjects.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.btnProjects.ImageSize = new System.Drawing.Size(25, 25);
-            this.btnProjects.Location = new System.Drawing.Point(21, 269);
+            this.btnProjects.Location = new System.Drawing.Point(23, 269);
             this.btnProjects.Name = "btnProjects";
-            this.btnProjects.Size = new System.Drawing.Size(270, 45);
+            this.btnProjects.Size = new System.Drawing.Size(292, 45);
             this.btnProjects.TabIndex = 6;
-            this.btnProjects.Text = "     Manage Project";
+            this.btnProjects.Text = "     Manage Crops";
+            this.btnProjects.Click += new System.EventHandler(this.btnProjects_Click);
             // 
             // panelManagePpl
             // 
@@ -153,6 +157,7 @@
             this.panelManagePpl.Name = "panelManagePpl";
             this.panelManagePpl.Size = new System.Drawing.Size(274, 0);
             this.panelManagePpl.TabIndex = 5;
+            this.panelManagePpl.Paint += new System.Windows.Forms.PaintEventHandler(this.panelManagePpl_Paint);
             // 
             // btnManageAdvisor
             // 
@@ -185,6 +190,7 @@
             this.btnManageAdvisor.Size = new System.Drawing.Size(268, 45);
             this.btnManageAdvisor.TabIndex = 3;
             this.btnManageAdvisor.Text = "       Manage Advisor";
+            this.btnManageAdvisor.Click += new System.EventHandler(this.btnManageAdvisor_Click);
             // 
             // ManageStudent
             // 
@@ -217,6 +223,7 @@
             this.ManageStudent.Size = new System.Drawing.Size(271, 45);
             this.ManageStudent.TabIndex = 3;
             this.ManageStudent.Text = "        Manage Student";
+            this.ManageStudent.Click += new System.EventHandler(this.ManageStudent_Click);
             // 
             // btnMngPpl
             // 
@@ -241,16 +248,17 @@
             this.btnMngPpl.HoverState.BorderColor = System.Drawing.Color.White;
             this.btnMngPpl.HoverState.CustomBorderColor = System.Drawing.Color.White;
             this.btnMngPpl.HoverState.FillColor = System.Drawing.Color.White;
-            this.btnMngPpl.HoverState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(246)))), ((int)(((byte)(200)))), ((int)(((byte)(0)))));
+            this.btnMngPpl.HoverState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(211)))), ((int)(((byte)(102)))));
             this.btnMngPpl.HoverState.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image4")));
             this.btnMngPpl.Image = ((System.Drawing.Image)(resources.GetObject("btnMngPpl.Image")));
             this.btnMngPpl.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.btnMngPpl.ImageSize = new System.Drawing.Size(25, 25);
-            this.btnMngPpl.Location = new System.Drawing.Point(21, 212);
+            this.btnMngPpl.Location = new System.Drawing.Point(23, 212);
             this.btnMngPpl.Name = "btnMngPpl";
-            this.btnMngPpl.Size = new System.Drawing.Size(270, 45);
+            this.btnMngPpl.Size = new System.Drawing.Size(292, 45);
             this.btnMngPpl.TabIndex = 3;
-            this.btnMngPpl.Text = "     Manage People";
+            this.btnMngPpl.Text = "     Manage Fields";
+            this.btnMngPpl.Click += new System.EventHandler(this.btnMngPpl_Click);
             // 
             // sidePanel
             // 
@@ -260,6 +268,7 @@
             this.sidePanel.Name = "sidePanel";
             this.sidePanel.Size = new System.Drawing.Size(10, 45);
             this.sidePanel.TabIndex = 4;
+            this.sidePanel.Paint += new System.Windows.Forms.PaintEventHandler(this.sidePanel_Paint);
             // 
             // guna2PictureBox1
             // 
@@ -273,6 +282,7 @@
             this.guna2PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.guna2PictureBox1.TabIndex = 3;
             this.guna2PictureBox1.TabStop = false;
+            this.guna2PictureBox1.Click += new System.EventHandler(this.guna2PictureBox1_Click);
             // 
             // btnHome
             // 
@@ -297,16 +307,17 @@
             this.btnHome.HoverState.BorderColor = System.Drawing.Color.White;
             this.btnHome.HoverState.CustomBorderColor = System.Drawing.Color.White;
             this.btnHome.HoverState.FillColor = System.Drawing.Color.White;
-            this.btnHome.HoverState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(246)))), ((int)(((byte)(200)))), ((int)(((byte)(0)))));
+            this.btnHome.HoverState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(211)))), ((int)(((byte)(102)))));
             this.btnHome.HoverState.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image5")));
             this.btnHome.Image = ((System.Drawing.Image)(resources.GetObject("btnHome.Image")));
             this.btnHome.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.btnHome.ImageSize = new System.Drawing.Size(25, 25);
             this.btnHome.Location = new System.Drawing.Point(21, 148);
             this.btnHome.Name = "btnHome";
-            this.btnHome.Size = new System.Drawing.Size(270, 45);
+            this.btnHome.Size = new System.Drawing.Size(292, 45);
             this.btnHome.TabIndex = 2;
-            this.btnHome.Text = "Home";
+            this.btnHome.Text = "   Dash Board";
+            this.btnHome.Click += new System.EventHandler(this.btnHome_Click);
             // 
             // guna2HtmlLabel2
             // 
@@ -320,6 +331,7 @@
             this.guna2HtmlLabel2.Size = new System.Drawing.Size(152, 75);
             this.guna2HtmlLabel2.TabIndex = 1;
             this.guna2HtmlLabel2.Text = "management system";
+            this.guna2HtmlLabel2.Click += new System.EventHandler(this.guna2HtmlLabel2_Click);
             // 
             // guna2HtmlLabel1
             // 
@@ -333,18 +345,24 @@
             this.guna2HtmlLabel1.Size = new System.Drawing.Size(152, 58);
             this.guna2HtmlLabel1.TabIndex = 1;
             this.guna2HtmlLabel1.Text = "FYP";
+            this.guna2HtmlLabel1.Click += new System.EventHandler(this.guna2HtmlLabel1_Click);
             // 
             // elipseMenuPanel
             // 
             this.elipseMenuPanel.BorderRadius = 20;
             this.elipseMenuPanel.TargetControl = this.panelMainMenu;
             // 
-            // guna2Panel1
+            // maxBtnFamer
             // 
-            this.guna2Panel1.Location = new System.Drawing.Point(286, 57);
-            this.guna2Panel1.Name = "guna2Panel1";
-            this.guna2Panel1.Size = new System.Drawing.Size(1580, 780);
-            this.guna2Panel1.TabIndex = 2;
+            this.maxBtnFamer.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.maxBtnFamer.Location = new System.Drawing.Point(345, 49);
+            this.maxBtnFamer.MinimumSize = new System.Drawing.Size(900, 500);
+            this.maxBtnFamer.Name = "maxBtnFamer";
+            this.maxBtnFamer.Size = new System.Drawing.Size(1544, 832);
+            this.maxBtnFamer.TabIndex = 2;
+            this.maxBtnFamer.Paint += new System.Windows.Forms.PaintEventHandler(this.maxBtnFamer_Paint);
             // 
             // guna2DragControl1
             // 
@@ -359,70 +377,72 @@
             this.guna2Elipse1.BorderRadius = 15;
             this.guna2Elipse1.TargetControl = this;
             // 
-            // btnmini
+            // ResizeFarmerForm
             // 
-            this.btnmini.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnmini.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.btnmini.HoverState.ImageSize = new System.Drawing.Size(15, 15);
-            this.btnmini.Image = ((System.Drawing.Image)(resources.GetObject("btnmini.Image")));
-            this.btnmini.ImageOffset = new System.Drawing.Point(0, 0);
-            this.btnmini.ImageRotate = 0F;
-            this.btnmini.ImageSize = new System.Drawing.Size(20, 20);
-            this.btnmini.IndicateFocus = true;
-            this.btnmini.Location = new System.Drawing.Point(1709, 1);
-            this.btnmini.Name = "btnmini";
-            this.btnmini.PressedState.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image1")));
-            this.btnmini.PressedState.ImageSize = new System.Drawing.Size(25, 25);
-            this.btnmini.Size = new System.Drawing.Size(50, 41);
-            this.btnmini.TabIndex = 3;
+            this.ResizeFarmerForm.TargetForm = this;
             // 
-            // btnMax
+            // closeBtnFarmer
             // 
-            this.btnMax.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnMax.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.btnMax.HoverState.ImageSize = new System.Drawing.Size(15, 15);
-            this.btnMax.Image = ((System.Drawing.Image)(resources.GetObject("btnMax.Image")));
-            this.btnMax.ImageOffset = new System.Drawing.Point(0, 0);
-            this.btnMax.ImageRotate = 0F;
-            this.btnMax.ImageSize = new System.Drawing.Size(20, 20);
-            this.btnMax.IndicateFocus = true;
-            this.btnMax.Location = new System.Drawing.Point(1765, 1);
-            this.btnMax.Name = "btnMax";
-            this.btnMax.PressedState.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image2")));
-            this.btnMax.PressedState.ImageSize = new System.Drawing.Size(25, 25);
-            this.btnMax.Size = new System.Drawing.Size(50, 41);
-            this.btnMax.TabIndex = 4;
+            this.closeBtnFarmer.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.closeBtnFarmer.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
+            this.closeBtnFarmer.HoverState.ImageSize = new System.Drawing.Size(10, 10);
+            this.closeBtnFarmer.Image = ((System.Drawing.Image)(resources.GetObject("closeBtnFarmer.Image")));
+            this.closeBtnFarmer.ImageOffset = new System.Drawing.Point(0, 0);
+            this.closeBtnFarmer.ImageRotate = 0F;
+            this.closeBtnFarmer.ImageSize = new System.Drawing.Size(20, 20);
+            this.closeBtnFarmer.Location = new System.Drawing.Point(1854, 4);
+            this.closeBtnFarmer.Name = "closeBtnFarmer";
+            this.closeBtnFarmer.Size = new System.Drawing.Size(37, 39);
+            this.closeBtnFarmer.TabIndex = 3;
+            this.closeBtnFarmer.Click += new System.EventHandler(this.closeBtnFarmer_Click);
             // 
-            // btnClose
+            // maxBtnFarmer
             // 
-            this.btnClose.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnClose.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.btnClose.HoverState.ImageSize = new System.Drawing.Size(15, 15);
-            this.btnClose.Image = ((System.Drawing.Image)(resources.GetObject("btnClose.Image")));
-            this.btnClose.ImageOffset = new System.Drawing.Point(0, 0);
-            this.btnClose.ImageRotate = 0F;
-            this.btnClose.ImageSize = new System.Drawing.Size(20, 20);
-            this.btnClose.IndicateFocus = true;
-            this.btnClose.Location = new System.Drawing.Point(1821, 1);
-            this.btnClose.Name = "btnClose";
-            this.btnClose.PressedState.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image3")));
-            this.btnClose.Size = new System.Drawing.Size(50, 41);
-            this.btnClose.TabIndex = 5;
+            this.maxBtnFarmer.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.maxBtnFarmer.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
+            this.maxBtnFarmer.HoverState.ImageSize = new System.Drawing.Size(10, 10);
+            this.maxBtnFarmer.Image = ((System.Drawing.Image)(resources.GetObject("maxBtnFarmer.Image")));
+            this.maxBtnFarmer.ImageOffset = new System.Drawing.Point(0, 0);
+            this.maxBtnFarmer.ImageRotate = 0F;
+            this.maxBtnFarmer.ImageSize = new System.Drawing.Size(20, 20);
+            this.maxBtnFarmer.Location = new System.Drawing.Point(1811, 4);
+            this.maxBtnFarmer.Name = "maxBtnFarmer";
+            this.maxBtnFarmer.Size = new System.Drawing.Size(37, 39);
+            this.maxBtnFarmer.TabIndex = 3;
+            this.maxBtnFarmer.Click += new System.EventHandler(this.maxBtnFarmer_Click);
             // 
-            // FarmerForm
+            // minBtnFarmer
+            // 
+            this.minBtnFarmer.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.minBtnFarmer.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
+            this.minBtnFarmer.HoverState.ImageSize = new System.Drawing.Size(10, 10);
+            this.minBtnFarmer.Image = ((System.Drawing.Image)(resources.GetObject("minBtnFarmer.Image")));
+            this.minBtnFarmer.ImageOffset = new System.Drawing.Point(0, 0);
+            this.minBtnFarmer.ImageRotate = 0F;
+            this.minBtnFarmer.ImageSize = new System.Drawing.Size(20, 20);
+            this.minBtnFarmer.Location = new System.Drawing.Point(1768, 4);
+            this.minBtnFarmer.Name = "minBtnFarmer";
+            this.minBtnFarmer.Size = new System.Drawing.Size(37, 39);
+            this.minBtnFarmer.TabIndex = 3;
+            this.minBtnFarmer.Click += new System.EventHandler(this.minBtnFarmer_Click);
+            // 
+            // userControlFarmerPanel
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1878, 837);
-            this.Controls.Add(this.btnmini);
-            this.Controls.Add(this.btnMax);
-            this.Controls.Add(this.btnClose);
-            this.Controls.Add(this.guna2Panel1);
+            this.BackColor = System.Drawing.Color.White;
+            this.ClientSize = new System.Drawing.Size(1900, 893);
+            this.Controls.Add(this.minBtnFarmer);
+            this.Controls.Add(this.maxBtnFarmer);
+            this.Controls.Add(this.closeBtnFarmer);
+            this.Controls.Add(this.maxBtnFamer);
             this.Controls.Add(this.panelMainMenu);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "FarmerForm";
+            this.MinimumSize = new System.Drawing.Size(1280, 850);
+            this.Name = "userControlFarmerPanel";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FarmerForm";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.panelMainMenu.ResumeLayout(false);
             this.panelManagePpl.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).EndInit();
@@ -445,11 +465,12 @@
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel2;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel1;
         private Guna.UI2.WinForms.Guna2Elipse elipseMenuPanel;
-        private Guna.UI2.WinForms.Guna2Panel guna2Panel1;
+        private Guna.UI2.WinForms.Guna2Panel maxBtnFamer;
         private Guna.UI2.WinForms.Guna2DragControl guna2DragControl1;
         private Guna.UI2.WinForms.Guna2Elipse guna2Elipse1;
-        private Guna.UI2.WinForms.Guna2ImageButton btnmini;
-        private Guna.UI2.WinForms.Guna2ImageButton btnMax;
-        private Guna.UI2.WinForms.Guna2ImageButton btnClose;
+        private Guna.UI2.WinForms.Guna2ResizeForm ResizeFarmerForm;
+        private Guna.UI2.WinForms.Guna2ImageButton minBtnFarmer;
+        private Guna.UI2.WinForms.Guna2ImageButton maxBtnFarmer;
+        private Guna.UI2.WinForms.Guna2ImageButton closeBtnFarmer;
     }
 }

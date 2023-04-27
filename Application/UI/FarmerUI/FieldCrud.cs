@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Farmer_Representive_Final_Project_DB_
+namespace Farmer_Representive_Final_Project_DB_.UI.FarmerUI
 {
-    public partial class FarmerForm : Form
+    public partial class FieldCrud : UserControl
     {
-        public FarmerForm()
+        public FieldCrud()
         {
             InitializeComponent();
         }
