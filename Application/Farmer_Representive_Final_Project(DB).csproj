@@ -52,6 +52,27 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BL\Credentials.cs" />
+    <Compile Include="BL\Delivery.cs" />
+    <Compile Include="BL\DeliveryDetails.cs" />
+    <Compile Include="BL\Driver.cs" />
+    <Compile Include="BL\Employee.cs" />
+    <Compile Include="BL\Farmer.cs" />
+    <Compile Include="BL\Field.cs" />
+    <Compile Include="BL\FieldProduct.cs" />
+    <Compile Include="BL\Lookup.cs" />
+    <Compile Include="BL\Office.cs" />
+    <Compile Include="BL\Order.cs" />
+    <Compile Include="BL\Organization.cs" />
+    <Compile Include="BL\Person.cs" />
+    <Compile Include="BL\Product.cs" />
+    <Compile Include="BL\Region.cs" />
+    <Compile Include="BL\SubscribtionsDetails.cs" />
+    <Compile Include="BL\TransectionDetails.cs" />
+    <Compile Include="BL\Vehicle.cs" />
+    <Compile Include="BL\Wallet.cs" />
+    <Compile Include="BL\Warehouse.cs" />
+    <Compile Include="BL\WareHouseProduct.cs" />
     <Compile Include="Template.cs">
       <SubType>Form</SubType>
     </Compile>
