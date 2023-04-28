@@ -31,28 +31,35 @@
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(userControlFarmerPanel));
             this.panelMainMenu = new Guna.UI2.WinForms.Guna2GradientPanel();
-            this.btnGroup = new Guna.UI2.WinForms.Guna2Button();
-            this.btnProjects = new Guna.UI2.WinForms.Guna2Button();
+            this.btnWallet = new Guna.UI2.WinForms.Guna2Button();
+            this.btnManageCrops = new Guna.UI2.WinForms.Guna2Button();
             this.panelManagePpl = new Guna.UI2.WinForms.Guna2Panel();
             this.btnManageAdvisor = new Guna.UI2.WinForms.Guna2Button();
             this.ManageStudent = new Guna.UI2.WinForms.Guna2Button();
-            this.btnMngPpl = new Guna.UI2.WinForms.Guna2Button();
+            this.btnManageField = new Guna.UI2.WinForms.Guna2Button();
             this.sidePanel = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.btnHome = new Guna.UI2.WinForms.Guna2Button();
             this.guna2HtmlLabel2 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2HtmlLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.elipseMenuPanel = new Guna.UI2.WinForms.Guna2Elipse(this.components);
-            this.maxBtnFamer = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2DragControl1 = new Guna.UI2.WinForms.Guna2DragControl(this.components);
             this.guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.ResizeFarmerForm = new Guna.UI2.WinForms.Guna2ResizeForm(this.components);
             this.closeBtnFarmer = new Guna.UI2.WinForms.Guna2ImageButton();
             this.maxBtnFarmer = new Guna.UI2.WinForms.Guna2ImageButton();
             this.minBtnFarmer = new Guna.UI2.WinForms.Guna2ImageButton();
+            this.btnSettings = new Guna.UI2.WinForms.Guna2Button();
+            this.fieldCrud1 = new Farmer_Representive_Final_Project_DB_.UI.FarmerUI.FieldCrud();
+            this.cropsCrud1 = new Farmer_Representive_Final_Project_DB_.UI.FarmerUI.CropsCrud();
+            this.walletPnl1 = new Farmer_Representive_Final_Project_DB_.UI.FarmerUI.walletPnl();
+            this.maxBtnFamer = new Guna.UI2.WinForms.Guna2Panel();
+            this.dashBoard1 = new Farmer_Representive_Final_Project_DB_.UI.FarmerUI.DashBoard();
+            this.changeAccount1 = new Farmer_Representive_Final_Project_DB_.UI.FarmerUI.changeAccount();
             this.panelMainMenu.SuspendLayout();
             this.panelManagePpl.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
+            this.maxBtnFamer.SuspendLayout();
             this.SuspendLayout();
             // 
             // panelMainMenu
@@ -62,10 +69,11 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.panelMainMenu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(211)))), ((int)(((byte)(102)))));
-            this.panelMainMenu.Controls.Add(this.btnGroup);
-            this.panelMainMenu.Controls.Add(this.btnProjects);
+            this.panelMainMenu.Controls.Add(this.btnSettings);
+            this.panelMainMenu.Controls.Add(this.btnWallet);
+            this.panelMainMenu.Controls.Add(this.btnManageCrops);
             this.panelMainMenu.Controls.Add(this.panelManagePpl);
-            this.panelMainMenu.Controls.Add(this.btnMngPpl);
+            this.panelMainMenu.Controls.Add(this.btnManageField);
             this.panelMainMenu.Controls.Add(this.sidePanel);
             this.panelMainMenu.Controls.Add(this.guna2PictureBox1);
             this.panelMainMenu.Controls.Add(this.btnHome);
@@ -79,75 +87,75 @@
             this.panelMainMenu.TabIndex = 1;
             this.panelMainMenu.Paint += new System.Windows.Forms.PaintEventHandler(this.panelMainMenu_Paint);
             // 
-            // btnGroup
+            // btnWallet
             // 
-            this.btnGroup.AccessibleName = "";
-            this.btnGroup.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.btnWallet.AccessibleName = "";
+            this.btnWallet.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnGroup.Animated = true;
-            this.btnGroup.AnimatedGIF = true;
-            this.btnGroup.BorderColor = System.Drawing.Color.White;
-            this.btnGroup.BorderRadius = 5;
-            this.btnGroup.CheckedState.BorderColor = System.Drawing.Color.White;
-            this.btnGroup.CheckedState.CustomBorderColor = System.Drawing.Color.White;
-            this.btnGroup.CheckedState.ForeColor = System.Drawing.Color.Navy;
-            this.btnGroup.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnGroup.DisabledState.BorderColor = System.Drawing.Color.Navy;
-            this.btnGroup.DisabledState.CustomBorderColor = System.Drawing.Color.Navy;
-            this.btnGroup.DisabledState.FillColor = System.Drawing.Color.Navy;
-            this.btnGroup.DisabledState.ForeColor = System.Drawing.Color.White;
-            this.btnGroup.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(211)))), ((int)(((byte)(102)))));
-            this.btnGroup.Font = new System.Drawing.Font("Comic Sans MS", 10F, System.Drawing.FontStyle.Bold);
-            this.btnGroup.ForeColor = System.Drawing.Color.White;
-            this.btnGroup.HoverState.BorderColor = System.Drawing.Color.White;
-            this.btnGroup.HoverState.CustomBorderColor = System.Drawing.Color.White;
-            this.btnGroup.HoverState.FillColor = System.Drawing.Color.White;
-            this.btnGroup.HoverState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(211)))), ((int)(((byte)(102)))));
-            this.btnGroup.HoverState.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image")));
-            this.btnGroup.Image = ((System.Drawing.Image)(resources.GetObject("btnGroup.Image")));
-            this.btnGroup.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.btnGroup.ImageSize = new System.Drawing.Size(25, 25);
-            this.btnGroup.Location = new System.Drawing.Point(21, 329);
-            this.btnGroup.Name = "btnGroup";
-            this.btnGroup.Size = new System.Drawing.Size(292, 45);
-            this.btnGroup.TabIndex = 6;
-            this.btnGroup.Text = "Wallet";
-            this.btnGroup.Click += new System.EventHandler(this.btnGroup_Click);
+            this.btnWallet.Animated = true;
+            this.btnWallet.AnimatedGIF = true;
+            this.btnWallet.BorderColor = System.Drawing.Color.White;
+            this.btnWallet.BorderRadius = 5;
+            this.btnWallet.CheckedState.BorderColor = System.Drawing.Color.White;
+            this.btnWallet.CheckedState.CustomBorderColor = System.Drawing.Color.White;
+            this.btnWallet.CheckedState.ForeColor = System.Drawing.Color.Navy;
+            this.btnWallet.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnWallet.DisabledState.BorderColor = System.Drawing.Color.Navy;
+            this.btnWallet.DisabledState.CustomBorderColor = System.Drawing.Color.Navy;
+            this.btnWallet.DisabledState.FillColor = System.Drawing.Color.Navy;
+            this.btnWallet.DisabledState.ForeColor = System.Drawing.Color.White;
+            this.btnWallet.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(211)))), ((int)(((byte)(102)))));
+            this.btnWallet.Font = new System.Drawing.Font("Comic Sans MS", 10F, System.Drawing.FontStyle.Bold);
+            this.btnWallet.ForeColor = System.Drawing.Color.White;
+            this.btnWallet.HoverState.BorderColor = System.Drawing.Color.White;
+            this.btnWallet.HoverState.CustomBorderColor = System.Drawing.Color.White;
+            this.btnWallet.HoverState.FillColor = System.Drawing.Color.White;
+            this.btnWallet.HoverState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(211)))), ((int)(((byte)(102)))));
+            this.btnWallet.HoverState.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image1")));
+            this.btnWallet.Image = ((System.Drawing.Image)(resources.GetObject("btnWallet.Image")));
+            this.btnWallet.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btnWallet.ImageSize = new System.Drawing.Size(25, 25);
+            this.btnWallet.Location = new System.Drawing.Point(21, 329);
+            this.btnWallet.Name = "btnWallet";
+            this.btnWallet.Size = new System.Drawing.Size(292, 45);
+            this.btnWallet.TabIndex = 6;
+            this.btnWallet.Text = "Wallet";
+            this.btnWallet.Click += new System.EventHandler(this.btnGroup_Click);
             // 
-            // btnProjects
+            // btnManageCrops
             // 
-            this.btnProjects.AccessibleName = "btnMngPpl";
-            this.btnProjects.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.btnManageCrops.AccessibleName = "";
+            this.btnManageCrops.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnProjects.Animated = true;
-            this.btnProjects.AnimatedGIF = true;
-            this.btnProjects.BorderColor = System.Drawing.Color.White;
-            this.btnProjects.BorderRadius = 5;
-            this.btnProjects.CheckedState.BorderColor = System.Drawing.Color.White;
-            this.btnProjects.CheckedState.CustomBorderColor = System.Drawing.Color.White;
-            this.btnProjects.CheckedState.ForeColor = System.Drawing.Color.Navy;
-            this.btnProjects.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnProjects.DisabledState.BorderColor = System.Drawing.Color.Navy;
-            this.btnProjects.DisabledState.CustomBorderColor = System.Drawing.Color.Navy;
-            this.btnProjects.DisabledState.FillColor = System.Drawing.Color.Navy;
-            this.btnProjects.DisabledState.ForeColor = System.Drawing.Color.White;
-            this.btnProjects.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(211)))), ((int)(((byte)(102)))));
-            this.btnProjects.Font = new System.Drawing.Font("Comic Sans MS", 10F, System.Drawing.FontStyle.Bold);
-            this.btnProjects.ForeColor = System.Drawing.Color.White;
-            this.btnProjects.HoverState.BorderColor = System.Drawing.Color.White;
-            this.btnProjects.HoverState.CustomBorderColor = System.Drawing.Color.White;
-            this.btnProjects.HoverState.FillColor = System.Drawing.Color.White;
-            this.btnProjects.HoverState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(211)))), ((int)(((byte)(102)))));
-            this.btnProjects.HoverState.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image1")));
-            this.btnProjects.Image = ((System.Drawing.Image)(resources.GetObject("btnProjects.Image")));
-            this.btnProjects.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.btnProjects.ImageSize = new System.Drawing.Size(25, 25);
-            this.btnProjects.Location = new System.Drawing.Point(23, 269);
-            this.btnProjects.Name = "btnProjects";
-            this.btnProjects.Size = new System.Drawing.Size(292, 45);
-            this.btnProjects.TabIndex = 6;
-            this.btnProjects.Text = "     Manage Crops";
-            this.btnProjects.Click += new System.EventHandler(this.btnProjects_Click);
+            this.btnManageCrops.Animated = true;
+            this.btnManageCrops.AnimatedGIF = true;
+            this.btnManageCrops.BorderColor = System.Drawing.Color.White;
+            this.btnManageCrops.BorderRadius = 5;
+            this.btnManageCrops.CheckedState.BorderColor = System.Drawing.Color.White;
+            this.btnManageCrops.CheckedState.CustomBorderColor = System.Drawing.Color.White;
+            this.btnManageCrops.CheckedState.ForeColor = System.Drawing.Color.Navy;
+            this.btnManageCrops.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnManageCrops.DisabledState.BorderColor = System.Drawing.Color.Navy;
+            this.btnManageCrops.DisabledState.CustomBorderColor = System.Drawing.Color.Navy;
+            this.btnManageCrops.DisabledState.FillColor = System.Drawing.Color.Navy;
+            this.btnManageCrops.DisabledState.ForeColor = System.Drawing.Color.White;
+            this.btnManageCrops.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(211)))), ((int)(((byte)(102)))));
+            this.btnManageCrops.Font = new System.Drawing.Font("Comic Sans MS", 10F, System.Drawing.FontStyle.Bold);
+            this.btnManageCrops.ForeColor = System.Drawing.Color.White;
+            this.btnManageCrops.HoverState.BorderColor = System.Drawing.Color.White;
+            this.btnManageCrops.HoverState.CustomBorderColor = System.Drawing.Color.White;
+            this.btnManageCrops.HoverState.FillColor = System.Drawing.Color.White;
+            this.btnManageCrops.HoverState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(211)))), ((int)(((byte)(102)))));
+            this.btnManageCrops.HoverState.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image2")));
+            this.btnManageCrops.Image = ((System.Drawing.Image)(resources.GetObject("btnManageCrops.Image")));
+            this.btnManageCrops.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btnManageCrops.ImageSize = new System.Drawing.Size(25, 25);
+            this.btnManageCrops.Location = new System.Drawing.Point(23, 269);
+            this.btnManageCrops.Name = "btnManageCrops";
+            this.btnManageCrops.Size = new System.Drawing.Size(292, 45);
+            this.btnManageCrops.TabIndex = 6;
+            this.btnManageCrops.Text = "     Manage Crops";
+            this.btnManageCrops.Click += new System.EventHandler(this.btnProjects_Click);
             // 
             // panelManagePpl
             // 
@@ -182,7 +190,7 @@
             this.btnManageAdvisor.HoverState.CustomBorderColor = System.Drawing.Color.White;
             this.btnManageAdvisor.HoverState.FillColor = System.Drawing.Color.White;
             this.btnManageAdvisor.HoverState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(246)))), ((int)(((byte)(200)))), ((int)(((byte)(0)))));
-            this.btnManageAdvisor.HoverState.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image2")));
+            this.btnManageAdvisor.HoverState.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image3")));
             this.btnManageAdvisor.Image = ((System.Drawing.Image)(resources.GetObject("btnManageAdvisor.Image")));
             this.btnManageAdvisor.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.btnManageAdvisor.Location = new System.Drawing.Point(3, 51);
@@ -215,7 +223,7 @@
             this.ManageStudent.HoverState.CustomBorderColor = System.Drawing.Color.White;
             this.ManageStudent.HoverState.FillColor = System.Drawing.Color.White;
             this.ManageStudent.HoverState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(246)))), ((int)(((byte)(200)))), ((int)(((byte)(0)))));
-            this.ManageStudent.HoverState.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image3")));
+            this.ManageStudent.HoverState.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image4")));
             this.ManageStudent.Image = ((System.Drawing.Image)(resources.GetObject("ManageStudent.Image")));
             this.ManageStudent.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.ManageStudent.Location = new System.Drawing.Point(0, 8);
@@ -225,40 +233,40 @@
             this.ManageStudent.Text = "        Manage Student";
             this.ManageStudent.Click += new System.EventHandler(this.ManageStudent_Click);
             // 
-            // btnMngPpl
+            // btnManageField
             // 
-            this.btnMngPpl.AccessibleName = "btnMngPpl";
-            this.btnMngPpl.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.btnManageField.AccessibleName = "btnMngPpl";
+            this.btnManageField.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnMngPpl.Animated = true;
-            this.btnMngPpl.AnimatedGIF = true;
-            this.btnMngPpl.BorderColor = System.Drawing.Color.White;
-            this.btnMngPpl.BorderRadius = 5;
-            this.btnMngPpl.CheckedState.BorderColor = System.Drawing.Color.White;
-            this.btnMngPpl.CheckedState.CustomBorderColor = System.Drawing.Color.White;
-            this.btnMngPpl.CheckedState.ForeColor = System.Drawing.Color.Navy;
-            this.btnMngPpl.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnMngPpl.DisabledState.BorderColor = System.Drawing.Color.Navy;
-            this.btnMngPpl.DisabledState.CustomBorderColor = System.Drawing.Color.Navy;
-            this.btnMngPpl.DisabledState.FillColor = System.Drawing.Color.Navy;
-            this.btnMngPpl.DisabledState.ForeColor = System.Drawing.Color.White;
-            this.btnMngPpl.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(211)))), ((int)(((byte)(102)))));
-            this.btnMngPpl.Font = new System.Drawing.Font("Comic Sans MS", 10F, System.Drawing.FontStyle.Bold);
-            this.btnMngPpl.ForeColor = System.Drawing.Color.White;
-            this.btnMngPpl.HoverState.BorderColor = System.Drawing.Color.White;
-            this.btnMngPpl.HoverState.CustomBorderColor = System.Drawing.Color.White;
-            this.btnMngPpl.HoverState.FillColor = System.Drawing.Color.White;
-            this.btnMngPpl.HoverState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(211)))), ((int)(((byte)(102)))));
-            this.btnMngPpl.HoverState.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image4")));
-            this.btnMngPpl.Image = ((System.Drawing.Image)(resources.GetObject("btnMngPpl.Image")));
-            this.btnMngPpl.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.btnMngPpl.ImageSize = new System.Drawing.Size(25, 25);
-            this.btnMngPpl.Location = new System.Drawing.Point(23, 212);
-            this.btnMngPpl.Name = "btnMngPpl";
-            this.btnMngPpl.Size = new System.Drawing.Size(292, 45);
-            this.btnMngPpl.TabIndex = 3;
-            this.btnMngPpl.Text = "     Manage Fields";
-            this.btnMngPpl.Click += new System.EventHandler(this.btnMngPpl_Click);
+            this.btnManageField.Animated = true;
+            this.btnManageField.AnimatedGIF = true;
+            this.btnManageField.BorderColor = System.Drawing.Color.White;
+            this.btnManageField.BorderRadius = 5;
+            this.btnManageField.CheckedState.BorderColor = System.Drawing.Color.White;
+            this.btnManageField.CheckedState.CustomBorderColor = System.Drawing.Color.White;
+            this.btnManageField.CheckedState.ForeColor = System.Drawing.Color.Navy;
+            this.btnManageField.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnManageField.DisabledState.BorderColor = System.Drawing.Color.Navy;
+            this.btnManageField.DisabledState.CustomBorderColor = System.Drawing.Color.Navy;
+            this.btnManageField.DisabledState.FillColor = System.Drawing.Color.Navy;
+            this.btnManageField.DisabledState.ForeColor = System.Drawing.Color.White;
+            this.btnManageField.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(211)))), ((int)(((byte)(102)))));
+            this.btnManageField.Font = new System.Drawing.Font("Comic Sans MS", 10F, System.Drawing.FontStyle.Bold);
+            this.btnManageField.ForeColor = System.Drawing.Color.White;
+            this.btnManageField.HoverState.BorderColor = System.Drawing.Color.White;
+            this.btnManageField.HoverState.CustomBorderColor = System.Drawing.Color.White;
+            this.btnManageField.HoverState.FillColor = System.Drawing.Color.White;
+            this.btnManageField.HoverState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(211)))), ((int)(((byte)(102)))));
+            this.btnManageField.HoverState.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image5")));
+            this.btnManageField.Image = ((System.Drawing.Image)(resources.GetObject("btnManageField.Image")));
+            this.btnManageField.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btnManageField.ImageSize = new System.Drawing.Size(25, 25);
+            this.btnManageField.Location = new System.Drawing.Point(23, 212);
+            this.btnManageField.Name = "btnManageField";
+            this.btnManageField.Size = new System.Drawing.Size(292, 45);
+            this.btnManageField.TabIndex = 3;
+            this.btnManageField.Text = "     Manage Fields";
+            this.btnManageField.Click += new System.EventHandler(this.btnMngPpl_Click);
             // 
             // sidePanel
             // 
@@ -276,9 +284,10 @@
             this.guna2PictureBox1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.guna2PictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("guna2PictureBox1.Image")));
             this.guna2PictureBox1.ImageRotate = 0F;
-            this.guna2PictureBox1.Location = new System.Drawing.Point(3, 3);
+            this.guna2PictureBox1.Location = new System.Drawing.Point(12, 3);
+            this.guna2PictureBox1.MaximumSize = new System.Drawing.Size(94, 83);
             this.guna2PictureBox1.Name = "guna2PictureBox1";
-            this.guna2PictureBox1.Size = new System.Drawing.Size(77, 77);
+            this.guna2PictureBox1.Size = new System.Drawing.Size(85, 83);
             this.guna2PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.guna2PictureBox1.TabIndex = 3;
             this.guna2PictureBox1.TabStop = false;
@@ -308,7 +317,7 @@
             this.btnHome.HoverState.CustomBorderColor = System.Drawing.Color.White;
             this.btnHome.HoverState.FillColor = System.Drawing.Color.White;
             this.btnHome.HoverState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(211)))), ((int)(((byte)(102)))));
-            this.btnHome.HoverState.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image5")));
+            this.btnHome.HoverState.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image6")));
             this.btnHome.Image = ((System.Drawing.Image)(resources.GetObject("btnHome.Image")));
             this.btnHome.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.btnHome.ImageSize = new System.Drawing.Size(25, 25);
@@ -328,9 +337,9 @@
             this.guna2HtmlLabel2.ForeColor = System.Drawing.Color.White;
             this.guna2HtmlLabel2.Location = new System.Drawing.Point(103, 42);
             this.guna2HtmlLabel2.Name = "guna2HtmlLabel2";
-            this.guna2HtmlLabel2.Size = new System.Drawing.Size(152, 75);
+            this.guna2HtmlLabel2.Size = new System.Drawing.Size(175, 75);
             this.guna2HtmlLabel2.TabIndex = 1;
-            this.guna2HtmlLabel2.Text = "management system";
+            this.guna2HtmlLabel2.Text = "Representative system";
             this.guna2HtmlLabel2.Click += new System.EventHandler(this.guna2HtmlLabel2_Click);
             // 
             // guna2HtmlLabel1
@@ -342,27 +351,15 @@
             this.guna2HtmlLabel1.ForeColor = System.Drawing.Color.White;
             this.guna2HtmlLabel1.Location = new System.Drawing.Point(103, 3);
             this.guna2HtmlLabel1.Name = "guna2HtmlLabel1";
-            this.guna2HtmlLabel1.Size = new System.Drawing.Size(152, 58);
+            this.guna2HtmlLabel1.Size = new System.Drawing.Size(189, 58);
             this.guna2HtmlLabel1.TabIndex = 1;
-            this.guna2HtmlLabel1.Text = "FYP";
+            this.guna2HtmlLabel1.Text = "Farmer";
             this.guna2HtmlLabel1.Click += new System.EventHandler(this.guna2HtmlLabel1_Click);
             // 
             // elipseMenuPanel
             // 
             this.elipseMenuPanel.BorderRadius = 20;
             this.elipseMenuPanel.TargetControl = this.panelMainMenu;
-            // 
-            // maxBtnFamer
-            // 
-            this.maxBtnFamer.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.maxBtnFamer.Location = new System.Drawing.Point(345, 49);
-            this.maxBtnFamer.MinimumSize = new System.Drawing.Size(900, 500);
-            this.maxBtnFamer.Name = "maxBtnFamer";
-            this.maxBtnFamer.Size = new System.Drawing.Size(1544, 832);
-            this.maxBtnFamer.TabIndex = 2;
-            this.maxBtnFamer.Paint += new System.Windows.Forms.PaintEventHandler(this.maxBtnFamer_Paint);
             // 
             // guna2DragControl1
             // 
@@ -426,6 +423,105 @@
             this.minBtnFarmer.TabIndex = 3;
             this.minBtnFarmer.Click += new System.EventHandler(this.minBtnFarmer_Click);
             // 
+            // btnSettings
+            // 
+            this.btnSettings.AccessibleName = "";
+            this.btnSettings.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnSettings.Animated = true;
+            this.btnSettings.AnimatedGIF = true;
+            this.btnSettings.BorderColor = System.Drawing.Color.White;
+            this.btnSettings.BorderRadius = 5;
+            this.btnSettings.CheckedState.BorderColor = System.Drawing.Color.White;
+            this.btnSettings.CheckedState.CustomBorderColor = System.Drawing.Color.White;
+            this.btnSettings.CheckedState.ForeColor = System.Drawing.Color.Navy;
+            this.btnSettings.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnSettings.DisabledState.BorderColor = System.Drawing.Color.Navy;
+            this.btnSettings.DisabledState.CustomBorderColor = System.Drawing.Color.Navy;
+            this.btnSettings.DisabledState.FillColor = System.Drawing.Color.Navy;
+            this.btnSettings.DisabledState.ForeColor = System.Drawing.Color.White;
+            this.btnSettings.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(211)))), ((int)(((byte)(102)))));
+            this.btnSettings.Font = new System.Drawing.Font("Comic Sans MS", 10F, System.Drawing.FontStyle.Bold);
+            this.btnSettings.ForeColor = System.Drawing.Color.White;
+            this.btnSettings.HoverState.BorderColor = System.Drawing.Color.White;
+            this.btnSettings.HoverState.CustomBorderColor = System.Drawing.Color.White;
+            this.btnSettings.HoverState.FillColor = System.Drawing.Color.White;
+            this.btnSettings.HoverState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(211)))), ((int)(((byte)(102)))));
+            this.btnSettings.HoverState.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image")));
+            this.btnSettings.Image = ((System.Drawing.Image)(resources.GetObject("btnSettings.Image")));
+            this.btnSettings.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btnSettings.ImageSize = new System.Drawing.Size(25, 25);
+            this.btnSettings.Location = new System.Drawing.Point(21, 835);
+            this.btnSettings.Name = "btnSettings";
+            this.btnSettings.Size = new System.Drawing.Size(292, 45);
+            this.btnSettings.TabIndex = 6;
+            this.btnSettings.Text = " Setting";
+            this.btnSettings.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btnSettings.Click += new System.EventHandler(this.btnSetting_Click);
+            // 
+            // fieldCrud1
+            // 
+            this.fieldCrud1.BackColor = System.Drawing.Color.White;
+            this.fieldCrud1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.fieldCrud1.Location = new System.Drawing.Point(0, 0);
+            this.fieldCrud1.Name = "fieldCrud1";
+            this.fieldCrud1.Size = new System.Drawing.Size(1544, 832);
+            this.fieldCrud1.TabIndex = 0;
+            // 
+            // cropsCrud1
+            // 
+            this.cropsCrud1.BackColor = System.Drawing.Color.White;
+            this.cropsCrud1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.cropsCrud1.Location = new System.Drawing.Point(0, 0);
+            this.cropsCrud1.Name = "cropsCrud1";
+            this.cropsCrud1.Size = new System.Drawing.Size(1544, 832);
+            this.cropsCrud1.TabIndex = 1;
+            // 
+            // walletPnl1
+            // 
+            this.walletPnl1.BackColor = System.Drawing.Color.White;
+            this.walletPnl1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.walletPnl1.Location = new System.Drawing.Point(0, 0);
+            this.walletPnl1.Name = "walletPnl1";
+            this.walletPnl1.Size = new System.Drawing.Size(1544, 832);
+            this.walletPnl1.TabIndex = 2;
+            // 
+            // maxBtnFamer
+            // 
+            this.maxBtnFamer.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.maxBtnFamer.Controls.Add(this.changeAccount1);
+            this.maxBtnFamer.Controls.Add(this.dashBoard1);
+            this.maxBtnFamer.Controls.Add(this.walletPnl1);
+            this.maxBtnFamer.Controls.Add(this.cropsCrud1);
+            this.maxBtnFamer.Controls.Add(this.fieldCrud1);
+            this.maxBtnFamer.Location = new System.Drawing.Point(345, 49);
+            this.maxBtnFamer.MinimumSize = new System.Drawing.Size(900, 500);
+            this.maxBtnFamer.Name = "maxBtnFamer";
+            this.maxBtnFamer.Size = new System.Drawing.Size(1544, 832);
+            this.maxBtnFamer.TabIndex = 2;
+            this.maxBtnFamer.Paint += new System.Windows.Forms.PaintEventHandler(this.maxBtnFamer_Paint);
+            // 
+            // dashBoard1
+            // 
+            this.dashBoard1.BackColor = System.Drawing.Color.White;
+            this.dashBoard1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dashBoard1.Location = new System.Drawing.Point(0, 0);
+            this.dashBoard1.MinimumSize = new System.Drawing.Size(44, 119);
+            this.dashBoard1.Name = "dashBoard1";
+            this.dashBoard1.Size = new System.Drawing.Size(1544, 832);
+            this.dashBoard1.TabIndex = 3;
+            // 
+            // changeAccount1
+            // 
+            this.changeAccount1.BackColor = System.Drawing.Color.White;
+            this.changeAccount1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.changeAccount1.Location = new System.Drawing.Point(0, 0);
+            this.changeAccount1.Name = "changeAccount1";
+            this.changeAccount1.Size = new System.Drawing.Size(1544, 832);
+            this.changeAccount1.TabIndex = 4;
+            // 
             // userControlFarmerPanel
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
@@ -446,6 +542,7 @@
             this.panelMainMenu.ResumeLayout(false);
             this.panelManagePpl.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).EndInit();
+            this.maxBtnFamer.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -453,24 +550,30 @@
         #endregion
 
         private Guna.UI2.WinForms.Guna2GradientPanel panelMainMenu;
-        private Guna.UI2.WinForms.Guna2Button btnGroup;
-        private Guna.UI2.WinForms.Guna2Button btnProjects;
+        private Guna.UI2.WinForms.Guna2Button btnManageCrops;
         private Guna.UI2.WinForms.Guna2Panel panelManagePpl;
         private Guna.UI2.WinForms.Guna2Button btnManageAdvisor;
         private Guna.UI2.WinForms.Guna2Button ManageStudent;
-        private Guna.UI2.WinForms.Guna2Button btnMngPpl;
+        private Guna.UI2.WinForms.Guna2Button btnManageField;
         private Guna.UI2.WinForms.Guna2Panel sidePanel;
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox1;
         private Guna.UI2.WinForms.Guna2Button btnHome;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel2;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel1;
         private Guna.UI2.WinForms.Guna2Elipse elipseMenuPanel;
-        private Guna.UI2.WinForms.Guna2Panel maxBtnFamer;
         private Guna.UI2.WinForms.Guna2DragControl guna2DragControl1;
         private Guna.UI2.WinForms.Guna2Elipse guna2Elipse1;
         private Guna.UI2.WinForms.Guna2ResizeForm ResizeFarmerForm;
         private Guna.UI2.WinForms.Guna2ImageButton minBtnFarmer;
         private Guna.UI2.WinForms.Guna2ImageButton maxBtnFarmer;
         private Guna.UI2.WinForms.Guna2ImageButton closeBtnFarmer;
+        private Guna.UI2.WinForms.Guna2Button btnWallet;
+        private Guna.UI2.WinForms.Guna2Button btnSettings;
+        private Guna.UI2.WinForms.Guna2Panel maxBtnFamer;
+        private UI.FarmerUI.walletPnl walletPnl1;
+        private UI.FarmerUI.CropsCrud cropsCrud1;
+        private UI.FarmerUI.FieldCrud fieldCrud1;
+        private UI.FarmerUI.DashBoard dashBoard1;
+        private UI.FarmerUI.changeAccount changeAccount1;
     }
 }

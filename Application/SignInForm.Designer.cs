@@ -39,9 +39,10 @@
             this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.label3 = new System.Windows.Forms.Label();
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
             this.guna2PictureBox2 = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
             this.guna2PictureBox3 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
@@ -51,7 +52,6 @@
             this.label9 = new System.Windows.Forms.Label();
             this.guna2CheckBox1 = new Guna.UI2.WinForms.Guna2CheckBox();
             this.linkLabel2 = new System.Windows.Forms.LinkLabel();
-            this.label10 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
             this.guna2Panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox2)).BeginInit();
@@ -232,6 +232,17 @@
             this.guna2Panel1.TabIndex = 5;
             this.guna2Panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.guna2Panel1_Paint);
             // 
+            // guna2PictureBox2
+            // 
+            this.guna2PictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("guna2PictureBox2.Image")));
+            this.guna2PictureBox2.ImageRotate = 0F;
+            this.guna2PictureBox2.Location = new System.Drawing.Point(0, 63);
+            this.guna2PictureBox2.Name = "guna2PictureBox2";
+            this.guna2PictureBox2.Size = new System.Drawing.Size(144, 165);
+            this.guna2PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.guna2PictureBox2.TabIndex = 4;
+            this.guna2PictureBox2.TabStop = false;
+            // 
             // label4
             // 
             this.label4.AutoSize = true;
@@ -244,6 +255,16 @@
             this.label4.Text = "to help farmers";
             this.label4.Click += new System.EventHandler(this.label3_Click);
             // 
+            // label10
+            // 
+            this.label10.Location = new System.Drawing.Point(19, 383);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(215, 106);
+            this.label10.TabIndex = 3;
+            this.label10.Text = "We stand by the farmers with the billions of liras we spend on agriculture every " +
+    "year.";
+            this.label10.Click += new System.EventHandler(this.label5_Click);
+            // 
             // label5
             // 
             this.label5.Location = new System.Drawing.Point(722, 383);
@@ -252,17 +273,6 @@
             this.label5.TabIndex = 3;
             this.label5.Text = "I agree";
             this.label5.Click += new System.EventHandler(this.label5_Click);
-            // 
-            // guna2PictureBox2
-            // 
-            this.guna2PictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("guna2PictureBox2.Image")));
-            this.guna2PictureBox2.ImageRotate = 0F;
-            this.guna2PictureBox2.Location = new System.Drawing.Point(0, 63);
-            this.guna2PictureBox2.Name = "guna2PictureBox2";
-            this.guna2PictureBox2.Size = new System.Drawing.Size(144, 165);
-            this.guna2PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.guna2PictureBox2.TabIndex = 4;
-            this.guna2PictureBox2.TabStop = false;
             // 
             // guna2PictureBox3
             // 
@@ -280,7 +290,7 @@
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(159)))), ((int)(((byte)(51)))));
-            this.label6.Location = new System.Drawing.Point(779, 22);
+            this.label6.Location = new System.Drawing.Point(779, 31);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(209, 22);
             this.label6.TabIndex = 1;
@@ -292,7 +302,7 @@
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Century Gothic", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(134)))), ((int)(((byte)(173)))), ((int)(((byte)(67)))));
-            this.label7.Location = new System.Drawing.Point(778, 47);
+            this.label7.Location = new System.Drawing.Point(778, 56);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(232, 23);
             this.label7.TabIndex = 1;
@@ -360,16 +370,6 @@
             this.linkLabel2.TabIndex = 6;
             this.linkLabel2.TabStop = true;
             this.linkLabel2.Text = "Forget Password?";
-            // 
-            // label10
-            // 
-            this.label10.Location = new System.Drawing.Point(19, 383);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(215, 106);
-            this.label10.TabIndex = 3;
-            this.label10.Text = "We stand by the farmers with the billions of liras we spend on agriculture every " +
-    "year.";
-            this.label10.Click += new System.EventHandler(this.label5_Click);
             // 
             // SignInForm
             // 

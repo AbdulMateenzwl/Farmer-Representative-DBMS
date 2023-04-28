@@ -52,11 +52,47 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="FarmerForm.cs">
+    <Compile Include="UI\FarmerUI\changeAccount.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\FarmerUI\changeAccount.Designer.cs">
+      <DependentUpon>changeAccount.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\FarmerUI\CropsCrud.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\FarmerUI\CropsCrud.Designer.cs">
+      <DependentUpon>CropsCrud.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\FarmerUI\DashBoard.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\FarmerUI\DashBoard.Designer.cs">
+      <DependentUpon>DashBoard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\FarmerUI\FarmerForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FarmerForm.Designer.cs">
+    <Compile Include="UI\FarmerUI\FarmerForm.Designer.cs">
       <DependentUpon>FarmerForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\FarmerUI\FieldCrud.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\FarmerUI\FieldCrud.Designer.cs">
+      <DependentUpon>FieldCrud.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\FarmerUI\UserControl1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\FarmerUI\UserControl1.Designer.cs">
+      <DependentUpon>UserControl1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\FarmerUI\Wallet.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\FarmerUI\Wallet.Designer.cs">
+      <DependentUpon>Wallet.cs</DependentUpon>
     </Compile>
     <Compile Include="UI\Form1.cs">
       <SubType>Form</SubType>
@@ -72,8 +108,26 @@
     <Compile Include="SignInForm.Designer.cs">
       <DependentUpon>SignInForm.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="FarmerForm.resx">
+    <EmbeddedResource Include="UI\FarmerUI\changeAccount.resx">
+      <DependentUpon>changeAccount.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\FarmerUI\CropsCrud.resx">
+      <DependentUpon>CropsCrud.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\FarmerUI\DashBoard.resx">
+      <DependentUpon>DashBoard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\FarmerUI\FarmerForm.resx">
       <DependentUpon>FarmerForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\FarmerUI\FieldCrud.resx">
+      <DependentUpon>FieldCrud.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\FarmerUI\UserControl1.resx">
+      <DependentUpon>UserControl1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\FarmerUI\Wallet.resx">
+      <DependentUpon>Wallet.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UI\Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>

@@ -15,6 +15,8 @@ namespace Farmer_Representive_Final_Project_DB_
         public userControlFarmerPanel()
         {
             InitializeComponent();
+            dashBoard1.BringToFront();
+
         }
 
         private void maxBtnFarmer_Click(object sender, EventArgs e)
@@ -27,7 +29,8 @@ namespace Farmer_Representive_Final_Project_DB_
 
         private void btnMngPpl_Click(object sender, EventArgs e)
         {
-
+            sidePanel.Top = btnManageField.Top;
+            fieldCrud1.BringToFront();
         }
 
         private void panelMainMenu_Paint(object sender, PaintEventArgs e)
@@ -37,12 +40,14 @@ namespace Farmer_Representive_Final_Project_DB_
 
         private void btnGroup_Click(object sender, EventArgs e)
         {
-
+            sidePanel.Top = btnWallet.Top;
+            walletPnl1.BringToFront();
         }
 
         private void btnProjects_Click(object sender, EventArgs e)
         {
-
+            sidePanel.Top = btnManageCrops.Top;
+            cropsCrud1.BringToFront();
         }
 
         private void panelManagePpl_Paint(object sender, PaintEventArgs e)
@@ -72,6 +77,8 @@ namespace Farmer_Representive_Final_Project_DB_
 
         private void btnHome_Click(object sender, EventArgs e)
         {
+            sidePanel.Top = btnHome.Top;
+            dashBoard1.BringToFront();
 
         }
 
@@ -98,6 +105,12 @@ namespace Farmer_Representive_Final_Project_DB_
         private void minBtnFarmer_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void btnSetting_Click(object sender, EventArgs e)
+        {
+            sidePanel.Top = btnSettings.Top;
+            changeAccount1.BringToFront();
         }
     }
 }
