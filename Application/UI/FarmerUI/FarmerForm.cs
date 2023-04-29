@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Farmer_Representive_Final_Project_DB_
 {
-    public partial class userControlFarmerPanel : Form
+    public partial class FarmerForm : Form
     {
-        public userControlFarmerPanel()
+        public FarmerForm()
         {
             InitializeComponent();
             dashBoard1.BringToFront();
@@ -89,7 +89,7 @@ namespace Farmer_Representive_Final_Project_DB_
 
         private void guna2HtmlLabel1_Click(object sender, EventArgs e)
         {
-
+            
         }
 
         private void maxBtnFamer_Paint(object sender, PaintEventArgs e)
@@ -99,12 +99,12 @@ namespace Farmer_Representive_Final_Project_DB_
 
         private void closeBtnFarmer_Click(object sender, EventArgs e)
         {
-
+            this.Close();
         }
 
         private void minBtnFarmer_Click(object sender, EventArgs e)
         {
-
+           WindowState = FormWindowState.Minimized;
         }
 
         private void btnSetting_Click(object sender, EventArgs e)

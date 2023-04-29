@@ -29,28 +29,25 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle13 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle14 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle15 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle16 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(DashBoard));
             this.elipseDashBoard = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
-            this.advisorCount = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.guna2HtmlLabel2 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.guna2PictureBox2 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.Panel1 = new Guna.UI2.WinForms.Guna2Panel();
-            this.guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
-            this.guna2Elipse2 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
-            this.guna2Elipse3 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
-            this.guna2Elipse4 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
-            this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
-            this.guna2VProgressBar1 = new Guna.UI2.WinForms.Guna2VProgressBar();
-            this.guna2VProgressBar2 = new Guna.UI2.WinForms.Guna2VProgressBar();
-            this.guna2VProgressBar3 = new Guna.UI2.WinForms.Guna2VProgressBar();
-            this.guna2VProgressBar4 = new Guna.UI2.WinForms.Guna2VProgressBar();
-            this.guna2VProgressBar5 = new Guna.UI2.WinForms.Guna2VProgressBar();
-            this.guna2VProgressBar6 = new Guna.UI2.WinForms.Guna2VProgressBar();
+            this.panel6 = new Guna.UI2.WinForms.Guna2Panel();
+            this.Panel4 = new Guna.UI2.WinForms.Guna2Panel();
+            this.tableLayoutPanel5 = new System.Windows.Forms.TableLayoutPanel();
+            this.guna2VProgressBar19 = new Guna.UI2.WinForms.Guna2VProgressBar();
+            this.guna2VProgressBar20 = new Guna.UI2.WinForms.Guna2VProgressBar();
+            this.guna2VProgressBar21 = new Guna.UI2.WinForms.Guna2VProgressBar();
+            this.guna2VProgressBar22 = new Guna.UI2.WinForms.Guna2VProgressBar();
+            this.guna2VProgressBar23 = new Guna.UI2.WinForms.Guna2VProgressBar();
+            this.guna2VProgressBar24 = new Guna.UI2.WinForms.Guna2VProgressBar();
+            this.guna2PictureBox4 = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.guna2HtmlLabel6 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.guna2HtmlLabel7 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.Panel2 = new Guna.UI2.WinForms.Guna2Panel();
             this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
             this.guna2VProgressBar7 = new Guna.UI2.WinForms.Guna2VProgressBar();
@@ -73,21 +70,25 @@
             this.guna2PictureBox3 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2HtmlLabel4 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2HtmlLabel5 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.Panel4 = new Guna.UI2.WinForms.Guna2Panel();
-            this.tableLayoutPanel5 = new System.Windows.Forms.TableLayoutPanel();
-            this.guna2VProgressBar19 = new Guna.UI2.WinForms.Guna2VProgressBar();
-            this.guna2VProgressBar20 = new Guna.UI2.WinForms.Guna2VProgressBar();
-            this.guna2VProgressBar21 = new Guna.UI2.WinForms.Guna2VProgressBar();
-            this.guna2VProgressBar22 = new Guna.UI2.WinForms.Guna2VProgressBar();
-            this.guna2VProgressBar23 = new Guna.UI2.WinForms.Guna2VProgressBar();
-            this.guna2VProgressBar24 = new Guna.UI2.WinForms.Guna2VProgressBar();
-            this.guna2PictureBox4 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.guna2HtmlLabel6 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.guna2HtmlLabel7 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.Panel1 = new Guna.UI2.WinForms.Guna2Panel();
+            this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
+            this.guna2VProgressBar1 = new Guna.UI2.WinForms.Guna2VProgressBar();
+            this.guna2VProgressBar2 = new Guna.UI2.WinForms.Guna2VProgressBar();
+            this.guna2VProgressBar3 = new Guna.UI2.WinForms.Guna2VProgressBar();
+            this.guna2VProgressBar4 = new Guna.UI2.WinForms.Guna2VProgressBar();
+            this.guna2VProgressBar5 = new Guna.UI2.WinForms.Guna2VProgressBar();
+            this.guna2VProgressBar6 = new Guna.UI2.WinForms.Guna2VProgressBar();
+            this.guna2PictureBox2 = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.advisorCount = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.guna2HtmlLabel8 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.guna2HtmlLabel2 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
+            this.guna2Elipse2 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
+            this.guna2Elipse3 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
+            this.guna2Elipse4 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.tableLayoutPanel6 = new System.Windows.Forms.TableLayoutPanel();
             this.panel5 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2Elipse5 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
-            this.panel6 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2Elipse6 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.guna2Elipse7 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.gridPanel = new Guna.UI2.WinForms.Guna2Panel();
@@ -100,20 +101,19 @@
             this.DOB = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Gender = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.elipsePanel = new Guna.UI2.WinForms.Guna2Elipse(this.components);
-            this.guna2HtmlLabel8 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.tableLayoutPanel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox2)).BeginInit();
-            this.Panel1.SuspendLayout();
-            this.tableLayoutPanel1.SuspendLayout();
+            this.Panel4.SuspendLayout();
+            this.tableLayoutPanel5.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox4)).BeginInit();
             this.Panel2.SuspendLayout();
             this.tableLayoutPanel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
             this.Panel3.SuspendLayout();
             this.tableLayoutPanel4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox3)).BeginInit();
-            this.Panel4.SuspendLayout();
-            this.tableLayoutPanel5.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox4)).BeginInit();
+            this.Panel1.SuspendLayout();
+            this.tableLayoutPanel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox2)).BeginInit();
             this.tableLayoutPanel6.SuspendLayout();
             this.gridPanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.PnlWallet)).BeginInit();
@@ -138,7 +138,7 @@
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25.6F));
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 8F));
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 134F));
-            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 123F));
+            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 125F));
             this.tableLayoutPanel2.Controls.Add(this.panel6, 6, 0);
             this.tableLayoutPanel2.Controls.Add(this.Panel4, 3, 0);
             this.tableLayoutPanel2.Controls.Add(this.Panel2, 1, 0);
@@ -146,215 +146,205 @@
             this.tableLayoutPanel2.Controls.Add(this.Panel1, 0, 0);
             this.tableLayoutPanel2.Location = new System.Drawing.Point(233, 0);
             this.tableLayoutPanel2.MaximumSize = new System.Drawing.Size(1343, 209);
-            this.tableLayoutPanel2.MinimumSize = new System.Drawing.Size(905, 209);
+            this.tableLayoutPanel2.MinimumSize = new System.Drawing.Size(905, 76);
             this.tableLayoutPanel2.Name = "tableLayoutPanel2";
             this.tableLayoutPanel2.RowCount = 1;
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel2.Size = new System.Drawing.Size(1343, 209);
             this.tableLayoutPanel2.TabIndex = 6;
             // 
-            // advisorCount
+            // panel6
             // 
-            this.advisorCount.BackColor = System.Drawing.Color.Transparent;
-            this.advisorCount.Font = new System.Drawing.Font("Comic Sans MS", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.advisorCount.ForeColor = System.Drawing.Color.White;
-            this.advisorCount.Location = new System.Drawing.Point(12, 40);
-            this.advisorCount.Name = "advisorCount";
-            this.advisorCount.Size = new System.Drawing.Size(70, 33);
-            this.advisorCount.TabIndex = 1;
-            this.advisorCount.Text = "$2000";
+            this.panel6.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.panel6.BorderRadius = 30;
+            this.panel6.Location = new System.Drawing.Point(1084, 3);
+            this.panel6.MaximumSize = new System.Drawing.Size(120, 209);
+            this.panel6.MinimumSize = new System.Drawing.Size(44, 76);
+            this.panel6.Name = "panel6";
+            this.panel6.Size = new System.Drawing.Size(120, 203);
+            this.panel6.TabIndex = 3;
             // 
-            // guna2HtmlLabel2
+            // Panel4
             // 
-            this.guna2HtmlLabel2.AutoSize = false;
-            this.guna2HtmlLabel2.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel2.Font = new System.Drawing.Font("Berlin Sans FB Demi", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
-            this.guna2HtmlLabel2.Location = new System.Drawing.Point(91, 376);
-            this.guna2HtmlLabel2.Name = "guna2HtmlLabel2";
-            this.guna2HtmlLabel2.Size = new System.Drawing.Size(171, 42);
-            this.guna2HtmlLabel2.TabIndex = 1;
-            this.guna2HtmlLabel2.Text = "Crops Details";
+            this.Panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(211)))), ((int)(((byte)(102)))));
+            this.Panel4.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(211)))), ((int)(((byte)(102)))));
+            this.Panel4.BorderThickness = 1;
+            this.Panel4.Controls.Add(this.tableLayoutPanel5);
+            this.Panel4.Controls.Add(this.guna2PictureBox4);
+            this.Panel4.Controls.Add(this.guna2HtmlLabel6);
+            this.Panel4.Controls.Add(this.guna2HtmlLabel7);
+            this.Panel4.Location = new System.Drawing.Point(532, 3);
+            this.Panel4.MaximumSize = new System.Drawing.Size(256, 203);
+            this.Panel4.MinimumSize = new System.Drawing.Size(154, 76);
+            this.Panel4.Name = "Panel4";
+            this.Panel4.Size = new System.Drawing.Size(256, 203);
+            this.Panel4.TabIndex = 5;
             // 
-            // guna2PictureBox2
+            // tableLayoutPanel5
             // 
-            this.guna2PictureBox2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.guna2PictureBox2.BackColor = System.Drawing.Color.Transparent;
-            this.guna2PictureBox2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.guna2PictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("guna2PictureBox2.Image")));
-            this.guna2PictureBox2.ImageRotate = 0F;
-            this.guna2PictureBox2.Location = new System.Drawing.Point(223, 6);
-            this.guna2PictureBox2.MaximumSize = new System.Drawing.Size(65, 57);
-            this.guna2PictureBox2.Name = "guna2PictureBox2";
-            this.guna2PictureBox2.Size = new System.Drawing.Size(27, 31);
-            this.guna2PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.guna2PictureBox2.TabIndex = 0;
-            this.guna2PictureBox2.TabStop = false;
-            this.guna2PictureBox2.UseTransparentBackground = true;
-            // 
-            // Panel1
-            // 
-            this.Panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(211)))), ((int)(((byte)(102)))));
-            this.Panel1.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(211)))), ((int)(((byte)(102)))));
-            this.Panel1.BorderThickness = 1;
-            this.Panel1.Controls.Add(this.tableLayoutPanel1);
-            this.Panel1.Controls.Add(this.guna2PictureBox2);
-            this.Panel1.Controls.Add(this.advisorCount);
-            this.Panel1.Controls.Add(this.guna2HtmlLabel8);
-            this.Panel1.Location = new System.Drawing.Point(3, 3);
-            this.Panel1.MaximumSize = new System.Drawing.Size(256, 203);
-            this.Panel1.MinimumSize = new System.Drawing.Size(154, 76);
-            this.Panel1.Name = "Panel1";
-            this.Panel1.Size = new System.Drawing.Size(256, 203);
-            this.Panel1.TabIndex = 5;
-            // 
-            // guna2Elipse1
-            // 
-            this.guna2Elipse1.BorderRadius = 20;
-            this.guna2Elipse1.TargetControl = this.Panel1;
-            // 
-            // guna2Elipse2
-            // 
-            this.guna2Elipse2.BorderRadius = 20;
-            this.guna2Elipse2.TargetControl = this.Panel2;
-            // 
-            // guna2Elipse3
-            // 
-            this.guna2Elipse3.BorderRadius = 20;
-            this.guna2Elipse3.TargetControl = this.Panel3;
-            // 
-            // guna2Elipse4
-            // 
-            this.guna2Elipse4.BorderRadius = 20;
-            this.guna2Elipse4.TargetControl = this.Panel4;
-            // 
-            // tableLayoutPanel1
-            // 
-            this.tableLayoutPanel1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.tableLayoutPanel5.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.tableLayoutPanel1.ColumnCount = 6;
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50.90909F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 49.09091F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 30F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 27F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 26F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 26F));
-            this.tableLayoutPanel1.Controls.Add(this.guna2VProgressBar1, 0, 0);
-            this.tableLayoutPanel1.Controls.Add(this.guna2VProgressBar2, 1, 0);
-            this.tableLayoutPanel1.Controls.Add(this.guna2VProgressBar3, 2, 0);
-            this.tableLayoutPanel1.Controls.Add(this.guna2VProgressBar4, 3, 0);
-            this.tableLayoutPanel1.Controls.Add(this.guna2VProgressBar5, 4, 0);
-            this.tableLayoutPanel1.Controls.Add(this.guna2VProgressBar6, 5, 0);
-            this.tableLayoutPanel1.Location = new System.Drawing.Point(12, 91);
-            this.tableLayoutPanel1.MaximumSize = new System.Drawing.Size(250, 100);
-            this.tableLayoutPanel1.Name = "tableLayoutPanel1";
-            this.tableLayoutPanel1.RowCount = 1;
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(163, 100);
-            this.tableLayoutPanel1.TabIndex = 2;
+            this.tableLayoutPanel5.ColumnCount = 6;
+            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50.90909F));
+            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 49.09091F));
+            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 30F));
+            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 27F));
+            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 26F));
+            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 27F));
+            this.tableLayoutPanel5.Controls.Add(this.guna2VProgressBar19, 0, 0);
+            this.tableLayoutPanel5.Controls.Add(this.guna2VProgressBar20, 1, 0);
+            this.tableLayoutPanel5.Controls.Add(this.guna2VProgressBar21, 2, 0);
+            this.tableLayoutPanel5.Controls.Add(this.guna2VProgressBar22, 3, 0);
+            this.tableLayoutPanel5.Controls.Add(this.guna2VProgressBar23, 4, 0);
+            this.tableLayoutPanel5.Controls.Add(this.guna2VProgressBar24, 5, 0);
+            this.tableLayoutPanel5.Location = new System.Drawing.Point(12, 94);
+            this.tableLayoutPanel5.MaximumSize = new System.Drawing.Size(250, 100);
+            this.tableLayoutPanel5.Name = "tableLayoutPanel5";
+            this.tableLayoutPanel5.RowCount = 1;
+            this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel5.Size = new System.Drawing.Size(163, 100);
+            this.tableLayoutPanel5.TabIndex = 2;
             // 
-            // guna2VProgressBar1
+            // guna2VProgressBar19
             // 
-            this.guna2VProgressBar1.BorderColor = System.Drawing.Color.White;
-            this.guna2VProgressBar1.BorderRadius = 6;
-            this.guna2VProgressBar1.BorderThickness = 1;
-            this.guna2VProgressBar1.FillColor = System.Drawing.Color.White;
-            this.guna2VProgressBar1.ForeColor = System.Drawing.Color.White;
-            this.guna2VProgressBar1.Location = new System.Drawing.Point(3, 3);
-            this.guna2VProgressBar1.Name = "guna2VProgressBar1";
-            this.guna2VProgressBar1.ProgressColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(211)))), ((int)(((byte)(102)))));
-            this.guna2VProgressBar1.ProgressColor2 = System.Drawing.Color.White;
-            this.guna2VProgressBar1.Size = new System.Drawing.Size(21, 94);
-            this.guna2VProgressBar1.TabIndex = 0;
-            this.guna2VProgressBar1.Text = "guna2VProgressBar1";
-            this.guna2VProgressBar1.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault;
-            this.guna2VProgressBar1.Value = 30;
+            this.guna2VProgressBar19.BorderColor = System.Drawing.Color.White;
+            this.guna2VProgressBar19.BorderRadius = 6;
+            this.guna2VProgressBar19.BorderThickness = 1;
+            this.guna2VProgressBar19.FillColor = System.Drawing.Color.White;
+            this.guna2VProgressBar19.ForeColor = System.Drawing.Color.White;
+            this.guna2VProgressBar19.Location = new System.Drawing.Point(3, 3);
+            this.guna2VProgressBar19.Name = "guna2VProgressBar19";
+            this.guna2VProgressBar19.ProgressColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(211)))), ((int)(((byte)(102)))));
+            this.guna2VProgressBar19.ProgressColor2 = System.Drawing.Color.White;
+            this.guna2VProgressBar19.Size = new System.Drawing.Size(20, 94);
+            this.guna2VProgressBar19.TabIndex = 0;
+            this.guna2VProgressBar19.Text = "guna2VProgressBar1";
+            this.guna2VProgressBar19.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault;
+            this.guna2VProgressBar19.Value = 30;
             // 
-            // guna2VProgressBar2
+            // guna2VProgressBar20
             // 
-            this.guna2VProgressBar2.BorderColor = System.Drawing.Color.White;
-            this.guna2VProgressBar2.BorderRadius = 6;
-            this.guna2VProgressBar2.BorderThickness = 1;
-            this.guna2VProgressBar2.FillColor = System.Drawing.Color.White;
-            this.guna2VProgressBar2.ForeColor = System.Drawing.Color.White;
-            this.guna2VProgressBar2.Location = new System.Drawing.Point(30, 3);
-            this.guna2VProgressBar2.Name = "guna2VProgressBar2";
-            this.guna2VProgressBar2.ProgressColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(211)))), ((int)(((byte)(102)))));
-            this.guna2VProgressBar2.ProgressColor2 = System.Drawing.Color.White;
-            this.guna2VProgressBar2.Size = new System.Drawing.Size(20, 94);
-            this.guna2VProgressBar2.TabIndex = 0;
-            this.guna2VProgressBar2.Text = "guna2VProgressBar1";
-            this.guna2VProgressBar2.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault;
-            this.guna2VProgressBar2.Value = 80;
+            this.guna2VProgressBar20.BorderColor = System.Drawing.Color.White;
+            this.guna2VProgressBar20.BorderRadius = 6;
+            this.guna2VProgressBar20.BorderThickness = 1;
+            this.guna2VProgressBar20.FillColor = System.Drawing.Color.White;
+            this.guna2VProgressBar20.ForeColor = System.Drawing.Color.White;
+            this.guna2VProgressBar20.Location = new System.Drawing.Point(29, 3);
+            this.guna2VProgressBar20.Name = "guna2VProgressBar20";
+            this.guna2VProgressBar20.ProgressColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(211)))), ((int)(((byte)(102)))));
+            this.guna2VProgressBar20.ProgressColor2 = System.Drawing.Color.White;
+            this.guna2VProgressBar20.Size = new System.Drawing.Size(20, 94);
+            this.guna2VProgressBar20.TabIndex = 0;
+            this.guna2VProgressBar20.Text = "guna2VProgressBar1";
+            this.guna2VProgressBar20.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault;
+            this.guna2VProgressBar20.Value = 80;
             // 
-            // guna2VProgressBar3
+            // guna2VProgressBar21
             // 
-            this.guna2VProgressBar3.BorderColor = System.Drawing.Color.White;
-            this.guna2VProgressBar3.BorderRadius = 6;
-            this.guna2VProgressBar3.BorderThickness = 1;
-            this.guna2VProgressBar3.FillColor = System.Drawing.Color.White;
-            this.guna2VProgressBar3.ForeColor = System.Drawing.Color.White;
-            this.guna2VProgressBar3.Location = new System.Drawing.Point(56, 3);
-            this.guna2VProgressBar3.Name = "guna2VProgressBar3";
-            this.guna2VProgressBar3.ProgressColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(211)))), ((int)(((byte)(102)))));
-            this.guna2VProgressBar3.ProgressColor2 = System.Drawing.Color.White;
-            this.guna2VProgressBar3.Size = new System.Drawing.Size(21, 94);
-            this.guna2VProgressBar3.TabIndex = 0;
-            this.guna2VProgressBar3.Text = "guna2VProgressBar1";
-            this.guna2VProgressBar3.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault;
-            this.guna2VProgressBar3.Value = 70;
+            this.guna2VProgressBar21.BorderColor = System.Drawing.Color.White;
+            this.guna2VProgressBar21.BorderRadius = 6;
+            this.guna2VProgressBar21.BorderThickness = 1;
+            this.guna2VProgressBar21.FillColor = System.Drawing.Color.White;
+            this.guna2VProgressBar21.ForeColor = System.Drawing.Color.White;
+            this.guna2VProgressBar21.Location = new System.Drawing.Point(55, 3);
+            this.guna2VProgressBar21.Name = "guna2VProgressBar21";
+            this.guna2VProgressBar21.ProgressColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(211)))), ((int)(((byte)(102)))));
+            this.guna2VProgressBar21.ProgressColor2 = System.Drawing.Color.White;
+            this.guna2VProgressBar21.Size = new System.Drawing.Size(21, 94);
+            this.guna2VProgressBar21.TabIndex = 0;
+            this.guna2VProgressBar21.Text = "guna2VProgressBar1";
+            this.guna2VProgressBar21.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault;
+            this.guna2VProgressBar21.Value = 70;
             // 
-            // guna2VProgressBar4
+            // guna2VProgressBar22
             // 
-            this.guna2VProgressBar4.BorderColor = System.Drawing.Color.White;
-            this.guna2VProgressBar4.BorderRadius = 6;
-            this.guna2VProgressBar4.BorderThickness = 1;
-            this.guna2VProgressBar4.FillColor = System.Drawing.Color.White;
-            this.guna2VProgressBar4.ForeColor = System.Drawing.Color.White;
-            this.guna2VProgressBar4.Location = new System.Drawing.Point(86, 3);
-            this.guna2VProgressBar4.Name = "guna2VProgressBar4";
-            this.guna2VProgressBar4.ProgressColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(211)))), ((int)(((byte)(102)))));
-            this.guna2VProgressBar4.ProgressColor2 = System.Drawing.Color.White;
-            this.guna2VProgressBar4.Size = new System.Drawing.Size(21, 94);
-            this.guna2VProgressBar4.TabIndex = 0;
-            this.guna2VProgressBar4.Text = "guna2VProgressBar1";
-            this.guna2VProgressBar4.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault;
-            this.guna2VProgressBar4.Value = 60;
+            this.guna2VProgressBar22.BorderColor = System.Drawing.Color.White;
+            this.guna2VProgressBar22.BorderRadius = 6;
+            this.guna2VProgressBar22.BorderThickness = 1;
+            this.guna2VProgressBar22.FillColor = System.Drawing.Color.White;
+            this.guna2VProgressBar22.ForeColor = System.Drawing.Color.White;
+            this.guna2VProgressBar22.Location = new System.Drawing.Point(85, 3);
+            this.guna2VProgressBar22.Name = "guna2VProgressBar22";
+            this.guna2VProgressBar22.ProgressColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(211)))), ((int)(((byte)(102)))));
+            this.guna2VProgressBar22.ProgressColor2 = System.Drawing.Color.White;
+            this.guna2VProgressBar22.Size = new System.Drawing.Size(21, 94);
+            this.guna2VProgressBar22.TabIndex = 0;
+            this.guna2VProgressBar22.Text = "guna2VProgressBar1";
+            this.guna2VProgressBar22.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault;
+            this.guna2VProgressBar22.Value = 60;
             // 
-            // guna2VProgressBar5
+            // guna2VProgressBar23
             // 
-            this.guna2VProgressBar5.BorderColor = System.Drawing.Color.White;
-            this.guna2VProgressBar5.BorderRadius = 6;
-            this.guna2VProgressBar5.BorderThickness = 1;
-            this.guna2VProgressBar5.FillColor = System.Drawing.Color.White;
-            this.guna2VProgressBar5.ForeColor = System.Drawing.Color.White;
-            this.guna2VProgressBar5.Location = new System.Drawing.Point(113, 3);
-            this.guna2VProgressBar5.Name = "guna2VProgressBar5";
-            this.guna2VProgressBar5.ProgressColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(211)))), ((int)(((byte)(102)))));
-            this.guna2VProgressBar5.ProgressColor2 = System.Drawing.Color.White;
-            this.guna2VProgressBar5.Size = new System.Drawing.Size(20, 94);
-            this.guna2VProgressBar5.TabIndex = 0;
-            this.guna2VProgressBar5.Text = "guna2VProgressBar1";
-            this.guna2VProgressBar5.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault;
-            this.guna2VProgressBar5.Value = 100;
+            this.guna2VProgressBar23.BorderColor = System.Drawing.Color.White;
+            this.guna2VProgressBar23.BorderRadius = 6;
+            this.guna2VProgressBar23.BorderThickness = 1;
+            this.guna2VProgressBar23.FillColor = System.Drawing.Color.White;
+            this.guna2VProgressBar23.ForeColor = System.Drawing.Color.White;
+            this.guna2VProgressBar23.Location = new System.Drawing.Point(112, 3);
+            this.guna2VProgressBar23.Name = "guna2VProgressBar23";
+            this.guna2VProgressBar23.ProgressColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(211)))), ((int)(((byte)(102)))));
+            this.guna2VProgressBar23.ProgressColor2 = System.Drawing.Color.White;
+            this.guna2VProgressBar23.Size = new System.Drawing.Size(20, 94);
+            this.guna2VProgressBar23.TabIndex = 0;
+            this.guna2VProgressBar23.Text = "guna2VProgressBar1";
+            this.guna2VProgressBar23.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault;
+            this.guna2VProgressBar23.Value = 100;
             // 
-            // guna2VProgressBar6
+            // guna2VProgressBar24
             // 
-            this.guna2VProgressBar6.BorderColor = System.Drawing.Color.White;
-            this.guna2VProgressBar6.BorderRadius = 6;
-            this.guna2VProgressBar6.BorderThickness = 1;
-            this.guna2VProgressBar6.FillColor = System.Drawing.Color.White;
-            this.guna2VProgressBar6.ForeColor = System.Drawing.Color.White;
-            this.guna2VProgressBar6.Location = new System.Drawing.Point(139, 3);
-            this.guna2VProgressBar6.Name = "guna2VProgressBar6";
-            this.guna2VProgressBar6.ProgressColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(211)))), ((int)(((byte)(102)))));
-            this.guna2VProgressBar6.ProgressColor2 = System.Drawing.Color.White;
-            this.guna2VProgressBar6.Size = new System.Drawing.Size(20, 94);
-            this.guna2VProgressBar6.TabIndex = 0;
-            this.guna2VProgressBar6.Text = "guna2VProgressBar1";
-            this.guna2VProgressBar6.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault;
-            this.guna2VProgressBar6.Value = 50;
+            this.guna2VProgressBar24.BorderColor = System.Drawing.Color.White;
+            this.guna2VProgressBar24.BorderRadius = 6;
+            this.guna2VProgressBar24.BorderThickness = 1;
+            this.guna2VProgressBar24.FillColor = System.Drawing.Color.White;
+            this.guna2VProgressBar24.ForeColor = System.Drawing.Color.White;
+            this.guna2VProgressBar24.Location = new System.Drawing.Point(138, 3);
+            this.guna2VProgressBar24.Name = "guna2VProgressBar24";
+            this.guna2VProgressBar24.ProgressColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(211)))), ((int)(((byte)(102)))));
+            this.guna2VProgressBar24.ProgressColor2 = System.Drawing.Color.White;
+            this.guna2VProgressBar24.Size = new System.Drawing.Size(20, 94);
+            this.guna2VProgressBar24.TabIndex = 0;
+            this.guna2VProgressBar24.Text = "guna2VProgressBar1";
+            this.guna2VProgressBar24.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault;
+            this.guna2VProgressBar24.Value = 50;
+            // 
+            // guna2PictureBox4
+            // 
+            this.guna2PictureBox4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.guna2PictureBox4.BackColor = System.Drawing.Color.Transparent;
+            this.guna2PictureBox4.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.guna2PictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("guna2PictureBox4.Image")));
+            this.guna2PictureBox4.ImageRotate = 0F;
+            this.guna2PictureBox4.Location = new System.Drawing.Point(223, 6);
+            this.guna2PictureBox4.MaximumSize = new System.Drawing.Size(65, 57);
+            this.guna2PictureBox4.Name = "guna2PictureBox4";
+            this.guna2PictureBox4.Size = new System.Drawing.Size(27, 31);
+            this.guna2PictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.guna2PictureBox4.TabIndex = 0;
+            this.guna2PictureBox4.TabStop = false;
+            this.guna2PictureBox4.UseTransparentBackground = true;
+            // 
+            // guna2HtmlLabel6
+            // 
+            this.guna2HtmlLabel6.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel6.Font = new System.Drawing.Font("Comic Sans MS", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel6.ForeColor = System.Drawing.Color.White;
+            this.guna2HtmlLabel6.Location = new System.Drawing.Point(12, 40);
+            this.guna2HtmlLabel6.Name = "guna2HtmlLabel6";
+            this.guna2HtmlLabel6.Size = new System.Drawing.Size(42, 33);
+            this.guna2HtmlLabel6.TabIndex = 1;
+            this.guna2HtmlLabel6.Text = "130";
+            // 
+            // guna2HtmlLabel7
+            // 
+            this.guna2HtmlLabel7.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel7.Font = new System.Drawing.Font("Comic Sans MS", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel7.ForeColor = System.Drawing.Color.White;
+            this.guna2HtmlLabel7.Location = new System.Drawing.Point(12, 3);
+            this.guna2HtmlLabel7.Name = "guna2HtmlLabel7";
+            this.guna2HtmlLabel7.Size = new System.Drawing.Size(104, 33);
+            this.guna2HtmlLabel7.TabIndex = 1;
+            this.guna2HtmlLabel7.Text = "My Crops";
             // 
             // Panel2
             // 
@@ -365,7 +355,7 @@
             this.Panel2.Controls.Add(this.guna2PictureBox1);
             this.Panel2.Controls.Add(this.guna2HtmlLabel1);
             this.Panel2.Controls.Add(this.guna2HtmlLabel3);
-            this.Panel2.Location = new System.Drawing.Point(266, 3);
+            this.Panel2.Location = new System.Drawing.Point(265, 3);
             this.Panel2.MaximumSize = new System.Drawing.Size(256, 203);
             this.Panel2.MinimumSize = new System.Drawing.Size(154, 76);
             this.Panel2.Name = "Panel2";
@@ -383,7 +373,7 @@
             this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 30F));
             this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 27F));
             this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 26F));
-            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 26F));
+            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 27F));
             this.tableLayoutPanel3.Controls.Add(this.guna2VProgressBar7, 0, 0);
             this.tableLayoutPanel3.Controls.Add(this.guna2VProgressBar8, 1, 0);
             this.tableLayoutPanel3.Controls.Add(this.guna2VProgressBar9, 2, 0);
@@ -409,7 +399,7 @@
             this.guna2VProgressBar7.Name = "guna2VProgressBar7";
             this.guna2VProgressBar7.ProgressColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(211)))), ((int)(((byte)(102)))));
             this.guna2VProgressBar7.ProgressColor2 = System.Drawing.Color.White;
-            this.guna2VProgressBar7.Size = new System.Drawing.Size(21, 94);
+            this.guna2VProgressBar7.Size = new System.Drawing.Size(20, 94);
             this.guna2VProgressBar7.TabIndex = 0;
             this.guna2VProgressBar7.Text = "guna2VProgressBar1";
             this.guna2VProgressBar7.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault;
@@ -422,11 +412,11 @@
             this.guna2VProgressBar8.BorderThickness = 1;
             this.guna2VProgressBar8.FillColor = System.Drawing.Color.White;
             this.guna2VProgressBar8.ForeColor = System.Drawing.Color.White;
-            this.guna2VProgressBar8.Location = new System.Drawing.Point(30, 3);
+            this.guna2VProgressBar8.Location = new System.Drawing.Point(29, 3);
             this.guna2VProgressBar8.Name = "guna2VProgressBar8";
             this.guna2VProgressBar8.ProgressColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(211)))), ((int)(((byte)(102)))));
             this.guna2VProgressBar8.ProgressColor2 = System.Drawing.Color.White;
-            this.guna2VProgressBar8.Size = new System.Drawing.Size(22, 94);
+            this.guna2VProgressBar8.Size = new System.Drawing.Size(21, 94);
             this.guna2VProgressBar8.TabIndex = 0;
             this.guna2VProgressBar8.Text = "guna2VProgressBar1";
             this.guna2VProgressBar8.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault;
@@ -439,7 +429,7 @@
             this.guna2VProgressBar9.BorderThickness = 1;
             this.guna2VProgressBar9.FillColor = System.Drawing.Color.White;
             this.guna2VProgressBar9.ForeColor = System.Drawing.Color.White;
-            this.guna2VProgressBar9.Location = new System.Drawing.Point(58, 3);
+            this.guna2VProgressBar9.Location = new System.Drawing.Point(56, 3);
             this.guna2VProgressBar9.Name = "guna2VProgressBar9";
             this.guna2VProgressBar9.ProgressColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(211)))), ((int)(((byte)(102)))));
             this.guna2VProgressBar9.ProgressColor2 = System.Drawing.Color.White;
@@ -456,7 +446,7 @@
             this.guna2VProgressBar10.BorderThickness = 1;
             this.guna2VProgressBar10.FillColor = System.Drawing.Color.White;
             this.guna2VProgressBar10.ForeColor = System.Drawing.Color.White;
-            this.guna2VProgressBar10.Location = new System.Drawing.Point(88, 3);
+            this.guna2VProgressBar10.Location = new System.Drawing.Point(86, 3);
             this.guna2VProgressBar10.Name = "guna2VProgressBar10";
             this.guna2VProgressBar10.ProgressColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(211)))), ((int)(((byte)(102)))));
             this.guna2VProgressBar10.ProgressColor2 = System.Drawing.Color.White;
@@ -473,7 +463,7 @@
             this.guna2VProgressBar11.BorderThickness = 1;
             this.guna2VProgressBar11.FillColor = System.Drawing.Color.White;
             this.guna2VProgressBar11.ForeColor = System.Drawing.Color.White;
-            this.guna2VProgressBar11.Location = new System.Drawing.Point(115, 3);
+            this.guna2VProgressBar11.Location = new System.Drawing.Point(113, 3);
             this.guna2VProgressBar11.Name = "guna2VProgressBar11";
             this.guna2VProgressBar11.ProgressColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(211)))), ((int)(((byte)(102)))));
             this.guna2VProgressBar11.ProgressColor2 = System.Drawing.Color.White;
@@ -490,7 +480,7 @@
             this.guna2VProgressBar12.BorderThickness = 1;
             this.guna2VProgressBar12.FillColor = System.Drawing.Color.White;
             this.guna2VProgressBar12.ForeColor = System.Drawing.Color.White;
-            this.guna2VProgressBar12.Location = new System.Drawing.Point(141, 3);
+            this.guna2VProgressBar12.Location = new System.Drawing.Point(139, 3);
             this.guna2VProgressBar12.Name = "guna2VProgressBar12";
             this.guna2VProgressBar12.ProgressColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(211)))), ((int)(((byte)(102)))));
             this.guna2VProgressBar12.ProgressColor2 = System.Drawing.Color.White;
@@ -547,7 +537,7 @@
             this.Panel3.Controls.Add(this.guna2PictureBox3);
             this.Panel3.Controls.Add(this.guna2HtmlLabel4);
             this.Panel3.Controls.Add(this.guna2HtmlLabel5);
-            this.Panel3.Location = new System.Drawing.Point(804, 3);
+            this.Panel3.Location = new System.Drawing.Point(801, 3);
             this.Panel3.MaximumSize = new System.Drawing.Size(256, 203);
             this.Panel3.MinimumSize = new System.Drawing.Size(154, 76);
             this.Panel3.Name = "Panel3";
@@ -565,7 +555,7 @@
             this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 30F));
             this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 27F));
             this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 26F));
-            this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 26F));
+            this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 27F));
             this.tableLayoutPanel4.Controls.Add(this.guna2VProgressBar13, 0, 0);
             this.tableLayoutPanel4.Controls.Add(this.guna2VProgressBar14, 1, 0);
             this.tableLayoutPanel4.Controls.Add(this.guna2VProgressBar15, 2, 0);
@@ -591,7 +581,7 @@
             this.guna2VProgressBar13.Name = "guna2VProgressBar13";
             this.guna2VProgressBar13.ProgressColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(211)))), ((int)(((byte)(102)))));
             this.guna2VProgressBar13.ProgressColor2 = System.Drawing.Color.White;
-            this.guna2VProgressBar13.Size = new System.Drawing.Size(21, 94);
+            this.guna2VProgressBar13.Size = new System.Drawing.Size(20, 94);
             this.guna2VProgressBar13.TabIndex = 0;
             this.guna2VProgressBar13.Text = "guna2VProgressBar1";
             this.guna2VProgressBar13.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault;
@@ -604,7 +594,7 @@
             this.guna2VProgressBar14.BorderThickness = 1;
             this.guna2VProgressBar14.FillColor = System.Drawing.Color.White;
             this.guna2VProgressBar14.ForeColor = System.Drawing.Color.White;
-            this.guna2VProgressBar14.Location = new System.Drawing.Point(30, 3);
+            this.guna2VProgressBar14.Location = new System.Drawing.Point(29, 3);
             this.guna2VProgressBar14.Name = "guna2VProgressBar14";
             this.guna2VProgressBar14.ProgressColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(211)))), ((int)(((byte)(102)))));
             this.guna2VProgressBar14.ProgressColor2 = System.Drawing.Color.White;
@@ -621,7 +611,7 @@
             this.guna2VProgressBar15.BorderThickness = 1;
             this.guna2VProgressBar15.FillColor = System.Drawing.Color.White;
             this.guna2VProgressBar15.ForeColor = System.Drawing.Color.White;
-            this.guna2VProgressBar15.Location = new System.Drawing.Point(56, 3);
+            this.guna2VProgressBar15.Location = new System.Drawing.Point(55, 3);
             this.guna2VProgressBar15.Name = "guna2VProgressBar15";
             this.guna2VProgressBar15.ProgressColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(211)))), ((int)(((byte)(102)))));
             this.guna2VProgressBar15.ProgressColor2 = System.Drawing.Color.White;
@@ -638,7 +628,7 @@
             this.guna2VProgressBar16.BorderThickness = 1;
             this.guna2VProgressBar16.FillColor = System.Drawing.Color.White;
             this.guna2VProgressBar16.ForeColor = System.Drawing.Color.White;
-            this.guna2VProgressBar16.Location = new System.Drawing.Point(86, 3);
+            this.guna2VProgressBar16.Location = new System.Drawing.Point(85, 3);
             this.guna2VProgressBar16.Name = "guna2VProgressBar16";
             this.guna2VProgressBar16.ProgressColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(211)))), ((int)(((byte)(102)))));
             this.guna2VProgressBar16.ProgressColor2 = System.Drawing.Color.White;
@@ -655,7 +645,7 @@
             this.guna2VProgressBar17.BorderThickness = 1;
             this.guna2VProgressBar17.FillColor = System.Drawing.Color.White;
             this.guna2VProgressBar17.ForeColor = System.Drawing.Color.White;
-            this.guna2VProgressBar17.Location = new System.Drawing.Point(113, 3);
+            this.guna2VProgressBar17.Location = new System.Drawing.Point(112, 3);
             this.guna2VProgressBar17.Name = "guna2VProgressBar17";
             this.guna2VProgressBar17.ProgressColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(211)))), ((int)(((byte)(102)))));
             this.guna2VProgressBar17.ProgressColor2 = System.Drawing.Color.White;
@@ -672,7 +662,7 @@
             this.guna2VProgressBar18.BorderThickness = 1;
             this.guna2VProgressBar18.FillColor = System.Drawing.Color.White;
             this.guna2VProgressBar18.ForeColor = System.Drawing.Color.White;
-            this.guna2VProgressBar18.Location = new System.Drawing.Point(139, 3);
+            this.guna2VProgressBar18.Location = new System.Drawing.Point(138, 3);
             this.guna2VProgressBar18.Name = "guna2VProgressBar18";
             this.guna2VProgressBar18.ProgressColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(211)))), ((int)(((byte)(102)))));
             this.guna2VProgressBar18.ProgressColor2 = System.Drawing.Color.White;
@@ -720,187 +710,219 @@
             this.guna2HtmlLabel5.TabIndex = 1;
             this.guna2HtmlLabel5.Text = "Alerts";
             // 
-            // Panel4
+            // Panel1
             // 
-            this.Panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(211)))), ((int)(((byte)(102)))));
-            this.Panel4.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(211)))), ((int)(((byte)(102)))));
-            this.Panel4.BorderThickness = 1;
-            this.Panel4.Controls.Add(this.tableLayoutPanel5);
-            this.Panel4.Controls.Add(this.guna2PictureBox4);
-            this.Panel4.Controls.Add(this.guna2HtmlLabel6);
-            this.Panel4.Controls.Add(this.guna2HtmlLabel7);
-            this.Panel4.Location = new System.Drawing.Point(534, 3);
-            this.Panel4.MaximumSize = new System.Drawing.Size(256, 203);
-            this.Panel4.MinimumSize = new System.Drawing.Size(154, 76);
-            this.Panel4.Name = "Panel4";
-            this.Panel4.Size = new System.Drawing.Size(256, 203);
-            this.Panel4.TabIndex = 5;
+            this.Panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(211)))), ((int)(((byte)(102)))));
+            this.Panel1.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(211)))), ((int)(((byte)(102)))));
+            this.Panel1.BorderThickness = 1;
+            this.Panel1.Controls.Add(this.tableLayoutPanel1);
+            this.Panel1.Controls.Add(this.guna2PictureBox2);
+            this.Panel1.Controls.Add(this.advisorCount);
+            this.Panel1.Controls.Add(this.guna2HtmlLabel8);
+            this.Panel1.Location = new System.Drawing.Point(3, 3);
+            this.Panel1.MaximumSize = new System.Drawing.Size(256, 203);
+            this.Panel1.MinimumSize = new System.Drawing.Size(154, 76);
+            this.Panel1.Name = "Panel1";
+            this.Panel1.Size = new System.Drawing.Size(256, 203);
+            this.Panel1.TabIndex = 5;
             // 
-            // tableLayoutPanel5
+            // tableLayoutPanel1
             // 
-            this.tableLayoutPanel5.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.tableLayoutPanel1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.tableLayoutPanel5.ColumnCount = 6;
-            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50.90909F));
-            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 49.09091F));
-            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 30F));
-            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 27F));
-            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 26F));
-            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 26F));
-            this.tableLayoutPanel5.Controls.Add(this.guna2VProgressBar19, 0, 0);
-            this.tableLayoutPanel5.Controls.Add(this.guna2VProgressBar20, 1, 0);
-            this.tableLayoutPanel5.Controls.Add(this.guna2VProgressBar21, 2, 0);
-            this.tableLayoutPanel5.Controls.Add(this.guna2VProgressBar22, 3, 0);
-            this.tableLayoutPanel5.Controls.Add(this.guna2VProgressBar23, 4, 0);
-            this.tableLayoutPanel5.Controls.Add(this.guna2VProgressBar24, 5, 0);
-            this.tableLayoutPanel5.Location = new System.Drawing.Point(12, 94);
-            this.tableLayoutPanel5.MaximumSize = new System.Drawing.Size(250, 100);
-            this.tableLayoutPanel5.Name = "tableLayoutPanel5";
-            this.tableLayoutPanel5.RowCount = 1;
-            this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel5.Size = new System.Drawing.Size(163, 100);
-            this.tableLayoutPanel5.TabIndex = 2;
+            this.tableLayoutPanel1.ColumnCount = 6;
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50.90909F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 49.09091F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 30F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 27F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 26F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 27F));
+            this.tableLayoutPanel1.Controls.Add(this.guna2VProgressBar1, 0, 0);
+            this.tableLayoutPanel1.Controls.Add(this.guna2VProgressBar2, 1, 0);
+            this.tableLayoutPanel1.Controls.Add(this.guna2VProgressBar3, 2, 0);
+            this.tableLayoutPanel1.Controls.Add(this.guna2VProgressBar4, 3, 0);
+            this.tableLayoutPanel1.Controls.Add(this.guna2VProgressBar5, 4, 0);
+            this.tableLayoutPanel1.Controls.Add(this.guna2VProgressBar6, 5, 0);
+            this.tableLayoutPanel1.Location = new System.Drawing.Point(12, 91);
+            this.tableLayoutPanel1.MaximumSize = new System.Drawing.Size(250, 100);
+            this.tableLayoutPanel1.Name = "tableLayoutPanel1";
+            this.tableLayoutPanel1.RowCount = 1;
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(163, 100);
+            this.tableLayoutPanel1.TabIndex = 2;
             // 
-            // guna2VProgressBar19
+            // guna2VProgressBar1
             // 
-            this.guna2VProgressBar19.BorderColor = System.Drawing.Color.White;
-            this.guna2VProgressBar19.BorderRadius = 6;
-            this.guna2VProgressBar19.BorderThickness = 1;
-            this.guna2VProgressBar19.FillColor = System.Drawing.Color.White;
-            this.guna2VProgressBar19.ForeColor = System.Drawing.Color.White;
-            this.guna2VProgressBar19.Location = new System.Drawing.Point(3, 3);
-            this.guna2VProgressBar19.Name = "guna2VProgressBar19";
-            this.guna2VProgressBar19.ProgressColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(211)))), ((int)(((byte)(102)))));
-            this.guna2VProgressBar19.ProgressColor2 = System.Drawing.Color.White;
-            this.guna2VProgressBar19.Size = new System.Drawing.Size(21, 94);
-            this.guna2VProgressBar19.TabIndex = 0;
-            this.guna2VProgressBar19.Text = "guna2VProgressBar1";
-            this.guna2VProgressBar19.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault;
-            this.guna2VProgressBar19.Value = 30;
+            this.guna2VProgressBar1.BorderColor = System.Drawing.Color.White;
+            this.guna2VProgressBar1.BorderRadius = 6;
+            this.guna2VProgressBar1.BorderThickness = 1;
+            this.guna2VProgressBar1.FillColor = System.Drawing.Color.White;
+            this.guna2VProgressBar1.ForeColor = System.Drawing.Color.White;
+            this.guna2VProgressBar1.Location = new System.Drawing.Point(3, 3);
+            this.guna2VProgressBar1.Name = "guna2VProgressBar1";
+            this.guna2VProgressBar1.ProgressColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(211)))), ((int)(((byte)(102)))));
+            this.guna2VProgressBar1.ProgressColor2 = System.Drawing.Color.White;
+            this.guna2VProgressBar1.Size = new System.Drawing.Size(20, 94);
+            this.guna2VProgressBar1.TabIndex = 0;
+            this.guna2VProgressBar1.Text = "guna2VProgressBar1";
+            this.guna2VProgressBar1.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault;
+            this.guna2VProgressBar1.Value = 30;
             // 
-            // guna2VProgressBar20
+            // guna2VProgressBar2
             // 
-            this.guna2VProgressBar20.BorderColor = System.Drawing.Color.White;
-            this.guna2VProgressBar20.BorderRadius = 6;
-            this.guna2VProgressBar20.BorderThickness = 1;
-            this.guna2VProgressBar20.FillColor = System.Drawing.Color.White;
-            this.guna2VProgressBar20.ForeColor = System.Drawing.Color.White;
-            this.guna2VProgressBar20.Location = new System.Drawing.Point(30, 3);
-            this.guna2VProgressBar20.Name = "guna2VProgressBar20";
-            this.guna2VProgressBar20.ProgressColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(211)))), ((int)(((byte)(102)))));
-            this.guna2VProgressBar20.ProgressColor2 = System.Drawing.Color.White;
-            this.guna2VProgressBar20.Size = new System.Drawing.Size(20, 94);
-            this.guna2VProgressBar20.TabIndex = 0;
-            this.guna2VProgressBar20.Text = "guna2VProgressBar1";
-            this.guna2VProgressBar20.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault;
-            this.guna2VProgressBar20.Value = 80;
+            this.guna2VProgressBar2.BorderColor = System.Drawing.Color.White;
+            this.guna2VProgressBar2.BorderRadius = 6;
+            this.guna2VProgressBar2.BorderThickness = 1;
+            this.guna2VProgressBar2.FillColor = System.Drawing.Color.White;
+            this.guna2VProgressBar2.ForeColor = System.Drawing.Color.White;
+            this.guna2VProgressBar2.Location = new System.Drawing.Point(29, 3);
+            this.guna2VProgressBar2.Name = "guna2VProgressBar2";
+            this.guna2VProgressBar2.ProgressColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(211)))), ((int)(((byte)(102)))));
+            this.guna2VProgressBar2.ProgressColor2 = System.Drawing.Color.White;
+            this.guna2VProgressBar2.Size = new System.Drawing.Size(20, 94);
+            this.guna2VProgressBar2.TabIndex = 0;
+            this.guna2VProgressBar2.Text = "guna2VProgressBar1";
+            this.guna2VProgressBar2.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault;
+            this.guna2VProgressBar2.Value = 80;
             // 
-            // guna2VProgressBar21
+            // guna2VProgressBar3
             // 
-            this.guna2VProgressBar21.BorderColor = System.Drawing.Color.White;
-            this.guna2VProgressBar21.BorderRadius = 6;
-            this.guna2VProgressBar21.BorderThickness = 1;
-            this.guna2VProgressBar21.FillColor = System.Drawing.Color.White;
-            this.guna2VProgressBar21.ForeColor = System.Drawing.Color.White;
-            this.guna2VProgressBar21.Location = new System.Drawing.Point(56, 3);
-            this.guna2VProgressBar21.Name = "guna2VProgressBar21";
-            this.guna2VProgressBar21.ProgressColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(211)))), ((int)(((byte)(102)))));
-            this.guna2VProgressBar21.ProgressColor2 = System.Drawing.Color.White;
-            this.guna2VProgressBar21.Size = new System.Drawing.Size(21, 94);
-            this.guna2VProgressBar21.TabIndex = 0;
-            this.guna2VProgressBar21.Text = "guna2VProgressBar1";
-            this.guna2VProgressBar21.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault;
-            this.guna2VProgressBar21.Value = 70;
+            this.guna2VProgressBar3.BorderColor = System.Drawing.Color.White;
+            this.guna2VProgressBar3.BorderRadius = 6;
+            this.guna2VProgressBar3.BorderThickness = 1;
+            this.guna2VProgressBar3.FillColor = System.Drawing.Color.White;
+            this.guna2VProgressBar3.ForeColor = System.Drawing.Color.White;
+            this.guna2VProgressBar3.Location = new System.Drawing.Point(55, 3);
+            this.guna2VProgressBar3.Name = "guna2VProgressBar3";
+            this.guna2VProgressBar3.ProgressColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(211)))), ((int)(((byte)(102)))));
+            this.guna2VProgressBar3.ProgressColor2 = System.Drawing.Color.White;
+            this.guna2VProgressBar3.Size = new System.Drawing.Size(21, 94);
+            this.guna2VProgressBar3.TabIndex = 0;
+            this.guna2VProgressBar3.Text = "guna2VProgressBar1";
+            this.guna2VProgressBar3.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault;
+            this.guna2VProgressBar3.Value = 70;
             // 
-            // guna2VProgressBar22
+            // guna2VProgressBar4
             // 
-            this.guna2VProgressBar22.BorderColor = System.Drawing.Color.White;
-            this.guna2VProgressBar22.BorderRadius = 6;
-            this.guna2VProgressBar22.BorderThickness = 1;
-            this.guna2VProgressBar22.FillColor = System.Drawing.Color.White;
-            this.guna2VProgressBar22.ForeColor = System.Drawing.Color.White;
-            this.guna2VProgressBar22.Location = new System.Drawing.Point(86, 3);
-            this.guna2VProgressBar22.Name = "guna2VProgressBar22";
-            this.guna2VProgressBar22.ProgressColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(211)))), ((int)(((byte)(102)))));
-            this.guna2VProgressBar22.ProgressColor2 = System.Drawing.Color.White;
-            this.guna2VProgressBar22.Size = new System.Drawing.Size(21, 94);
-            this.guna2VProgressBar22.TabIndex = 0;
-            this.guna2VProgressBar22.Text = "guna2VProgressBar1";
-            this.guna2VProgressBar22.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault;
-            this.guna2VProgressBar22.Value = 60;
+            this.guna2VProgressBar4.BorderColor = System.Drawing.Color.White;
+            this.guna2VProgressBar4.BorderRadius = 6;
+            this.guna2VProgressBar4.BorderThickness = 1;
+            this.guna2VProgressBar4.FillColor = System.Drawing.Color.White;
+            this.guna2VProgressBar4.ForeColor = System.Drawing.Color.White;
+            this.guna2VProgressBar4.Location = new System.Drawing.Point(85, 3);
+            this.guna2VProgressBar4.Name = "guna2VProgressBar4";
+            this.guna2VProgressBar4.ProgressColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(211)))), ((int)(((byte)(102)))));
+            this.guna2VProgressBar4.ProgressColor2 = System.Drawing.Color.White;
+            this.guna2VProgressBar4.Size = new System.Drawing.Size(21, 94);
+            this.guna2VProgressBar4.TabIndex = 0;
+            this.guna2VProgressBar4.Text = "guna2VProgressBar1";
+            this.guna2VProgressBar4.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault;
+            this.guna2VProgressBar4.Value = 60;
             // 
-            // guna2VProgressBar23
+            // guna2VProgressBar5
             // 
-            this.guna2VProgressBar23.BorderColor = System.Drawing.Color.White;
-            this.guna2VProgressBar23.BorderRadius = 6;
-            this.guna2VProgressBar23.BorderThickness = 1;
-            this.guna2VProgressBar23.FillColor = System.Drawing.Color.White;
-            this.guna2VProgressBar23.ForeColor = System.Drawing.Color.White;
-            this.guna2VProgressBar23.Location = new System.Drawing.Point(113, 3);
-            this.guna2VProgressBar23.Name = "guna2VProgressBar23";
-            this.guna2VProgressBar23.ProgressColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(211)))), ((int)(((byte)(102)))));
-            this.guna2VProgressBar23.ProgressColor2 = System.Drawing.Color.White;
-            this.guna2VProgressBar23.Size = new System.Drawing.Size(20, 94);
-            this.guna2VProgressBar23.TabIndex = 0;
-            this.guna2VProgressBar23.Text = "guna2VProgressBar1";
-            this.guna2VProgressBar23.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault;
-            this.guna2VProgressBar23.Value = 100;
+            this.guna2VProgressBar5.BorderColor = System.Drawing.Color.White;
+            this.guna2VProgressBar5.BorderRadius = 6;
+            this.guna2VProgressBar5.BorderThickness = 1;
+            this.guna2VProgressBar5.FillColor = System.Drawing.Color.White;
+            this.guna2VProgressBar5.ForeColor = System.Drawing.Color.White;
+            this.guna2VProgressBar5.Location = new System.Drawing.Point(112, 3);
+            this.guna2VProgressBar5.Name = "guna2VProgressBar5";
+            this.guna2VProgressBar5.ProgressColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(211)))), ((int)(((byte)(102)))));
+            this.guna2VProgressBar5.ProgressColor2 = System.Drawing.Color.White;
+            this.guna2VProgressBar5.Size = new System.Drawing.Size(20, 94);
+            this.guna2VProgressBar5.TabIndex = 0;
+            this.guna2VProgressBar5.Text = "guna2VProgressBar1";
+            this.guna2VProgressBar5.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault;
+            this.guna2VProgressBar5.Value = 100;
             // 
-            // guna2VProgressBar24
+            // guna2VProgressBar6
             // 
-            this.guna2VProgressBar24.BorderColor = System.Drawing.Color.White;
-            this.guna2VProgressBar24.BorderRadius = 6;
-            this.guna2VProgressBar24.BorderThickness = 1;
-            this.guna2VProgressBar24.FillColor = System.Drawing.Color.White;
-            this.guna2VProgressBar24.ForeColor = System.Drawing.Color.White;
-            this.guna2VProgressBar24.Location = new System.Drawing.Point(139, 3);
-            this.guna2VProgressBar24.Name = "guna2VProgressBar24";
-            this.guna2VProgressBar24.ProgressColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(211)))), ((int)(((byte)(102)))));
-            this.guna2VProgressBar24.ProgressColor2 = System.Drawing.Color.White;
-            this.guna2VProgressBar24.Size = new System.Drawing.Size(20, 94);
-            this.guna2VProgressBar24.TabIndex = 0;
-            this.guna2VProgressBar24.Text = "guna2VProgressBar1";
-            this.guna2VProgressBar24.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault;
-            this.guna2VProgressBar24.Value = 50;
+            this.guna2VProgressBar6.BorderColor = System.Drawing.Color.White;
+            this.guna2VProgressBar6.BorderRadius = 6;
+            this.guna2VProgressBar6.BorderThickness = 1;
+            this.guna2VProgressBar6.FillColor = System.Drawing.Color.White;
+            this.guna2VProgressBar6.ForeColor = System.Drawing.Color.White;
+            this.guna2VProgressBar6.Location = new System.Drawing.Point(138, 3);
+            this.guna2VProgressBar6.Name = "guna2VProgressBar6";
+            this.guna2VProgressBar6.ProgressColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(211)))), ((int)(((byte)(102)))));
+            this.guna2VProgressBar6.ProgressColor2 = System.Drawing.Color.White;
+            this.guna2VProgressBar6.Size = new System.Drawing.Size(20, 94);
+            this.guna2VProgressBar6.TabIndex = 0;
+            this.guna2VProgressBar6.Text = "guna2VProgressBar1";
+            this.guna2VProgressBar6.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault;
+            this.guna2VProgressBar6.Value = 50;
             // 
-            // guna2PictureBox4
+            // guna2PictureBox2
             // 
-            this.guna2PictureBox4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.guna2PictureBox4.BackColor = System.Drawing.Color.Transparent;
-            this.guna2PictureBox4.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.guna2PictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("guna2PictureBox4.Image")));
-            this.guna2PictureBox4.ImageRotate = 0F;
-            this.guna2PictureBox4.Location = new System.Drawing.Point(223, 6);
-            this.guna2PictureBox4.MaximumSize = new System.Drawing.Size(65, 57);
-            this.guna2PictureBox4.Name = "guna2PictureBox4";
-            this.guna2PictureBox4.Size = new System.Drawing.Size(27, 31);
-            this.guna2PictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.guna2PictureBox4.TabIndex = 0;
-            this.guna2PictureBox4.TabStop = false;
-            this.guna2PictureBox4.UseTransparentBackground = true;
+            this.guna2PictureBox2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.guna2PictureBox2.BackColor = System.Drawing.Color.Transparent;
+            this.guna2PictureBox2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.guna2PictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("guna2PictureBox2.Image")));
+            this.guna2PictureBox2.ImageRotate = 0F;
+            this.guna2PictureBox2.Location = new System.Drawing.Point(223, 6);
+            this.guna2PictureBox2.MaximumSize = new System.Drawing.Size(65, 57);
+            this.guna2PictureBox2.Name = "guna2PictureBox2";
+            this.guna2PictureBox2.Size = new System.Drawing.Size(27, 31);
+            this.guna2PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.guna2PictureBox2.TabIndex = 0;
+            this.guna2PictureBox2.TabStop = false;
+            this.guna2PictureBox2.UseTransparentBackground = true;
             // 
-            // guna2HtmlLabel6
+            // advisorCount
             // 
-            this.guna2HtmlLabel6.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel6.Font = new System.Drawing.Font("Comic Sans MS", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel6.ForeColor = System.Drawing.Color.White;
-            this.guna2HtmlLabel6.Location = new System.Drawing.Point(12, 40);
-            this.guna2HtmlLabel6.Name = "guna2HtmlLabel6";
-            this.guna2HtmlLabel6.Size = new System.Drawing.Size(42, 33);
-            this.guna2HtmlLabel6.TabIndex = 1;
-            this.guna2HtmlLabel6.Text = "130";
+            this.advisorCount.BackColor = System.Drawing.Color.Transparent;
+            this.advisorCount.Font = new System.Drawing.Font("Comic Sans MS", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.advisorCount.ForeColor = System.Drawing.Color.White;
+            this.advisorCount.Location = new System.Drawing.Point(12, 40);
+            this.advisorCount.Name = "advisorCount";
+            this.advisorCount.Size = new System.Drawing.Size(70, 33);
+            this.advisorCount.TabIndex = 1;
+            this.advisorCount.Text = "$2000";
             // 
-            // guna2HtmlLabel7
+            // guna2HtmlLabel8
             // 
-            this.guna2HtmlLabel7.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel7.Font = new System.Drawing.Font("Comic Sans MS", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel7.ForeColor = System.Drawing.Color.White;
-            this.guna2HtmlLabel7.Location = new System.Drawing.Point(12, 3);
-            this.guna2HtmlLabel7.Name = "guna2HtmlLabel7";
-            this.guna2HtmlLabel7.Size = new System.Drawing.Size(104, 33);
-            this.guna2HtmlLabel7.TabIndex = 1;
-            this.guna2HtmlLabel7.Text = "My Crops";
+            this.guna2HtmlLabel8.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel8.Font = new System.Drawing.Font("Comic Sans MS", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel8.ForeColor = System.Drawing.Color.White;
+            this.guna2HtmlLabel8.Location = new System.Drawing.Point(12, 3);
+            this.guna2HtmlLabel8.Name = "guna2HtmlLabel8";
+            this.guna2HtmlLabel8.Size = new System.Drawing.Size(113, 33);
+            this.guna2HtmlLabel8.TabIndex = 1;
+            this.guna2HtmlLabel8.Text = "My Wallet";
+            // 
+            // guna2HtmlLabel2
+            // 
+            this.guna2HtmlLabel2.AutoSize = false;
+            this.guna2HtmlLabel2.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel2.Font = new System.Drawing.Font("Berlin Sans FB Demi", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            this.guna2HtmlLabel2.Location = new System.Drawing.Point(91, 376);
+            this.guna2HtmlLabel2.Name = "guna2HtmlLabel2";
+            this.guna2HtmlLabel2.Size = new System.Drawing.Size(171, 42);
+            this.guna2HtmlLabel2.TabIndex = 1;
+            this.guna2HtmlLabel2.Text = "Crops Details";
+            // 
+            // guna2Elipse1
+            // 
+            this.guna2Elipse1.BorderRadius = 20;
+            this.guna2Elipse1.TargetControl = this.Panel1;
+            // 
+            // guna2Elipse2
+            // 
+            this.guna2Elipse2.BorderRadius = 20;
+            this.guna2Elipse2.TargetControl = this.Panel2;
+            // 
+            // guna2Elipse3
+            // 
+            this.guna2Elipse3.BorderRadius = 20;
+            this.guna2Elipse3.TargetControl = this.Panel3;
+            // 
+            // guna2Elipse4
+            // 
+            this.guna2Elipse4.BorderRadius = 20;
+            this.guna2Elipse4.TargetControl = this.Panel4;
             // 
             // tableLayoutPanel6
             // 
@@ -911,11 +933,11 @@
             this.tableLayoutPanel6.Controls.Add(this.panel5, 0, 0);
             this.tableLayoutPanel6.Location = new System.Drawing.Point(91, 3);
             this.tableLayoutPanel6.MaximumSize = new System.Drawing.Size(120, 209);
-            this.tableLayoutPanel6.MinimumSize = new System.Drawing.Size(44, 119);
+            this.tableLayoutPanel6.MinimumSize = new System.Drawing.Size(44, 76);
             this.tableLayoutPanel6.Name = "tableLayoutPanel6";
             this.tableLayoutPanel6.RowCount = 1;
             this.tableLayoutPanel6.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel6.Size = new System.Drawing.Size(120, 209);
+            this.tableLayoutPanel6.Size = new System.Drawing.Size(120, 206);
             this.tableLayoutPanel6.TabIndex = 7;
             // 
             // panel5
@@ -925,24 +947,13 @@
             this.panel5.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel5.Location = new System.Drawing.Point(3, 3);
             this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(114, 203);
+            this.panel5.Size = new System.Drawing.Size(114, 200);
             this.panel5.TabIndex = 3;
             // 
             // guna2Elipse5
             // 
             this.guna2Elipse5.BorderRadius = 20;
             this.guna2Elipse5.TargetControl = this.panel5;
-            // 
-            // panel6
-            // 
-            this.panel6.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.panel6.BorderRadius = 30;
-            this.panel6.Location = new System.Drawing.Point(1087, 3);
-            this.panel6.MaximumSize = new System.Drawing.Size(120, 209);
-            this.panel6.MinimumSize = new System.Drawing.Size(44, 119);
-            this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(120, 203);
-            this.panel6.TabIndex = 3;
             // 
             // guna2Elipse6
             // 
@@ -972,20 +983,20 @@
             // PnlWallet
             // 
             this.PnlWallet.AllowUserToResizeRows = false;
-            dataGridViewCellStyle13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(229)))), ((int)(((byte)(221)))));
-            dataGridViewCellStyle13.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle13.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(72)))), ((int)(((byte)(72)))), ((int)(((byte)(72)))));
-            dataGridViewCellStyle13.SelectionBackColor = System.Drawing.Color.Gray;
-            dataGridViewCellStyle13.SelectionForeColor = System.Drawing.Color.White;
-            this.PnlWallet.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle13;
-            dataGridViewCellStyle14.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(211)))), ((int)(((byte)(102)))));
-            dataGridViewCellStyle14.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle14.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle14.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(211)))), ((int)(((byte)(102)))));
-            dataGridViewCellStyle14.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle14.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.PnlWallet.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle14;
+            dataGridViewCellStyle5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(229)))), ((int)(((byte)(221)))));
+            dataGridViewCellStyle5.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(72)))), ((int)(((byte)(72)))), ((int)(((byte)(72)))));
+            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.Color.Gray;
+            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.Color.White;
+            this.PnlWallet.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle5;
+            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(211)))), ((int)(((byte)(102)))));
+            dataGridViewCellStyle6.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle6.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(211)))), ((int)(((byte)(102)))));
+            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.PnlWallet.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle6;
             this.PnlWallet.ColumnHeadersHeight = 37;
             this.PnlWallet.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
             this.PnlWallet.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
@@ -996,27 +1007,27 @@
             this.Email,
             this.DOB,
             this.Gender});
-            dataGridViewCellStyle15.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(229)))), ((int)(((byte)(221)))));
-            dataGridViewCellStyle15.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle15.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(72)))), ((int)(((byte)(72)))), ((int)(((byte)(72)))));
-            dataGridViewCellStyle15.SelectionBackColor = System.Drawing.Color.Gray;
-            dataGridViewCellStyle15.SelectionForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle15.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.PnlWallet.DefaultCellStyle = dataGridViewCellStyle15;
+            dataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(229)))), ((int)(((byte)(221)))));
+            dataGridViewCellStyle7.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(72)))), ((int)(((byte)(72)))), ((int)(((byte)(72)))));
+            dataGridViewCellStyle7.SelectionBackColor = System.Drawing.Color.Gray;
+            dataGridViewCellStyle7.SelectionForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle7.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.PnlWallet.DefaultCellStyle = dataGridViewCellStyle7;
             this.PnlWallet.Dock = System.Windows.Forms.DockStyle.Fill;
             this.PnlWallet.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
             this.PnlWallet.Location = new System.Drawing.Point(0, 0);
             this.PnlWallet.Name = "PnlWallet";
             this.PnlWallet.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle16.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle16.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(229)))), ((int)(((byte)(221)))));
-            dataGridViewCellStyle16.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle16.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle16.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(229)))), ((int)(((byte)(221)))));
-            dataGridViewCellStyle16.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle16.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.PnlWallet.RowHeadersDefaultCellStyle = dataGridViewCellStyle16;
+            dataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(229)))), ((int)(((byte)(221)))));
+            dataGridViewCellStyle8.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle8.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle8.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(229)))), ((int)(((byte)(221)))));
+            dataGridViewCellStyle8.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle8.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.PnlWallet.RowHeadersDefaultCellStyle = dataGridViewCellStyle8;
             this.PnlWallet.RowHeadersVisible = false;
             this.PnlWallet.RowHeadersWidth = 62;
             this.PnlWallet.RowTemplate.Height = 28;
@@ -1094,17 +1105,6 @@
             this.elipsePanel.BorderRadius = 10;
             this.elipsePanel.TargetControl = this.PnlWallet;
             // 
-            // guna2HtmlLabel8
-            // 
-            this.guna2HtmlLabel8.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel8.Font = new System.Drawing.Font("Comic Sans MS", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel8.ForeColor = System.Drawing.Color.White;
-            this.guna2HtmlLabel8.Location = new System.Drawing.Point(12, 3);
-            this.guna2HtmlLabel8.Name = "guna2HtmlLabel8";
-            this.guna2HtmlLabel8.Size = new System.Drawing.Size(113, 33);
-            this.guna2HtmlLabel8.TabIndex = 1;
-            this.guna2HtmlLabel8.Text = "My Wallet";
-            // 
             // DashBoard
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
@@ -1118,10 +1118,10 @@
             this.Name = "DashBoard";
             this.Size = new System.Drawing.Size(1579, 1000);
             this.tableLayoutPanel2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox2)).EndInit();
-            this.Panel1.ResumeLayout(false);
-            this.Panel1.PerformLayout();
-            this.tableLayoutPanel1.ResumeLayout(false);
+            this.Panel4.ResumeLayout(false);
+            this.Panel4.PerformLayout();
+            this.tableLayoutPanel5.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox4)).EndInit();
             this.Panel2.ResumeLayout(false);
             this.Panel2.PerformLayout();
             this.tableLayoutPanel3.ResumeLayout(false);
@@ -1130,10 +1130,10 @@
             this.Panel3.PerformLayout();
             this.tableLayoutPanel4.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox3)).EndInit();
-            this.Panel4.ResumeLayout(false);
-            this.Panel4.PerformLayout();
-            this.tableLayoutPanel5.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox4)).EndInit();
+            this.Panel1.ResumeLayout(false);
+            this.Panel1.PerformLayout();
+            this.tableLayoutPanel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox2)).EndInit();
             this.tableLayoutPanel6.ResumeLayout(false);
             this.gridPanel.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.PnlWallet)).EndInit();

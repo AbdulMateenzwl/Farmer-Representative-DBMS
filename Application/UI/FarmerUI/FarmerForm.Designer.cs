@@ -1,6 +1,6 @@
 ﻿namespace Farmer_Representive_Final_Project_DB_
 {
-    partial class userControlFarmerPanel
+    partial class FarmerForm
     {
         /// <summary>
         /// Required designer variable.
@@ -29,8 +29,9 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(userControlFarmerPanel));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FarmerForm));
             this.panelMainMenu = new Guna.UI2.WinForms.Guna2GradientPanel();
+            this.btnSettings = new Guna.UI2.WinForms.Guna2Button();
             this.btnWallet = new Guna.UI2.WinForms.Guna2Button();
             this.btnManageCrops = new Guna.UI2.WinForms.Guna2Button();
             this.panelManagePpl = new Guna.UI2.WinForms.Guna2Panel();
@@ -44,17 +45,16 @@
             this.guna2HtmlLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.elipseMenuPanel = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.guna2DragControl1 = new Guna.UI2.WinForms.Guna2DragControl(this.components);
-            this.guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.ResizeFarmerForm = new Guna.UI2.WinForms.Guna2ResizeForm(this.components);
             this.closeBtnFarmer = new Guna.UI2.WinForms.Guna2ImageButton();
             this.maxBtnFarmer = new Guna.UI2.WinForms.Guna2ImageButton();
             this.minBtnFarmer = new Guna.UI2.WinForms.Guna2ImageButton();
-            this.btnSettings = new Guna.UI2.WinForms.Guna2Button();
-            this.fieldCrud1 = new Farmer_Representive_Final_Project_DB_.UI.FarmerUI.FieldCrud();
-            this.cropsCrud1 = new Farmer_Representive_Final_Project_DB_.UI.FarmerUI.CropsCrud();
-            this.walletPnl1 = new Farmer_Representive_Final_Project_DB_.UI.FarmerUI.walletPnl();
             this.maxBtnFamer = new Guna.UI2.WinForms.Guna2Panel();
             this.dashBoard1 = new Farmer_Representive_Final_Project_DB_.UI.FarmerUI.DashBoard();
+            this.walletPnl1 = new Farmer_Representive_Final_Project_DB_.UI.FarmerUI.walletPnl();
+            this.cropsCrud1 = new Farmer_Representive_Final_Project_DB_.UI.FarmerUI.CropsCrud();
+            this.fieldCrud1 = new Farmer_Representive_Final_Project_DB_.UI.FarmerUI.FieldCrud();
+            this.guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.changeAccount1 = new Farmer_Representive_Final_Project_DB_.UI.FarmerUI.changeAccount();
             this.panelMainMenu.SuspendLayout();
             this.panelManagePpl.SuspendLayout();
@@ -86,6 +86,42 @@
             this.panelMainMenu.Size = new System.Drawing.Size(302, 892);
             this.panelMainMenu.TabIndex = 1;
             this.panelMainMenu.Paint += new System.Windows.Forms.PaintEventHandler(this.panelMainMenu_Paint);
+            // 
+            // btnSettings
+            // 
+            this.btnSettings.AccessibleName = "";
+            this.btnSettings.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnSettings.Animated = true;
+            this.btnSettings.AnimatedGIF = true;
+            this.btnSettings.BorderColor = System.Drawing.Color.White;
+            this.btnSettings.BorderRadius = 5;
+            this.btnSettings.CheckedState.BorderColor = System.Drawing.Color.White;
+            this.btnSettings.CheckedState.CustomBorderColor = System.Drawing.Color.White;
+            this.btnSettings.CheckedState.ForeColor = System.Drawing.Color.Navy;
+            this.btnSettings.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnSettings.DisabledState.BorderColor = System.Drawing.Color.Navy;
+            this.btnSettings.DisabledState.CustomBorderColor = System.Drawing.Color.Navy;
+            this.btnSettings.DisabledState.FillColor = System.Drawing.Color.Navy;
+            this.btnSettings.DisabledState.ForeColor = System.Drawing.Color.White;
+            this.btnSettings.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(211)))), ((int)(((byte)(102)))));
+            this.btnSettings.Font = new System.Drawing.Font("Comic Sans MS", 10F, System.Drawing.FontStyle.Bold);
+            this.btnSettings.ForeColor = System.Drawing.Color.White;
+            this.btnSettings.HoverState.BorderColor = System.Drawing.Color.White;
+            this.btnSettings.HoverState.CustomBorderColor = System.Drawing.Color.White;
+            this.btnSettings.HoverState.FillColor = System.Drawing.Color.White;
+            this.btnSettings.HoverState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(211)))), ((int)(((byte)(102)))));
+            this.btnSettings.HoverState.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image")));
+            this.btnSettings.Image = ((System.Drawing.Image)(resources.GetObject("btnSettings.Image")));
+            this.btnSettings.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btnSettings.ImageSize = new System.Drawing.Size(25, 25);
+            this.btnSettings.Location = new System.Drawing.Point(21, 835);
+            this.btnSettings.Name = "btnSettings";
+            this.btnSettings.Size = new System.Drawing.Size(292, 45);
+            this.btnSettings.TabIndex = 6;
+            this.btnSettings.Text = " Setting";
+            this.btnSettings.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btnSettings.Click += new System.EventHandler(this.btnSetting_Click);
             // 
             // btnWallet
             // 
@@ -369,11 +405,6 @@
             this.guna2DragControl1.TargetControl = this;
             this.guna2DragControl1.UseTransparentDrag = true;
             // 
-            // guna2Elipse1
-            // 
-            this.guna2Elipse1.BorderRadius = 15;
-            this.guna2Elipse1.TargetControl = this;
-            // 
             // ResizeFarmerForm
             // 
             this.ResizeFarmerForm.TargetForm = this;
@@ -423,69 +454,6 @@
             this.minBtnFarmer.TabIndex = 3;
             this.minBtnFarmer.Click += new System.EventHandler(this.minBtnFarmer_Click);
             // 
-            // btnSettings
-            // 
-            this.btnSettings.AccessibleName = "";
-            this.btnSettings.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnSettings.Animated = true;
-            this.btnSettings.AnimatedGIF = true;
-            this.btnSettings.BorderColor = System.Drawing.Color.White;
-            this.btnSettings.BorderRadius = 5;
-            this.btnSettings.CheckedState.BorderColor = System.Drawing.Color.White;
-            this.btnSettings.CheckedState.CustomBorderColor = System.Drawing.Color.White;
-            this.btnSettings.CheckedState.ForeColor = System.Drawing.Color.Navy;
-            this.btnSettings.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnSettings.DisabledState.BorderColor = System.Drawing.Color.Navy;
-            this.btnSettings.DisabledState.CustomBorderColor = System.Drawing.Color.Navy;
-            this.btnSettings.DisabledState.FillColor = System.Drawing.Color.Navy;
-            this.btnSettings.DisabledState.ForeColor = System.Drawing.Color.White;
-            this.btnSettings.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(211)))), ((int)(((byte)(102)))));
-            this.btnSettings.Font = new System.Drawing.Font("Comic Sans MS", 10F, System.Drawing.FontStyle.Bold);
-            this.btnSettings.ForeColor = System.Drawing.Color.White;
-            this.btnSettings.HoverState.BorderColor = System.Drawing.Color.White;
-            this.btnSettings.HoverState.CustomBorderColor = System.Drawing.Color.White;
-            this.btnSettings.HoverState.FillColor = System.Drawing.Color.White;
-            this.btnSettings.HoverState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(211)))), ((int)(((byte)(102)))));
-            this.btnSettings.HoverState.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image")));
-            this.btnSettings.Image = ((System.Drawing.Image)(resources.GetObject("btnSettings.Image")));
-            this.btnSettings.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.btnSettings.ImageSize = new System.Drawing.Size(25, 25);
-            this.btnSettings.Location = new System.Drawing.Point(21, 835);
-            this.btnSettings.Name = "btnSettings";
-            this.btnSettings.Size = new System.Drawing.Size(292, 45);
-            this.btnSettings.TabIndex = 6;
-            this.btnSettings.Text = " Setting";
-            this.btnSettings.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.btnSettings.Click += new System.EventHandler(this.btnSetting_Click);
-            // 
-            // fieldCrud1
-            // 
-            this.fieldCrud1.BackColor = System.Drawing.Color.White;
-            this.fieldCrud1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.fieldCrud1.Location = new System.Drawing.Point(0, 0);
-            this.fieldCrud1.Name = "fieldCrud1";
-            this.fieldCrud1.Size = new System.Drawing.Size(1544, 832);
-            this.fieldCrud1.TabIndex = 0;
-            // 
-            // cropsCrud1
-            // 
-            this.cropsCrud1.BackColor = System.Drawing.Color.White;
-            this.cropsCrud1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.cropsCrud1.Location = new System.Drawing.Point(0, 0);
-            this.cropsCrud1.Name = "cropsCrud1";
-            this.cropsCrud1.Size = new System.Drawing.Size(1544, 832);
-            this.cropsCrud1.TabIndex = 1;
-            // 
-            // walletPnl1
-            // 
-            this.walletPnl1.BackColor = System.Drawing.Color.White;
-            this.walletPnl1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.walletPnl1.Location = new System.Drawing.Point(0, 0);
-            this.walletPnl1.Name = "walletPnl1";
-            this.walletPnl1.Size = new System.Drawing.Size(1544, 832);
-            this.walletPnl1.TabIndex = 2;
-            // 
             // maxBtnFamer
             // 
             this.maxBtnFamer.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
@@ -513,6 +481,38 @@
             this.dashBoard1.Size = new System.Drawing.Size(1544, 832);
             this.dashBoard1.TabIndex = 3;
             // 
+            // walletPnl1
+            // 
+            this.walletPnl1.BackColor = System.Drawing.Color.White;
+            this.walletPnl1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.walletPnl1.Location = new System.Drawing.Point(0, 0);
+            this.walletPnl1.Name = "walletPnl1";
+            this.walletPnl1.Size = new System.Drawing.Size(1544, 832);
+            this.walletPnl1.TabIndex = 2;
+            // 
+            // cropsCrud1
+            // 
+            this.cropsCrud1.BackColor = System.Drawing.Color.White;
+            this.cropsCrud1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.cropsCrud1.Location = new System.Drawing.Point(0, 0);
+            this.cropsCrud1.Name = "cropsCrud1";
+            this.cropsCrud1.Size = new System.Drawing.Size(1544, 832);
+            this.cropsCrud1.TabIndex = 1;
+            // 
+            // fieldCrud1
+            // 
+            this.fieldCrud1.BackColor = System.Drawing.Color.White;
+            this.fieldCrud1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.fieldCrud1.Location = new System.Drawing.Point(0, 0);
+            this.fieldCrud1.Name = "fieldCrud1";
+            this.fieldCrud1.Size = new System.Drawing.Size(1544, 832);
+            this.fieldCrud1.TabIndex = 0;
+            // 
+            // guna2Elipse1
+            // 
+            this.guna2Elipse1.BorderRadius = 15;
+            this.guna2Elipse1.TargetControl = this;
+            // 
             // changeAccount1
             // 
             this.changeAccount1.BackColor = System.Drawing.Color.White;
@@ -522,7 +522,7 @@
             this.changeAccount1.Size = new System.Drawing.Size(1544, 832);
             this.changeAccount1.TabIndex = 4;
             // 
-            // userControlFarmerPanel
+            // FarmerForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -535,7 +535,7 @@
             this.Controls.Add(this.panelMainMenu);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.MinimumSize = new System.Drawing.Size(1280, 850);
-            this.Name = "userControlFarmerPanel";
+            this.Name = "FarmerForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FarmerForm";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
@@ -562,7 +562,6 @@
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel1;
         private Guna.UI2.WinForms.Guna2Elipse elipseMenuPanel;
         private Guna.UI2.WinForms.Guna2DragControl guna2DragControl1;
-        private Guna.UI2.WinForms.Guna2Elipse guna2Elipse1;
         private Guna.UI2.WinForms.Guna2ResizeForm ResizeFarmerForm;
         private Guna.UI2.WinForms.Guna2ImageButton minBtnFarmer;
         private Guna.UI2.WinForms.Guna2ImageButton maxBtnFarmer;
@@ -574,6 +573,7 @@
         private UI.FarmerUI.CropsCrud cropsCrud1;
         private UI.FarmerUI.FieldCrud fieldCrud1;
         private UI.FarmerUI.DashBoard dashBoard1;
+        private Guna.UI2.WinForms.Guna2Elipse guna2Elipse1;
         private UI.FarmerUI.changeAccount changeAccount1;
     }
 }

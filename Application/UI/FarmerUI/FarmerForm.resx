@@ -121,7 +121,7 @@
   <data name="resource.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
-        EQAACxEBf2RfkQAAAiBJREFUSEvdVc1KG1EUnk1BqLiy6y4yMykFU0Fqu2xc6DNUCkWaexMFX8SSkrSb
+        DAAACwwBP0AiyAAAAiBJREFUSEvdVc1KG1EUnk1BqLiy6y4yMykFU0Fqu2xc6DNUCkWaexMFX8SSkrSb
         SjDPoT6ClGLmTqGUFjcmiH0AxVb0fGfOnZnMJDHBdqEfHLj3nO989+fMPePcbzw+ejslQ8f9uvbIM/oK
         hrG4+zgTwe3oVTfQPbIa5gVTfWUXwJg5FGMOcTGfCJ5Rbd6t0Rck0vIC/dMugDF8iEU+1Za08eGHlaVY
         8AYDV9JGwwurrylhp2B0mXa5ywKBOqdxw/umX1hBt1N5Sbtvcow5eo9zKBcaItcPFIuO3bUiLGTUcbGj
@@ -136,7 +136,7 @@
   <data name="btnSettings.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
-        EQAACxEBf2RfkQAAAbdJREFUSEvdlU1OAkEQhWdDQqJxBWfQjejGnyWy0DPACeAqEg3qRkPkHOoRPIPu
+        DAAACwwBP0AiyAAAAbdJREFUSEvdlU1OAkEQhWdDQqJxBWfQjejGnyWy0DPACeAqEg3qRkPkHOoRPIPu
         1Bg9gMafjO/rrnZ6GDBDDAv9khe66lXNwPR0kfxv0jSt2pJ1XQrULZ2rmQk1dqQHqWtxUwo0LdeVqOkQ
         z4SaRhK8SUPpxkUe1uTwYGRt5VFTy/eWomVtP6PCtnQu7UgXErxKA2nLRZ5t6UjCg0uJHnrbdrk8MqrS
         vRRzJ61aCTUOC4kbEjUxXGPyxsvoSeG5vkgNsxw+nd0AFHKT8Evo7Zk1GRWweTCwFLmKdOCynr5UMRuf
@@ -516,7 +516,7 @@
     <value>209, 17</value>
   </metadata>
   <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>91</value>
+    <value>83</value>
   </metadata>
   <data name="minBtnFarmer.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -544,10 +544,10 @@
         peYn/YKMeQJJd9FiFbioegAAAABJRU5ErkJggg==
 </value>
   </data>
-  <metadata name="guna2Elipse1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>425, 17</value>
-  </metadata>
   <metadata name="ResizeFarmerForm.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>587, 17</value>
+  </metadata>
+  <metadata name="guna2Elipse1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>425, 17</value>
   </metadata>
 </root>

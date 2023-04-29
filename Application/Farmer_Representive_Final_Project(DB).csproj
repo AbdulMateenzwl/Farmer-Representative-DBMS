@@ -52,6 +52,198 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="UI\CEO UI\ApproveRegionHeads.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\CEO UI\ApproveRegionHeads.Designer.cs">
+      <DependentUpon>ApproveRegionHeads.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\CEO UI\CEODashBoardUC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\CEO UI\CEODashBoardUC.Designer.cs">
+      <DependentUpon>CEODashBoardUC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\CEO UI\CEOForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\CEO UI\CEOForm.Designer.cs">
+      <DependentUpon>CEOForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Components\BecomeManagerUC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\Components\BecomeManagerUC.Designer.cs">
+      <DependentUpon>BecomeManagerUC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Components\OrganizationSignUpForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Components\OrganizationSignUpForm.Designer.cs">
+      <DependentUpon>OrganizationSignUpForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\DriverUI\Deliveries.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\DriverUI\Deliveries.Designer.cs">
+      <DependentUpon>Deliveries.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\DriverUI\DriverForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\DriverUI\DriverForm.Designer.cs">
+      <DependentUpon>DriverForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\DriverUI\VehicleCrud.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\DriverUI\VehicleCrud.Designer.cs">
+      <DependentUpon>VehicleCrud.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\FarmerManagerUI\ApproveCropsUC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\FarmerManagerUI\ApproveCropsUC.Designer.cs">
+      <DependentUpon>ApproveCropsUC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\FarmerManagerUI\ApproveFarmersUC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\FarmerManagerUI\ApproveFarmersUC.Designer.cs">
+      <DependentUpon>ApproveFarmersUC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\FarmerManagerUI\ApproveFieldsUC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\FarmerManagerUI\ApproveFieldsUC.Designer.cs">
+      <DependentUpon>ApproveFieldsUC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\FarmerManagerUI\FarmerManagerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\FarmerManagerUI\FarmerManagerForm.Designer.cs">
+      <DependentUpon>FarmerManagerForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\FarmerManagerUI\FarmerManangerDashBoardUC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\FarmerManagerUI\FarmerManangerDashBoardUC.Designer.cs">
+      <DependentUpon>FarmerManangerDashBoardUC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\FarmerManagerUI\ViewFarmerFieldUC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\FarmerManagerUI\ViewFarmerFieldUC.Designer.cs">
+      <DependentUpon>ViewFarmerFieldUC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\FarmerManagerUI\ViewWearHouseCropUC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\FarmerManagerUI\ViewWearHouseCropUC.Designer.cs">
+      <DependentUpon>ViewWearHouseCropUC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\OrganisationManagerUI\ApproveOrdersUC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\OrganisationManagerUI\ApproveOrdersUC.Designer.cs">
+      <DependentUpon>ApproveOrdersUC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\OrganisationManagerUI\ApproveOrganzationUC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\OrganisationManagerUI\ApproveOrganzationUC.Designer.cs">
+      <DependentUpon>ApproveOrganzationUC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\OrganisationManagerUI\OrganisationManagerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\OrganisationManagerUI\OrganisationManagerForm.Designer.cs">
+      <DependentUpon>OrganisationManagerForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\OrganisationManagerUI\OrganizationManagerDashBoardUC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\OrganisationManagerUI\OrganizationManagerDashBoardUC.Designer.cs">
+      <DependentUpon>OrganizationManagerDashBoardUC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\OrganisationManagerUI\ViewOrganizationOrdersUC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\OrganisationManagerUI\ViewOrganizationOrdersUC.Designer.cs">
+      <DependentUpon>ViewOrganizationOrdersUC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\OrganizationUI\OrganizationDashBoardUC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\OrganizationUI\OrganizationDashBoardUC.Designer.cs">
+      <DependentUpon>OrganizationDashBoardUC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\OrganizationUI\OrganizationForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\OrganizationUI\OrganizationForm.Designer.cs">
+      <DependentUpon>OrganizationForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\OrganizationUI\SendOrderRequestUC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\OrganizationUI\SendOrderRequestUC.Designer.cs">
+      <DependentUpon>SendOrderRequestUC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\OrganizationUI\ViewOrdersStatus.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\OrganizationUI\ViewOrdersStatus.Designer.cs">
+      <DependentUpon>ViewOrdersStatus.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\RegionHeadUI\ApproveManagerUC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\RegionHeadUI\ApproveManagerUC.Designer.cs">
+      <DependentUpon>ApproveManagerUC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\RegionHeadUI\RegionHeadDashBoardUC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\RegionHeadUI\RegionHeadDashBoardUC.Designer.cs">
+      <DependentUpon>RegionHeadDashBoardUC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\RegionHeadUI\RegionHeadForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\RegionHeadUI\RegionHeadForm.Designer.cs">
+      <DependentUpon>RegionHeadForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\TransportManagerUI\Approve Vehicle.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\TransportManagerUI\Approve Vehicle.Designer.cs">
+      <DependentUpon>Approve Vehicle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\TransportManagerUI\ApproveDrivers.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\TransportManagerUI\ApproveDrivers.Designer.cs">
+      <DependentUpon>ApproveDrivers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\TransportManagerUI\Assign Delivery To Driver.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\TransportManagerUI\Assign Delivery To Driver.Designer.cs">
+      <DependentUpon>Assign Delivery To Driver.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\TransportManagerUI\TransportManagerDashBoard.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\TransportManagerUI\TransportManagerDashBoard.Designer.cs">
+      <DependentUpon>TransportManagerDashBoard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\TransportManagerUI\TransportManager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\TransportManagerUI\TransportManager.Designer.cs">
+      <DependentUpon>TransportManager.cs</DependentUpon>
+    </Compile>
     <Compile Include="UI\FarmerUI\changeAccount.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -82,6 +274,12 @@
     <Compile Include="UI\FarmerUI\FieldCrud.Designer.cs">
       <DependentUpon>FieldCrud.cs</DependentUpon>
     </Compile>
+    <Compile Include="UI\Components\SignUpForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Components\SignUpForm.Designer.cs">
+      <DependentUpon>SignUpForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="UI\FarmerUI\UserControl1.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -102,12 +300,120 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SignInForm.cs">
+    <Compile Include="UI\Components\SignInForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="SignInForm.Designer.cs">
+    <Compile Include="UI\Components\SignInForm.Designer.cs">
       <DependentUpon>SignInForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="UI\TransportManagerUI\View Drivers and Deliveries.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\TransportManagerUI\View Drivers and Deliveries.Designer.cs">
+      <DependentUpon>View Drivers and Deliveries.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\TransportManagerUI\View Drivers and Vehicles.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\TransportManagerUI\View Drivers and Vehicles.Designer.cs">
+      <DependentUpon>View Drivers and Vehicles.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="UI\CEO UI\ApproveRegionHeads.resx">
+      <DependentUpon>ApproveRegionHeads.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\CEO UI\CEODashBoardUC.resx">
+      <DependentUpon>CEODashBoardUC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\CEO UI\CEOForm.resx">
+      <DependentUpon>CEOForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Components\BecomeManagerUC.resx">
+      <DependentUpon>BecomeManagerUC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Components\OrganizationSignUpForm.resx">
+      <DependentUpon>OrganizationSignUpForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\DriverUI\Deliveries.resx">
+      <DependentUpon>Deliveries.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\DriverUI\DriverForm.resx">
+      <DependentUpon>DriverForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\DriverUI\VehicleCrud.resx">
+      <DependentUpon>VehicleCrud.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\FarmerManagerUI\ApproveCropsUC.resx">
+      <DependentUpon>ApproveCropsUC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\FarmerManagerUI\ApproveFarmersUC.resx">
+      <DependentUpon>ApproveFarmersUC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\FarmerManagerUI\ApproveFieldsUC.resx">
+      <DependentUpon>ApproveFieldsUC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\FarmerManagerUI\FarmerManagerForm.resx">
+      <DependentUpon>FarmerManagerForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\FarmerManagerUI\FarmerManangerDashBoardUC.resx">
+      <DependentUpon>FarmerManangerDashBoardUC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\FarmerManagerUI\ViewFarmerFieldUC.resx">
+      <DependentUpon>ViewFarmerFieldUC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\FarmerManagerUI\ViewWearHouseCropUC.resx">
+      <DependentUpon>ViewWearHouseCropUC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\OrganisationManagerUI\ApproveOrdersUC.resx">
+      <DependentUpon>ApproveOrdersUC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\OrganisationManagerUI\ApproveOrganzationUC.resx">
+      <DependentUpon>ApproveOrganzationUC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\OrganisationManagerUI\OrganisationManagerForm.resx">
+      <DependentUpon>OrganisationManagerForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\OrganisationManagerUI\OrganizationManagerDashBoardUC.resx">
+      <DependentUpon>OrganizationManagerDashBoardUC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\OrganisationManagerUI\ViewOrganizationOrdersUC.resx">
+      <DependentUpon>ViewOrganizationOrdersUC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\OrganizationUI\OrganizationDashBoardUC.resx">
+      <DependentUpon>OrganizationDashBoardUC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\OrganizationUI\OrganizationForm.resx">
+      <DependentUpon>OrganizationForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\OrganizationUI\SendOrderRequestUC.resx">
+      <DependentUpon>SendOrderRequestUC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\OrganizationUI\ViewOrdersStatus.resx">
+      <DependentUpon>ViewOrdersStatus.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\RegionHeadUI\ApproveManagerUC.resx">
+      <DependentUpon>ApproveManagerUC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\RegionHeadUI\RegionHeadDashBoardUC.resx">
+      <DependentUpon>RegionHeadDashBoardUC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\RegionHeadUI\RegionHeadForm.resx">
+      <DependentUpon>RegionHeadForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\TransportManagerUI\Approve Vehicle.resx">
+      <DependentUpon>Approve Vehicle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\TransportManagerUI\ApproveDrivers.resx">
+      <DependentUpon>ApproveDrivers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\TransportManagerUI\Assign Delivery To Driver.resx">
+      <DependentUpon>Assign Delivery To Driver.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\TransportManagerUI\TransportManagerDashBoard.resx">
+      <DependentUpon>TransportManagerDashBoard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\TransportManagerUI\TransportManager.resx">
+      <DependentUpon>TransportManager.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="UI\FarmerUI\changeAccount.resx">
       <DependentUpon>changeAccount.cs</DependentUpon>
     </EmbeddedResource>
@@ -122,6 +428,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="UI\FarmerUI\FieldCrud.resx">
       <DependentUpon>FieldCrud.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Components\SignUpForm.resx">
+      <DependentUpon>SignUpForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UI\FarmerUI\UserControl1.resx">
       <DependentUpon>UserControl1.cs</DependentUpon>
@@ -141,8 +450,14 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="SignInForm.resx">
+    <EmbeddedResource Include="UI\Components\SignInForm.resx">
       <DependentUpon>SignInForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\TransportManagerUI\View Drivers and Deliveries.resx">
+      <DependentUpon>View Drivers and Deliveries.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\TransportManagerUI\View Drivers and Vehicles.resx">
+      <DependentUpon>View Drivers and Vehicles.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
@@ -158,5 +473,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
