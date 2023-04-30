@@ -59,6 +59,8 @@
             this.closeBtnFarmer = new Guna.UI2.WinForms.Guna2ImageButton();
             this.guna2ResizeForm1 = new Guna.UI2.WinForms.Guna2ResizeForm(this.components);
             this.guna2DragControl1 = new Guna.UI2.WinForms.Guna2DragControl(this.components);
+            this.btnReports = new Guna.UI2.WinForms.Guna2Button();
+            this.reports1 = new Farmer_Representive_Final_Project_DB_.UI.Components.Reports();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
             this.maxBtnFamer.SuspendLayout();
             this.panelManagePpl.SuspendLayout();
@@ -179,6 +181,7 @@
             this.maxBtnFamer.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.maxBtnFamer.Controls.Add(this.reports1);
             this.maxBtnFamer.Controls.Add(this.changeAccount1);
             this.maxBtnFamer.Controls.Add(this.walletPnl1);
             this.maxBtnFamer.Controls.Add(this.viewOrganizationOrdersUC1);
@@ -504,6 +507,7 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.panelMainMenu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(211)))), ((int)(((byte)(102)))));
+            this.panelMainMenu.Controls.Add(this.btnReports);
             this.panelMainMenu.Controls.Add(this.btnSettings);
             this.panelMainMenu.Controls.Add(this.btnWallet);
             this.panelMainMenu.Controls.Add(this.btnViewOrders);
@@ -566,6 +570,50 @@
             this.guna2DragControl1.TargetControl = this;
             this.guna2DragControl1.UseTransparentDrag = true;
             // 
+            // btnReports
+            // 
+            this.btnReports.AccessibleName = "";
+            this.btnReports.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnReports.Animated = true;
+            this.btnReports.AnimatedGIF = true;
+            this.btnReports.BorderColor = System.Drawing.Color.White;
+            this.btnReports.BorderRadius = 5;
+            this.btnReports.CheckedState.BorderColor = System.Drawing.Color.White;
+            this.btnReports.CheckedState.CustomBorderColor = System.Drawing.Color.White;
+            this.btnReports.CheckedState.ForeColor = System.Drawing.Color.Navy;
+            this.btnReports.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnReports.DisabledState.BorderColor = System.Drawing.Color.Navy;
+            this.btnReports.DisabledState.CustomBorderColor = System.Drawing.Color.Navy;
+            this.btnReports.DisabledState.FillColor = System.Drawing.Color.Navy;
+            this.btnReports.DisabledState.ForeColor = System.Drawing.Color.White;
+            this.btnReports.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(211)))), ((int)(((byte)(102)))));
+            this.btnReports.Font = new System.Drawing.Font("Comic Sans MS", 10F, System.Drawing.FontStyle.Bold);
+            this.btnReports.ForeColor = System.Drawing.Color.White;
+            this.btnReports.HoverState.BorderColor = System.Drawing.Color.White;
+            this.btnReports.HoverState.CustomBorderColor = System.Drawing.Color.White;
+            this.btnReports.HoverState.FillColor = System.Drawing.Color.White;
+            this.btnReports.HoverState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(211)))), ((int)(((byte)(102)))));
+            this.btnReports.HoverState.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image")));
+            this.btnReports.Image = ((System.Drawing.Image)(resources.GetObject("btnReports.Image")));
+            this.btnReports.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btnReports.ImageSize = new System.Drawing.Size(25, 25);
+            this.btnReports.Location = new System.Drawing.Point(24, 446);
+            this.btnReports.Name = "btnReports";
+            this.btnReports.Size = new System.Drawing.Size(310, 45);
+            this.btnReports.TabIndex = 19;
+            this.btnReports.Text = "Reports";
+            this.btnReports.Click += new System.EventHandler(this.btnReports_Click);
+            // 
+            // reports1
+            // 
+            this.reports1.BackColor = System.Drawing.Color.White;
+            this.reports1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.reports1.Location = new System.Drawing.Point(0, 0);
+            this.reports1.Name = "reports1";
+            this.reports1.Size = new System.Drawing.Size(1566, 875);
+            this.reports1.TabIndex = 6;
+            // 
             // OrganisationManagerForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
@@ -622,5 +670,7 @@
         private ApproveOrdersUC approveOrdersUC1;
         private ApproveOrganzationUC approveOrganzationUC1;
         private OrganizationManagerDashBoardUC organizationManagerDashBoardUC1;
+        private Guna.UI2.WinForms.Guna2Button btnReports;
+        private Components.Reports reports1;
     }
 }

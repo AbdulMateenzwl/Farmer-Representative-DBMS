@@ -64,6 +64,8 @@
             this.closeBtnFarmer = new Guna.UI2.WinForms.Guna2ImageButton();
             this.guna2ResizeForm1 = new Guna.UI2.WinForms.Guna2ResizeForm(this.components);
             this.guna2DragControl2 = new Guna.UI2.WinForms.Guna2DragControl(this.components);
+            this.btnReports = new Guna.UI2.WinForms.Guna2Button();
+            this.reports1 = new Farmer_Representive_Final_Project_DB_.UI.Components.Reports();
             this.panelManagePpl.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
             this.maxBtnFamer.SuspendLayout();
@@ -99,7 +101,7 @@
             this.btnSettings.HoverState.CustomBorderColor = System.Drawing.Color.White;
             this.btnSettings.HoverState.FillColor = System.Drawing.Color.White;
             this.btnSettings.HoverState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(211)))), ((int)(((byte)(102)))));
-            this.btnSettings.HoverState.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image")));
+            this.btnSettings.HoverState.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image1")));
             this.btnSettings.Image = ((System.Drawing.Image)(resources.GetObject("btnSettings.Image")));
             this.btnSettings.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.btnSettings.ImageSize = new System.Drawing.Size(25, 25);
@@ -135,7 +137,7 @@
             this.btnWallet.HoverState.CustomBorderColor = System.Drawing.Color.White;
             this.btnWallet.HoverState.FillColor = System.Drawing.Color.White;
             this.btnWallet.HoverState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(211)))), ((int)(((byte)(102)))));
-            this.btnWallet.HoverState.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image1")));
+            this.btnWallet.HoverState.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image2")));
             this.btnWallet.Image = ((System.Drawing.Image)(resources.GetObject("btnWallet.Image")));
             this.btnWallet.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.btnWallet.ImageSize = new System.Drawing.Size(25, 25);
@@ -170,7 +172,7 @@
             this.btnApproveVehicle.HoverState.CustomBorderColor = System.Drawing.Color.White;
             this.btnApproveVehicle.HoverState.FillColor = System.Drawing.Color.White;
             this.btnApproveVehicle.HoverState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(211)))), ((int)(((byte)(102)))));
-            this.btnApproveVehicle.HoverState.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image5")));
+            this.btnApproveVehicle.HoverState.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image6")));
             this.btnApproveVehicle.Image = ((System.Drawing.Image)(resources.GetObject("btnApproveVehicle.Image")));
             this.btnApproveVehicle.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.btnApproveVehicle.ImageSize = new System.Drawing.Size(25, 25);
@@ -213,7 +215,7 @@
             this.btnManageAdvisor.HoverState.CustomBorderColor = System.Drawing.Color.White;
             this.btnManageAdvisor.HoverState.FillColor = System.Drawing.Color.White;
             this.btnManageAdvisor.HoverState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(246)))), ((int)(((byte)(200)))), ((int)(((byte)(0)))));
-            this.btnManageAdvisor.HoverState.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image6")));
+            this.btnManageAdvisor.HoverState.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image7")));
             this.btnManageAdvisor.Image = ((System.Drawing.Image)(resources.GetObject("btnManageAdvisor.Image")));
             this.btnManageAdvisor.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.btnManageAdvisor.Location = new System.Drawing.Point(3, 51);
@@ -245,7 +247,7 @@
             this.ManageStudent.HoverState.CustomBorderColor = System.Drawing.Color.White;
             this.ManageStudent.HoverState.FillColor = System.Drawing.Color.White;
             this.ManageStudent.HoverState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(246)))), ((int)(((byte)(200)))), ((int)(((byte)(0)))));
-            this.ManageStudent.HoverState.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image7")));
+            this.ManageStudent.HoverState.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image8")));
             this.ManageStudent.Image = ((System.Drawing.Image)(resources.GetObject("ManageStudent.Image")));
             this.ManageStudent.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.ManageStudent.Location = new System.Drawing.Point(0, 8);
@@ -278,7 +280,7 @@
             this.btnApproveDriver.HoverState.CustomBorderColor = System.Drawing.Color.White;
             this.btnApproveDriver.HoverState.FillColor = System.Drawing.Color.White;
             this.btnApproveDriver.HoverState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(211)))), ((int)(((byte)(102)))));
-            this.btnApproveDriver.HoverState.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image8")));
+            this.btnApproveDriver.HoverState.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image9")));
             this.btnApproveDriver.Image = ((System.Drawing.Image)(resources.GetObject("btnApproveDriver.Image")));
             this.btnApproveDriver.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.btnApproveDriver.ImageSize = new System.Drawing.Size(25, 25);
@@ -336,7 +338,7 @@
             this.btnHome.HoverState.CustomBorderColor = System.Drawing.Color.White;
             this.btnHome.HoverState.FillColor = System.Drawing.Color.White;
             this.btnHome.HoverState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(211)))), ((int)(((byte)(102)))));
-            this.btnHome.HoverState.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image9")));
+            this.btnHome.HoverState.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image10")));
             this.btnHome.Image = ((System.Drawing.Image)(resources.GetObject("btnHome.Image")));
             this.btnHome.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.btnHome.ImageSize = new System.Drawing.Size(25, 25);
@@ -395,6 +397,7 @@
             this.maxBtnFamer.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.maxBtnFamer.Controls.Add(this.reports1);
             this.maxBtnFamer.Controls.Add(this.farmerManagerDashBoard2);
             this.maxBtnFamer.Controls.Add(this.changeAccount1);
             this.maxBtnFamer.Controls.Add(this.walletPnl1);
@@ -512,6 +515,7 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.panelMainMenu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(211)))), ((int)(((byte)(102)))));
+            this.panelMainMenu.Controls.Add(this.btnReports);
             this.panelMainMenu.Controls.Add(this.btnSettings);
             this.panelMainMenu.Controls.Add(this.btnWallet);
             this.panelMainMenu.Controls.Add(this.btnViewDriverDelivery);
@@ -556,7 +560,7 @@
             this.btnViewDriverDelivery.HoverState.CustomBorderColor = System.Drawing.Color.White;
             this.btnViewDriverDelivery.HoverState.FillColor = System.Drawing.Color.White;
             this.btnViewDriverDelivery.HoverState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(211)))), ((int)(((byte)(102)))));
-            this.btnViewDriverDelivery.HoverState.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image2")));
+            this.btnViewDriverDelivery.HoverState.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image3")));
             this.btnViewDriverDelivery.Image = ((System.Drawing.Image)(resources.GetObject("btnViewDriverDelivery.Image")));
             this.btnViewDriverDelivery.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.btnViewDriverDelivery.ImageSize = new System.Drawing.Size(25, 25);
@@ -591,7 +595,7 @@
             this.btnViewDriverVehicle.HoverState.CustomBorderColor = System.Drawing.Color.White;
             this.btnViewDriverVehicle.HoverState.FillColor = System.Drawing.Color.White;
             this.btnViewDriverVehicle.HoverState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(211)))), ((int)(((byte)(102)))));
-            this.btnViewDriverVehicle.HoverState.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image3")));
+            this.btnViewDriverVehicle.HoverState.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image4")));
             this.btnViewDriverVehicle.Image = ((System.Drawing.Image)(resources.GetObject("btnViewDriverVehicle.Image")));
             this.btnViewDriverVehicle.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.btnViewDriverVehicle.ImageSize = new System.Drawing.Size(25, 25);
@@ -626,7 +630,7 @@
             this.btnAssignDriverTask.HoverState.CustomBorderColor = System.Drawing.Color.White;
             this.btnAssignDriverTask.HoverState.FillColor = System.Drawing.Color.White;
             this.btnAssignDriverTask.HoverState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(211)))), ((int)(((byte)(102)))));
-            this.btnAssignDriverTask.HoverState.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image4")));
+            this.btnAssignDriverTask.HoverState.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image5")));
             this.btnAssignDriverTask.Image = ((System.Drawing.Image)(resources.GetObject("btnAssignDriverTask.Image")));
             this.btnAssignDriverTask.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.btnAssignDriverTask.ImageSize = new System.Drawing.Size(25, 25);
@@ -661,6 +665,50 @@
             this.guna2DragControl2.DockIndicatorTransparencyValue = 0.6D;
             this.guna2DragControl2.TargetControl = this;
             this.guna2DragControl2.UseTransparentDrag = true;
+            // 
+            // btnReports
+            // 
+            this.btnReports.AccessibleName = "";
+            this.btnReports.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnReports.Animated = true;
+            this.btnReports.AnimatedGIF = true;
+            this.btnReports.BorderColor = System.Drawing.Color.White;
+            this.btnReports.BorderRadius = 5;
+            this.btnReports.CheckedState.BorderColor = System.Drawing.Color.White;
+            this.btnReports.CheckedState.CustomBorderColor = System.Drawing.Color.White;
+            this.btnReports.CheckedState.ForeColor = System.Drawing.Color.Navy;
+            this.btnReports.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnReports.DisabledState.BorderColor = System.Drawing.Color.Navy;
+            this.btnReports.DisabledState.CustomBorderColor = System.Drawing.Color.Navy;
+            this.btnReports.DisabledState.FillColor = System.Drawing.Color.Navy;
+            this.btnReports.DisabledState.ForeColor = System.Drawing.Color.White;
+            this.btnReports.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(211)))), ((int)(((byte)(102)))));
+            this.btnReports.Font = new System.Drawing.Font("Comic Sans MS", 10F, System.Drawing.FontStyle.Bold);
+            this.btnReports.ForeColor = System.Drawing.Color.White;
+            this.btnReports.HoverState.BorderColor = System.Drawing.Color.White;
+            this.btnReports.HoverState.CustomBorderColor = System.Drawing.Color.White;
+            this.btnReports.HoverState.FillColor = System.Drawing.Color.White;
+            this.btnReports.HoverState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(211)))), ((int)(((byte)(102)))));
+            this.btnReports.HoverState.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image")));
+            this.btnReports.Image = ((System.Drawing.Image)(resources.GetObject("btnReports.Image")));
+            this.btnReports.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btnReports.ImageSize = new System.Drawing.Size(25, 25);
+            this.btnReports.Location = new System.Drawing.Point(24, 557);
+            this.btnReports.Name = "btnReports";
+            this.btnReports.Size = new System.Drawing.Size(310, 45);
+            this.btnReports.TabIndex = 25;
+            this.btnReports.Text = "Reports";
+            this.btnReports.Click += new System.EventHandler(this.btnReports_Click);
+            // 
+            // reports1
+            // 
+            this.reports1.BackColor = System.Drawing.Color.White;
+            this.reports1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.reports1.Location = new System.Drawing.Point(0, 0);
+            this.reports1.Name = "reports1";
+            this.reports1.Size = new System.Drawing.Size(1544, 832);
+            this.reports1.TabIndex = 8;
             // 
             // TransportManager
             // 
@@ -723,5 +771,7 @@
         private TransportManagerUI.TransportManagerDashBoard farmerManagerDashBoard2;
         private Guna.UI2.WinForms.Guna2ResizeForm guna2ResizeForm1;
         private Guna.UI2.WinForms.Guna2DragControl guna2DragControl2;
+        private Guna.UI2.WinForms.Guna2Button btnReports;
+        private Components.Reports reports1;
     }
 }

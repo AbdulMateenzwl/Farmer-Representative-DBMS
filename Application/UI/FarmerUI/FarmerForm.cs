@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Farmer_Representive_Final_Project_DB_.UI.Components;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -111,6 +112,19 @@ namespace Farmer_Representive_Final_Project_DB_
         {
             sidePanel.Top = btnSettings.Top;
             changeAccount1.BringToFront();
+        }
+
+        private void btnSubscription_Click(object sender, EventArgs e)
+        {
+            sidePanel.Top = btnSubscription.Top;
+            subscription1.BringToFront();
+        }
+
+        private void btnReports_Click(object sender, EventArgs e)
+        {
+
+            sidePanel.Top = btnReports.Top;
+            reports1.BringToFront();
         }
     }
 }

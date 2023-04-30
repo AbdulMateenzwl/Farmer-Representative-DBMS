@@ -43,6 +43,7 @@
             this.guna2HtmlLabel2 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.minBtnDriver = new Guna.UI2.WinForms.Guna2ImageButton();
             this.maxBtnFamer = new Guna.UI2.WinForms.Guna2Panel();
+            this.subscription1 = new Farmer_Representive_Final_Project_DB_.UI.Components.Subscription();
             this.deliveries1 = new Farmer_Representive_Final_Project_DB_.UI.DriverUI.Deliveries();
             this.vehicleCrud1 = new Farmer_Representive_Final_Project_DB_.UI.DriverUI.VehicleCrud();
             this.changeAccount1 = new Farmer_Representive_Final_Project_DB_.UI.FarmerUI.changeAccount();
@@ -55,8 +56,11 @@
             this.guna2DragControl1 = new Guna.UI2.WinForms.Guna2DragControl(this.components);
             this.elipseMenuPanel = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.panelMainMenu = new Guna.UI2.WinForms.Guna2GradientPanel();
+            this.btnSubscription = new Guna.UI2.WinForms.Guna2Button();
             this.closeBtnFarmer = new Guna.UI2.WinForms.Guna2ImageButton();
             this.guna2Elipse2 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
+            this.btnReports = new Guna.UI2.WinForms.Guna2Button();
+            this.reports1 = new Farmer_Representive_Final_Project_DB_.UI.Components.Reports();
             this.panelManagePpl.SuspendLayout();
             this.maxBtnFamer.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
@@ -142,11 +146,11 @@
             this.btnWallet.Image = ((System.Drawing.Image)(resources.GetObject("btnWallet.Image")));
             this.btnWallet.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.btnWallet.ImageSize = new System.Drawing.Size(25, 25);
-            this.btnWallet.Location = new System.Drawing.Point(21, 329);
+            this.btnWallet.Location = new System.Drawing.Point(21, 382);
             this.btnWallet.Name = "btnWallet";
             this.btnWallet.Size = new System.Drawing.Size(292, 45);
             this.btnWallet.TabIndex = 6;
-            this.btnWallet.Text = "Wallet";
+            this.btnWallet.Text = " Wallet";
             this.btnWallet.Click += new System.EventHandler(this.btnWallet_Click);
             // 
             // btnManageDelivery
@@ -369,6 +373,8 @@
             this.maxBtnFamer.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.maxBtnFamer.Controls.Add(this.reports1);
+            this.maxBtnFamer.Controls.Add(this.subscription1);
             this.maxBtnFamer.Controls.Add(this.deliveries1);
             this.maxBtnFamer.Controls.Add(this.vehicleCrud1);
             this.maxBtnFamer.Controls.Add(this.changeAccount1);
@@ -379,6 +385,15 @@
             this.maxBtnFamer.Name = "maxBtnFamer";
             this.maxBtnFamer.Size = new System.Drawing.Size(1544, 832);
             this.maxBtnFamer.TabIndex = 5;
+            // 
+            // subscription1
+            // 
+            this.subscription1.BackColor = System.Drawing.Color.White;
+            this.subscription1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.subscription1.Location = new System.Drawing.Point(0, 0);
+            this.subscription1.Name = "subscription1";
+            this.subscription1.Size = new System.Drawing.Size(1544, 832);
+            this.subscription1.TabIndex = 5;
             // 
             // deliveries1
             // 
@@ -481,6 +496,8 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.panelMainMenu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(211)))), ((int)(((byte)(102)))));
+            this.panelMainMenu.Controls.Add(this.btnReports);
+            this.panelMainMenu.Controls.Add(this.btnSubscription);
             this.panelMainMenu.Controls.Add(this.btnSettings);
             this.panelMainMenu.Controls.Add(this.btnWallet);
             this.panelMainMenu.Controls.Add(this.btnManageDelivery);
@@ -497,6 +514,41 @@
             this.panelMainMenu.Name = "panelMainMenu";
             this.panelMainMenu.Size = new System.Drawing.Size(302, 892);
             this.panelMainMenu.TabIndex = 4;
+            // 
+            // btnSubscription
+            // 
+            this.btnSubscription.AccessibleName = "";
+            this.btnSubscription.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnSubscription.Animated = true;
+            this.btnSubscription.AnimatedGIF = true;
+            this.btnSubscription.BorderColor = System.Drawing.Color.White;
+            this.btnSubscription.BorderRadius = 5;
+            this.btnSubscription.CheckedState.BorderColor = System.Drawing.Color.White;
+            this.btnSubscription.CheckedState.CustomBorderColor = System.Drawing.Color.White;
+            this.btnSubscription.CheckedState.ForeColor = System.Drawing.Color.Navy;
+            this.btnSubscription.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnSubscription.DisabledState.BorderColor = System.Drawing.Color.Navy;
+            this.btnSubscription.DisabledState.CustomBorderColor = System.Drawing.Color.Navy;
+            this.btnSubscription.DisabledState.FillColor = System.Drawing.Color.Navy;
+            this.btnSubscription.DisabledState.ForeColor = System.Drawing.Color.White;
+            this.btnSubscription.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(211)))), ((int)(((byte)(102)))));
+            this.btnSubscription.Font = new System.Drawing.Font("Comic Sans MS", 10F, System.Drawing.FontStyle.Bold);
+            this.btnSubscription.ForeColor = System.Drawing.Color.White;
+            this.btnSubscription.HoverState.BorderColor = System.Drawing.Color.White;
+            this.btnSubscription.HoverState.CustomBorderColor = System.Drawing.Color.White;
+            this.btnSubscription.HoverState.FillColor = System.Drawing.Color.White;
+            this.btnSubscription.HoverState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(211)))), ((int)(((byte)(102)))));
+            this.btnSubscription.HoverState.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image8")));
+            this.btnSubscription.Image = ((System.Drawing.Image)(resources.GetObject("btnSubscription.Image")));
+            this.btnSubscription.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btnSubscription.ImageSize = new System.Drawing.Size(25, 25);
+            this.btnSubscription.Location = new System.Drawing.Point(21, 328);
+            this.btnSubscription.Name = "btnSubscription";
+            this.btnSubscription.Size = new System.Drawing.Size(292, 45);
+            this.btnSubscription.TabIndex = 7;
+            this.btnSubscription.Text = "    Subscription";
+            this.btnSubscription.Click += new System.EventHandler(this.btnSubscription_Click);
             // 
             // closeBtnFarmer
             // 
@@ -517,6 +569,50 @@
             // 
             this.guna2Elipse2.BorderRadius = 15;
             this.guna2Elipse2.TargetControl = this;
+            // 
+            // btnReports
+            // 
+            this.btnReports.AccessibleName = "";
+            this.btnReports.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnReports.Animated = true;
+            this.btnReports.AnimatedGIF = true;
+            this.btnReports.BorderColor = System.Drawing.Color.White;
+            this.btnReports.BorderRadius = 5;
+            this.btnReports.CheckedState.BorderColor = System.Drawing.Color.White;
+            this.btnReports.CheckedState.CustomBorderColor = System.Drawing.Color.White;
+            this.btnReports.CheckedState.ForeColor = System.Drawing.Color.Navy;
+            this.btnReports.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnReports.DisabledState.BorderColor = System.Drawing.Color.Navy;
+            this.btnReports.DisabledState.CustomBorderColor = System.Drawing.Color.Navy;
+            this.btnReports.DisabledState.FillColor = System.Drawing.Color.Navy;
+            this.btnReports.DisabledState.ForeColor = System.Drawing.Color.White;
+            this.btnReports.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(211)))), ((int)(((byte)(102)))));
+            this.btnReports.Font = new System.Drawing.Font("Comic Sans MS", 10F, System.Drawing.FontStyle.Bold);
+            this.btnReports.ForeColor = System.Drawing.Color.White;
+            this.btnReports.HoverState.BorderColor = System.Drawing.Color.White;
+            this.btnReports.HoverState.CustomBorderColor = System.Drawing.Color.White;
+            this.btnReports.HoverState.FillColor = System.Drawing.Color.White;
+            this.btnReports.HoverState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(211)))), ((int)(((byte)(102)))));
+            this.btnReports.HoverState.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image7")));
+            this.btnReports.Image = ((System.Drawing.Image)(resources.GetObject("btnReports.Image")));
+            this.btnReports.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btnReports.ImageSize = new System.Drawing.Size(25, 25);
+            this.btnReports.Location = new System.Drawing.Point(21, 433);
+            this.btnReports.Name = "btnReports";
+            this.btnReports.Size = new System.Drawing.Size(310, 45);
+            this.btnReports.TabIndex = 8;
+            this.btnReports.Text = "Reports";
+            this.btnReports.Click += new System.EventHandler(this.btnReports_Click);
+            // 
+            // reports1
+            // 
+            this.reports1.BackColor = System.Drawing.Color.White;
+            this.reports1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.reports1.Location = new System.Drawing.Point(0, 0);
+            this.reports1.Name = "reports1";
+            this.reports1.Size = new System.Drawing.Size(1544, 832);
+            this.reports1.TabIndex = 6;
             // 
             // DriverForm
             // 
@@ -572,5 +668,9 @@
         private FarmerUI.walletPnl walletPnl1;
         private FarmerUI.DashBoard dashBoard1;
         private Deliveries deliveries1;
+        private Components.Subscription subscription1;
+        private Guna.UI2.WinForms.Guna2Button btnSubscription;
+        private Guna.UI2.WinForms.Guna2Button btnReports;
+        private Components.Reports reports1;
     }
 }

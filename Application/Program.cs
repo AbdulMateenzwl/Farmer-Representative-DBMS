@@ -24,7 +24,7 @@ namespace Farmer_Representive_Final_Project_DB_
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new OrganizationSignUpForm());
+            Application.Run(new OrganizationForm());
         }
     }
 }

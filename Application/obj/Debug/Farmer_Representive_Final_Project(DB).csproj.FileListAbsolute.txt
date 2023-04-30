@@ -69,3 +69,5 @@ C:\Users\dnmug\OneDrive\Desktop\DB2021FinalProjectG-39\Application\obj\Debug\Far
 C:\Users\dnmug\OneDrive\Desktop\DB2021FinalProjectG-39\Application\obj\Debug\Farmer_Representive_Final_Project_DB_.UI.CEO_UI.CEOForm.resources
 C:\Users\dnmug\OneDrive\Desktop\DB2021FinalProjectG-39\Application\obj\Debug\Farmer_Representive_Final_Project_DB_.UI.Components.BecomeManagerUC.resources
 C:\Users\dnmug\OneDrive\Desktop\DB2021FinalProjectG-39\Application\obj\Debug\Farmer_Representive_Final_Project_DB_.UI.Components.OrganizationSignUpForm.resources
+C:\Users\dnmug\OneDrive\Desktop\DB2021FinalProjectG-39\Application\obj\Debug\Farmer_Representive_Final_Project_DB_.UI.Components.Subscription.resources
+C:\Users\dnmug\OneDrive\Desktop\DB2021FinalProjectG-39\Application\obj\Debug\Farmer_Representive_Final_Project_DB_.UI.Components.Reports.resources

@@ -33,11 +33,22 @@
             this.maxBtnFarmer = new Guna.UI2.WinForms.Guna2ImageButton();
             this.minBtnFarmer = new Guna.UI2.WinForms.Guna2ImageButton();
             this.maxBtnFamer = new Guna.UI2.WinForms.Guna2Panel();
+            this.subscription1 = new Farmer_Representive_Final_Project_DB_.UI.Components.Subscription();
+            this.viewOrdersStatus1 = new Farmer_Representive_Final_Project_DB_.UI.OrganizationUI.ViewOrdersStatus();
+            this.changeAccount1 = new Farmer_Representive_Final_Project_DB_.UI.FarmerUI.changeAccount();
+            this.walletPnl1 = new Farmer_Representive_Final_Project_DB_.UI.FarmerUI.walletPnl();
+            this.viewWearHouseCropUC1 = new Farmer_Representive_Final_Project_DB_.UI.FarmerManagerUI.ViewWearHouseCropUC();
+            this.sendOrderRequestUC1 = new Farmer_Representive_Final_Project_DB_.UI.OrganizationUI.SendOrderRequestUC();
+            this.organizationDashBoardUC1 = new Farmer_Representive_Final_Project_DB_.UI.OrganizationUI.OrganizationDashBoardUC();
             this.ResizeFarmerForm = new Guna.UI2.WinForms.Guna2ResizeForm(this.components);
             this.elipseMenuPanel = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.panelMainMenu = new Guna.UI2.WinForms.Guna2GradientPanel();
+            this.btnSubscription = new Guna.UI2.WinForms.Guna2Button();
+            this.btnViewWearhouseCrop = new Guna.UI2.WinForms.Guna2Button();
+            this.btnViewOrderStatus = new Guna.UI2.WinForms.Guna2Button();
             this.btnSettings = new Guna.UI2.WinForms.Guna2Button();
             this.btnWallet = new Guna.UI2.WinForms.Guna2Button();
+            this.btnViewOrders = new Guna.UI2.WinForms.Guna2Button();
             this.panelManagePpl = new Guna.UI2.WinForms.Guna2Panel();
             this.btnManageAdvisor = new Guna.UI2.WinForms.Guna2Button();
             this.ManageStudent = new Guna.UI2.WinForms.Guna2Button();
@@ -51,15 +62,8 @@
             this.guna2ResizeForm1 = new Guna.UI2.WinForms.Guna2ResizeForm(this.components);
             this.guna2DragControl1 = new Guna.UI2.WinForms.Guna2DragControl(this.components);
             this.closeBtnFarmer = new Guna.UI2.WinForms.Guna2ImageButton();
-            this.btnViewOrders = new Guna.UI2.WinForms.Guna2Button();
-            this.btnViewOrderStatus = new Guna.UI2.WinForms.Guna2Button();
-            this.btnViewWearhouseCrop = new Guna.UI2.WinForms.Guna2Button();
-            this.organizationDashBoardUC1 = new Farmer_Representive_Final_Project_DB_.UI.OrganizationUI.OrganizationDashBoardUC();
-            this.sendOrderRequestUC1 = new Farmer_Representive_Final_Project_DB_.UI.OrganizationUI.SendOrderRequestUC();
-            this.viewWearHouseCropUC1 = new Farmer_Representive_Final_Project_DB_.UI.FarmerManagerUI.ViewWearHouseCropUC();
-            this.walletPnl1 = new Farmer_Representive_Final_Project_DB_.UI.FarmerUI.walletPnl();
-            this.changeAccount1 = new Farmer_Representive_Final_Project_DB_.UI.FarmerUI.changeAccount();
-            this.viewOrdersStatus1 = new Farmer_Representive_Final_Project_DB_.UI.OrganizationUI.ViewOrdersStatus();
+            this.btnReports = new Guna.UI2.WinForms.Guna2Button();
+            this.reports1 = new Farmer_Representive_Final_Project_DB_.UI.Components.Reports();
             this.maxBtnFamer.SuspendLayout();
             this.panelMainMenu.SuspendLayout();
             this.panelManagePpl.SuspendLayout();
@@ -103,6 +107,8 @@
             this.maxBtnFamer.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.maxBtnFamer.Controls.Add(this.reports1);
+            this.maxBtnFamer.Controls.Add(this.subscription1);
             this.maxBtnFamer.Controls.Add(this.viewOrdersStatus1);
             this.maxBtnFamer.Controls.Add(this.changeAccount1);
             this.maxBtnFamer.Controls.Add(this.walletPnl1);
@@ -114,6 +120,69 @@
             this.maxBtnFamer.Name = "maxBtnFamer";
             this.maxBtnFamer.Size = new System.Drawing.Size(1610, 987);
             this.maxBtnFamer.TabIndex = 25;
+            // 
+            // subscription1
+            // 
+            this.subscription1.BackColor = System.Drawing.Color.White;
+            this.subscription1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.subscription1.Location = new System.Drawing.Point(0, 0);
+            this.subscription1.Name = "subscription1";
+            this.subscription1.Size = new System.Drawing.Size(1610, 987);
+            this.subscription1.TabIndex = 6;
+            // 
+            // viewOrdersStatus1
+            // 
+            this.viewOrdersStatus1.BackColor = System.Drawing.Color.White;
+            this.viewOrdersStatus1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.viewOrdersStatus1.Location = new System.Drawing.Point(0, 0);
+            this.viewOrdersStatus1.Name = "viewOrdersStatus1";
+            this.viewOrdersStatus1.Size = new System.Drawing.Size(1610, 987);
+            this.viewOrdersStatus1.TabIndex = 5;
+            // 
+            // changeAccount1
+            // 
+            this.changeAccount1.BackColor = System.Drawing.Color.White;
+            this.changeAccount1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.changeAccount1.Location = new System.Drawing.Point(0, 0);
+            this.changeAccount1.Name = "changeAccount1";
+            this.changeAccount1.Size = new System.Drawing.Size(1610, 987);
+            this.changeAccount1.TabIndex = 4;
+            // 
+            // walletPnl1
+            // 
+            this.walletPnl1.BackColor = System.Drawing.Color.White;
+            this.walletPnl1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.walletPnl1.Location = new System.Drawing.Point(0, 0);
+            this.walletPnl1.Name = "walletPnl1";
+            this.walletPnl1.Size = new System.Drawing.Size(1610, 987);
+            this.walletPnl1.TabIndex = 3;
+            // 
+            // viewWearHouseCropUC1
+            // 
+            this.viewWearHouseCropUC1.BackColor = System.Drawing.Color.White;
+            this.viewWearHouseCropUC1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.viewWearHouseCropUC1.Location = new System.Drawing.Point(0, 0);
+            this.viewWearHouseCropUC1.Name = "viewWearHouseCropUC1";
+            this.viewWearHouseCropUC1.Size = new System.Drawing.Size(1610, 987);
+            this.viewWearHouseCropUC1.TabIndex = 2;
+            // 
+            // sendOrderRequestUC1
+            // 
+            this.sendOrderRequestUC1.BackColor = System.Drawing.Color.White;
+            this.sendOrderRequestUC1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.sendOrderRequestUC1.Location = new System.Drawing.Point(0, 0);
+            this.sendOrderRequestUC1.Name = "sendOrderRequestUC1";
+            this.sendOrderRequestUC1.Size = new System.Drawing.Size(1610, 987);
+            this.sendOrderRequestUC1.TabIndex = 1;
+            // 
+            // organizationDashBoardUC1
+            // 
+            this.organizationDashBoardUC1.BackColor = System.Drawing.Color.White;
+            this.organizationDashBoardUC1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.organizationDashBoardUC1.Location = new System.Drawing.Point(0, 0);
+            this.organizationDashBoardUC1.Name = "organizationDashBoardUC1";
+            this.organizationDashBoardUC1.Size = new System.Drawing.Size(1610, 987);
+            this.organizationDashBoardUC1.TabIndex = 0;
             // 
             // elipseMenuPanel
             // 
@@ -127,6 +196,8 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.panelMainMenu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(211)))), ((int)(((byte)(102)))));
+            this.panelMainMenu.Controls.Add(this.btnReports);
+            this.panelMainMenu.Controls.Add(this.btnSubscription);
             this.panelMainMenu.Controls.Add(this.btnViewWearhouseCrop);
             this.panelMainMenu.Controls.Add(this.btnViewOrderStatus);
             this.panelMainMenu.Controls.Add(this.btnSettings);
@@ -145,6 +216,111 @@
             this.panelMainMenu.Name = "panelMainMenu";
             this.panelMainMenu.Size = new System.Drawing.Size(320, 893);
             this.panelMainMenu.TabIndex = 24;
+            // 
+            // btnSubscription
+            // 
+            this.btnSubscription.AccessibleName = "";
+            this.btnSubscription.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnSubscription.Animated = true;
+            this.btnSubscription.AnimatedGIF = true;
+            this.btnSubscription.BorderColor = System.Drawing.Color.White;
+            this.btnSubscription.BorderRadius = 5;
+            this.btnSubscription.CheckedState.BorderColor = System.Drawing.Color.White;
+            this.btnSubscription.CheckedState.CustomBorderColor = System.Drawing.Color.White;
+            this.btnSubscription.CheckedState.ForeColor = System.Drawing.Color.Navy;
+            this.btnSubscription.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnSubscription.DisabledState.BorderColor = System.Drawing.Color.Navy;
+            this.btnSubscription.DisabledState.CustomBorderColor = System.Drawing.Color.Navy;
+            this.btnSubscription.DisabledState.FillColor = System.Drawing.Color.Navy;
+            this.btnSubscription.DisabledState.ForeColor = System.Drawing.Color.White;
+            this.btnSubscription.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(211)))), ((int)(((byte)(102)))));
+            this.btnSubscription.Font = new System.Drawing.Font("Comic Sans MS", 10F, System.Drawing.FontStyle.Bold);
+            this.btnSubscription.ForeColor = System.Drawing.Color.White;
+            this.btnSubscription.HoverState.BorderColor = System.Drawing.Color.White;
+            this.btnSubscription.HoverState.CustomBorderColor = System.Drawing.Color.White;
+            this.btnSubscription.HoverState.FillColor = System.Drawing.Color.White;
+            this.btnSubscription.HoverState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(211)))), ((int)(((byte)(102)))));
+            this.btnSubscription.HoverState.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image1")));
+            this.btnSubscription.Image = ((System.Drawing.Image)(resources.GetObject("btnSubscription.Image")));
+            this.btnSubscription.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btnSubscription.ImageSize = new System.Drawing.Size(25, 25);
+            this.btnSubscription.Location = new System.Drawing.Point(21, 394);
+            this.btnSubscription.Name = "btnSubscription";
+            this.btnSubscription.Size = new System.Drawing.Size(292, 45);
+            this.btnSubscription.TabIndex = 9;
+            this.btnSubscription.Text = "    Subscription";
+            this.btnSubscription.Click += new System.EventHandler(this.btnSubscription_Click);
+            // 
+            // btnViewWearhouseCrop
+            // 
+            this.btnViewWearhouseCrop.AccessibleName = "";
+            this.btnViewWearhouseCrop.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnViewWearhouseCrop.Animated = true;
+            this.btnViewWearhouseCrop.AnimatedGIF = true;
+            this.btnViewWearhouseCrop.BorderColor = System.Drawing.Color.White;
+            this.btnViewWearhouseCrop.BorderRadius = 5;
+            this.btnViewWearhouseCrop.CheckedState.BorderColor = System.Drawing.Color.White;
+            this.btnViewWearhouseCrop.CheckedState.CustomBorderColor = System.Drawing.Color.White;
+            this.btnViewWearhouseCrop.CheckedState.ForeColor = System.Drawing.Color.Navy;
+            this.btnViewWearhouseCrop.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnViewWearhouseCrop.DisabledState.BorderColor = System.Drawing.Color.Navy;
+            this.btnViewWearhouseCrop.DisabledState.CustomBorderColor = System.Drawing.Color.Navy;
+            this.btnViewWearhouseCrop.DisabledState.FillColor = System.Drawing.Color.Navy;
+            this.btnViewWearhouseCrop.DisabledState.ForeColor = System.Drawing.Color.White;
+            this.btnViewWearhouseCrop.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(211)))), ((int)(((byte)(102)))));
+            this.btnViewWearhouseCrop.Font = new System.Drawing.Font("Comic Sans MS", 10F, System.Drawing.FontStyle.Bold);
+            this.btnViewWearhouseCrop.ForeColor = System.Drawing.Color.White;
+            this.btnViewWearhouseCrop.HoverState.BorderColor = System.Drawing.Color.White;
+            this.btnViewWearhouseCrop.HoverState.CustomBorderColor = System.Drawing.Color.White;
+            this.btnViewWearhouseCrop.HoverState.FillColor = System.Drawing.Color.White;
+            this.btnViewWearhouseCrop.HoverState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(211)))), ((int)(((byte)(102)))));
+            this.btnViewWearhouseCrop.HoverState.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image2")));
+            this.btnViewWearhouseCrop.Image = ((System.Drawing.Image)(resources.GetObject("btnViewWearhouseCrop.Image")));
+            this.btnViewWearhouseCrop.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btnViewWearhouseCrop.ImageSize = new System.Drawing.Size(25, 25);
+            this.btnViewWearhouseCrop.Location = new System.Drawing.Point(21, 273);
+            this.btnViewWearhouseCrop.Name = "btnViewWearhouseCrop";
+            this.btnViewWearhouseCrop.Size = new System.Drawing.Size(312, 45);
+            this.btnViewWearhouseCrop.TabIndex = 7;
+            this.btnViewWearhouseCrop.Text = "   View Wearhouse Crop";
+            this.btnViewWearhouseCrop.Click += new System.EventHandler(this.btnViewWearhouseCrop_Click);
+            // 
+            // btnViewOrderStatus
+            // 
+            this.btnViewOrderStatus.AccessibleName = "";
+            this.btnViewOrderStatus.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnViewOrderStatus.Animated = true;
+            this.btnViewOrderStatus.AnimatedGIF = true;
+            this.btnViewOrderStatus.BorderColor = System.Drawing.Color.White;
+            this.btnViewOrderStatus.BorderRadius = 5;
+            this.btnViewOrderStatus.CheckedState.BorderColor = System.Drawing.Color.White;
+            this.btnViewOrderStatus.CheckedState.CustomBorderColor = System.Drawing.Color.White;
+            this.btnViewOrderStatus.CheckedState.ForeColor = System.Drawing.Color.Navy;
+            this.btnViewOrderStatus.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnViewOrderStatus.DisabledState.BorderColor = System.Drawing.Color.Navy;
+            this.btnViewOrderStatus.DisabledState.CustomBorderColor = System.Drawing.Color.Navy;
+            this.btnViewOrderStatus.DisabledState.FillColor = System.Drawing.Color.Navy;
+            this.btnViewOrderStatus.DisabledState.ForeColor = System.Drawing.Color.White;
+            this.btnViewOrderStatus.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(211)))), ((int)(((byte)(102)))));
+            this.btnViewOrderStatus.Font = new System.Drawing.Font("Comic Sans MS", 10F, System.Drawing.FontStyle.Bold);
+            this.btnViewOrderStatus.ForeColor = System.Drawing.Color.White;
+            this.btnViewOrderStatus.HoverState.BorderColor = System.Drawing.Color.White;
+            this.btnViewOrderStatus.HoverState.CustomBorderColor = System.Drawing.Color.White;
+            this.btnViewOrderStatus.HoverState.FillColor = System.Drawing.Color.White;
+            this.btnViewOrderStatus.HoverState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(211)))), ((int)(((byte)(102)))));
+            this.btnViewOrderStatus.HoverState.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image3")));
+            this.btnViewOrderStatus.Image = ((System.Drawing.Image)(resources.GetObject("btnViewOrderStatus.Image")));
+            this.btnViewOrderStatus.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btnViewOrderStatus.ImageSize = new System.Drawing.Size(25, 25);
+            this.btnViewOrderStatus.Location = new System.Drawing.Point(21, 337);
+            this.btnViewOrderStatus.Name = "btnViewOrderStatus";
+            this.btnViewOrderStatus.Size = new System.Drawing.Size(310, 45);
+            this.btnViewOrderStatus.TabIndex = 8;
+            this.btnViewOrderStatus.Text = "  View Order Status";
+            this.btnViewOrderStatus.Click += new System.EventHandler(this.btnViewOrderStatus_Click);
             // 
             // btnSettings
             // 
@@ -170,7 +346,7 @@
             this.btnSettings.HoverState.CustomBorderColor = System.Drawing.Color.White;
             this.btnSettings.HoverState.FillColor = System.Drawing.Color.White;
             this.btnSettings.HoverState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(211)))), ((int)(((byte)(102)))));
-            this.btnSettings.HoverState.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image2")));
+            this.btnSettings.HoverState.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image4")));
             this.btnSettings.Image = ((System.Drawing.Image)(resources.GetObject("btnSettings.Image")));
             this.btnSettings.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.btnSettings.ImageSize = new System.Drawing.Size(25, 25);
@@ -206,16 +382,50 @@
             this.btnWallet.HoverState.CustomBorderColor = System.Drawing.Color.White;
             this.btnWallet.HoverState.FillColor = System.Drawing.Color.White;
             this.btnWallet.HoverState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(211)))), ((int)(((byte)(102)))));
-            this.btnWallet.HoverState.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image3")));
+            this.btnWallet.HoverState.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image5")));
             this.btnWallet.Image = ((System.Drawing.Image)(resources.GetObject("btnWallet.Image")));
             this.btnWallet.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.btnWallet.ImageSize = new System.Drawing.Size(25, 25);
-            this.btnWallet.Location = new System.Drawing.Point(24, 399);
+            this.btnWallet.Location = new System.Drawing.Point(24, 449);
             this.btnWallet.Name = "btnWallet";
             this.btnWallet.Size = new System.Drawing.Size(310, 45);
             this.btnWallet.TabIndex = 6;
             this.btnWallet.Text = "Wallet";
             this.btnWallet.Click += new System.EventHandler(this.btnWallet_Click);
+            // 
+            // btnViewOrders
+            // 
+            this.btnViewOrders.AccessibleName = "";
+            this.btnViewOrders.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnViewOrders.Animated = true;
+            this.btnViewOrders.AnimatedGIF = true;
+            this.btnViewOrders.BorderColor = System.Drawing.Color.White;
+            this.btnViewOrders.BorderRadius = 5;
+            this.btnViewOrders.CheckedState.BorderColor = System.Drawing.Color.White;
+            this.btnViewOrders.CheckedState.CustomBorderColor = System.Drawing.Color.White;
+            this.btnViewOrders.CheckedState.ForeColor = System.Drawing.Color.Navy;
+            this.btnViewOrders.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnViewOrders.DisabledState.BorderColor = System.Drawing.Color.Navy;
+            this.btnViewOrders.DisabledState.CustomBorderColor = System.Drawing.Color.Navy;
+            this.btnViewOrders.DisabledState.FillColor = System.Drawing.Color.Navy;
+            this.btnViewOrders.DisabledState.ForeColor = System.Drawing.Color.White;
+            this.btnViewOrders.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(211)))), ((int)(((byte)(102)))));
+            this.btnViewOrders.Font = new System.Drawing.Font("Comic Sans MS", 10F, System.Drawing.FontStyle.Bold);
+            this.btnViewOrders.ForeColor = System.Drawing.Color.White;
+            this.btnViewOrders.HoverState.BorderColor = System.Drawing.Color.White;
+            this.btnViewOrders.HoverState.CustomBorderColor = System.Drawing.Color.White;
+            this.btnViewOrders.HoverState.FillColor = System.Drawing.Color.White;
+            this.btnViewOrders.HoverState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(211)))), ((int)(((byte)(102)))));
+            this.btnViewOrders.HoverState.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image6")));
+            this.btnViewOrders.Image = ((System.Drawing.Image)(resources.GetObject("btnViewOrders.Image")));
+            this.btnViewOrders.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btnViewOrders.ImageSize = new System.Drawing.Size(25, 25);
+            this.btnViewOrders.Location = new System.Drawing.Point(21, 333);
+            this.btnViewOrders.Name = "btnViewOrders";
+            this.btnViewOrders.Size = new System.Drawing.Size(310, 45);
+            this.btnViewOrders.TabIndex = 6;
+            this.btnViewOrders.Text = "  View Orders";
             // 
             // panelManagePpl
             // 
@@ -249,7 +459,7 @@
             this.btnManageAdvisor.HoverState.CustomBorderColor = System.Drawing.Color.White;
             this.btnManageAdvisor.HoverState.FillColor = System.Drawing.Color.White;
             this.btnManageAdvisor.HoverState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(246)))), ((int)(((byte)(200)))), ((int)(((byte)(0)))));
-            this.btnManageAdvisor.HoverState.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image5")));
+            this.btnManageAdvisor.HoverState.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image7")));
             this.btnManageAdvisor.Image = ((System.Drawing.Image)(resources.GetObject("btnManageAdvisor.Image")));
             this.btnManageAdvisor.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.btnManageAdvisor.Location = new System.Drawing.Point(3, 51);
@@ -281,7 +491,7 @@
             this.ManageStudent.HoverState.CustomBorderColor = System.Drawing.Color.White;
             this.ManageStudent.HoverState.FillColor = System.Drawing.Color.White;
             this.ManageStudent.HoverState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(246)))), ((int)(((byte)(200)))), ((int)(((byte)(0)))));
-            this.ManageStudent.HoverState.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image6")));
+            this.ManageStudent.HoverState.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image8")));
             this.ManageStudent.Image = ((System.Drawing.Image)(resources.GetObject("ManageStudent.Image")));
             this.ManageStudent.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.ManageStudent.Location = new System.Drawing.Point(0, 8);
@@ -314,7 +524,7 @@
             this.btnSendOrderRequests.HoverState.CustomBorderColor = System.Drawing.Color.White;
             this.btnSendOrderRequests.HoverState.FillColor = System.Drawing.Color.White;
             this.btnSendOrderRequests.HoverState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(211)))), ((int)(((byte)(102)))));
-            this.btnSendOrderRequests.HoverState.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image7")));
+            this.btnSendOrderRequests.HoverState.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image9")));
             this.btnSendOrderRequests.Image = ((System.Drawing.Image)(resources.GetObject("btnSendOrderRequests.Image")));
             this.btnSendOrderRequests.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.btnSendOrderRequests.ImageSize = new System.Drawing.Size(25, 25);
@@ -372,7 +582,7 @@
             this.btnHome.HoverState.CustomBorderColor = System.Drawing.Color.White;
             this.btnHome.HoverState.FillColor = System.Drawing.Color.White;
             this.btnHome.HoverState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(211)))), ((int)(((byte)(102)))));
-            this.btnHome.HoverState.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image8")));
+            this.btnHome.HoverState.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image10")));
             this.btnHome.Image = ((System.Drawing.Image)(resources.GetObject("btnHome.Image")));
             this.btnHome.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.btnHome.ImageSize = new System.Drawing.Size(25, 25);
@@ -440,163 +650,49 @@
             this.closeBtnFarmer.TabIndex = 28;
             this.closeBtnFarmer.Click += new System.EventHandler(this.closeBtnFarmer_Click);
             // 
-            // btnViewOrders
+            // btnReports
             // 
-            this.btnViewOrders.AccessibleName = "";
-            this.btnViewOrders.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.btnReports.AccessibleName = "";
+            this.btnReports.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnViewOrders.Animated = true;
-            this.btnViewOrders.AnimatedGIF = true;
-            this.btnViewOrders.BorderColor = System.Drawing.Color.White;
-            this.btnViewOrders.BorderRadius = 5;
-            this.btnViewOrders.CheckedState.BorderColor = System.Drawing.Color.White;
-            this.btnViewOrders.CheckedState.CustomBorderColor = System.Drawing.Color.White;
-            this.btnViewOrders.CheckedState.ForeColor = System.Drawing.Color.Navy;
-            this.btnViewOrders.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnViewOrders.DisabledState.BorderColor = System.Drawing.Color.Navy;
-            this.btnViewOrders.DisabledState.CustomBorderColor = System.Drawing.Color.Navy;
-            this.btnViewOrders.DisabledState.FillColor = System.Drawing.Color.Navy;
-            this.btnViewOrders.DisabledState.ForeColor = System.Drawing.Color.White;
-            this.btnViewOrders.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(211)))), ((int)(((byte)(102)))));
-            this.btnViewOrders.Font = new System.Drawing.Font("Comic Sans MS", 10F, System.Drawing.FontStyle.Bold);
-            this.btnViewOrders.ForeColor = System.Drawing.Color.White;
-            this.btnViewOrders.HoverState.BorderColor = System.Drawing.Color.White;
-            this.btnViewOrders.HoverState.CustomBorderColor = System.Drawing.Color.White;
-            this.btnViewOrders.HoverState.FillColor = System.Drawing.Color.White;
-            this.btnViewOrders.HoverState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(211)))), ((int)(((byte)(102)))));
-            this.btnViewOrders.HoverState.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image4")));
-            this.btnViewOrders.Image = ((System.Drawing.Image)(resources.GetObject("btnViewOrders.Image")));
-            this.btnViewOrders.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.btnViewOrders.ImageSize = new System.Drawing.Size(25, 25);
-            this.btnViewOrders.Location = new System.Drawing.Point(21, 333);
-            this.btnViewOrders.Name = "btnViewOrders";
-            this.btnViewOrders.Size = new System.Drawing.Size(310, 45);
-            this.btnViewOrders.TabIndex = 6;
-            this.btnViewOrders.Text = "  View Orders";
+            this.btnReports.Animated = true;
+            this.btnReports.AnimatedGIF = true;
+            this.btnReports.BorderColor = System.Drawing.Color.White;
+            this.btnReports.BorderRadius = 5;
+            this.btnReports.CheckedState.BorderColor = System.Drawing.Color.White;
+            this.btnReports.CheckedState.CustomBorderColor = System.Drawing.Color.White;
+            this.btnReports.CheckedState.ForeColor = System.Drawing.Color.Navy;
+            this.btnReports.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnReports.DisabledState.BorderColor = System.Drawing.Color.Navy;
+            this.btnReports.DisabledState.CustomBorderColor = System.Drawing.Color.Navy;
+            this.btnReports.DisabledState.FillColor = System.Drawing.Color.Navy;
+            this.btnReports.DisabledState.ForeColor = System.Drawing.Color.White;
+            this.btnReports.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(211)))), ((int)(((byte)(102)))));
+            this.btnReports.Font = new System.Drawing.Font("Comic Sans MS", 10F, System.Drawing.FontStyle.Bold);
+            this.btnReports.ForeColor = System.Drawing.Color.White;
+            this.btnReports.HoverState.BorderColor = System.Drawing.Color.White;
+            this.btnReports.HoverState.CustomBorderColor = System.Drawing.Color.White;
+            this.btnReports.HoverState.FillColor = System.Drawing.Color.White;
+            this.btnReports.HoverState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(211)))), ((int)(((byte)(102)))));
+            this.btnReports.HoverState.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image")));
+            this.btnReports.Image = ((System.Drawing.Image)(resources.GetObject("btnReports.Image")));
+            this.btnReports.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btnReports.ImageSize = new System.Drawing.Size(25, 25);
+            this.btnReports.Location = new System.Drawing.Point(24, 501);
+            this.btnReports.Name = "btnReports";
+            this.btnReports.Size = new System.Drawing.Size(310, 45);
+            this.btnReports.TabIndex = 20;
+            this.btnReports.Text = "Reports";
+            this.btnReports.Click += new System.EventHandler(this.btnReports_Click);
             // 
-            // btnViewOrderStatus
+            // reports1
             // 
-            this.btnViewOrderStatus.AccessibleName = "";
-            this.btnViewOrderStatus.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnViewOrderStatus.Animated = true;
-            this.btnViewOrderStatus.AnimatedGIF = true;
-            this.btnViewOrderStatus.BorderColor = System.Drawing.Color.White;
-            this.btnViewOrderStatus.BorderRadius = 5;
-            this.btnViewOrderStatus.CheckedState.BorderColor = System.Drawing.Color.White;
-            this.btnViewOrderStatus.CheckedState.CustomBorderColor = System.Drawing.Color.White;
-            this.btnViewOrderStatus.CheckedState.ForeColor = System.Drawing.Color.Navy;
-            this.btnViewOrderStatus.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnViewOrderStatus.DisabledState.BorderColor = System.Drawing.Color.Navy;
-            this.btnViewOrderStatus.DisabledState.CustomBorderColor = System.Drawing.Color.Navy;
-            this.btnViewOrderStatus.DisabledState.FillColor = System.Drawing.Color.Navy;
-            this.btnViewOrderStatus.DisabledState.ForeColor = System.Drawing.Color.White;
-            this.btnViewOrderStatus.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(211)))), ((int)(((byte)(102)))));
-            this.btnViewOrderStatus.Font = new System.Drawing.Font("Comic Sans MS", 10F, System.Drawing.FontStyle.Bold);
-            this.btnViewOrderStatus.ForeColor = System.Drawing.Color.White;
-            this.btnViewOrderStatus.HoverState.BorderColor = System.Drawing.Color.White;
-            this.btnViewOrderStatus.HoverState.CustomBorderColor = System.Drawing.Color.White;
-            this.btnViewOrderStatus.HoverState.FillColor = System.Drawing.Color.White;
-            this.btnViewOrderStatus.HoverState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(211)))), ((int)(((byte)(102)))));
-            this.btnViewOrderStatus.HoverState.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image1")));
-            this.btnViewOrderStatus.Image = ((System.Drawing.Image)(resources.GetObject("btnViewOrderStatus.Image")));
-            this.btnViewOrderStatus.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.btnViewOrderStatus.ImageSize = new System.Drawing.Size(25, 25);
-            this.btnViewOrderStatus.Location = new System.Drawing.Point(21, 337);
-            this.btnViewOrderStatus.Name = "btnViewOrderStatus";
-            this.btnViewOrderStatus.Size = new System.Drawing.Size(310, 45);
-            this.btnViewOrderStatus.TabIndex = 8;
-            this.btnViewOrderStatus.Text = "  View Order Status";
-            this.btnViewOrderStatus.Click += new System.EventHandler(this.btnViewOrderStatus_Click);
-            // 
-            // btnViewWearhouseCrop
-            // 
-            this.btnViewWearhouseCrop.AccessibleName = "";
-            this.btnViewWearhouseCrop.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnViewWearhouseCrop.Animated = true;
-            this.btnViewWearhouseCrop.AnimatedGIF = true;
-            this.btnViewWearhouseCrop.BorderColor = System.Drawing.Color.White;
-            this.btnViewWearhouseCrop.BorderRadius = 5;
-            this.btnViewWearhouseCrop.CheckedState.BorderColor = System.Drawing.Color.White;
-            this.btnViewWearhouseCrop.CheckedState.CustomBorderColor = System.Drawing.Color.White;
-            this.btnViewWearhouseCrop.CheckedState.ForeColor = System.Drawing.Color.Navy;
-            this.btnViewWearhouseCrop.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnViewWearhouseCrop.DisabledState.BorderColor = System.Drawing.Color.Navy;
-            this.btnViewWearhouseCrop.DisabledState.CustomBorderColor = System.Drawing.Color.Navy;
-            this.btnViewWearhouseCrop.DisabledState.FillColor = System.Drawing.Color.Navy;
-            this.btnViewWearhouseCrop.DisabledState.ForeColor = System.Drawing.Color.White;
-            this.btnViewWearhouseCrop.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(211)))), ((int)(((byte)(102)))));
-            this.btnViewWearhouseCrop.Font = new System.Drawing.Font("Comic Sans MS", 10F, System.Drawing.FontStyle.Bold);
-            this.btnViewWearhouseCrop.ForeColor = System.Drawing.Color.White;
-            this.btnViewWearhouseCrop.HoverState.BorderColor = System.Drawing.Color.White;
-            this.btnViewWearhouseCrop.HoverState.CustomBorderColor = System.Drawing.Color.White;
-            this.btnViewWearhouseCrop.HoverState.FillColor = System.Drawing.Color.White;
-            this.btnViewWearhouseCrop.HoverState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(211)))), ((int)(((byte)(102)))));
-            this.btnViewWearhouseCrop.HoverState.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image")));
-            this.btnViewWearhouseCrop.Image = ((System.Drawing.Image)(resources.GetObject("btnViewWearhouseCrop.Image")));
-            this.btnViewWearhouseCrop.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.btnViewWearhouseCrop.ImageSize = new System.Drawing.Size(25, 25);
-            this.btnViewWearhouseCrop.Location = new System.Drawing.Point(21, 273);
-            this.btnViewWearhouseCrop.Name = "btnViewWearhouseCrop";
-            this.btnViewWearhouseCrop.Size = new System.Drawing.Size(312, 45);
-            this.btnViewWearhouseCrop.TabIndex = 7;
-            this.btnViewWearhouseCrop.Text = "  View Wearhouse Crop";
-            this.btnViewWearhouseCrop.Click += new System.EventHandler(this.btnViewWearhouseCrop_Click);
-            // 
-            // organizationDashBoardUC1
-            // 
-            this.organizationDashBoardUC1.BackColor = System.Drawing.Color.White;
-            this.organizationDashBoardUC1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.organizationDashBoardUC1.Location = new System.Drawing.Point(0, 0);
-            this.organizationDashBoardUC1.Name = "organizationDashBoardUC1";
-            this.organizationDashBoardUC1.Size = new System.Drawing.Size(1610, 987);
-            this.organizationDashBoardUC1.TabIndex = 0;
-            // 
-            // sendOrderRequestUC1
-            // 
-            this.sendOrderRequestUC1.BackColor = System.Drawing.Color.White;
-            this.sendOrderRequestUC1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.sendOrderRequestUC1.Location = new System.Drawing.Point(0, 0);
-            this.sendOrderRequestUC1.Name = "sendOrderRequestUC1";
-            this.sendOrderRequestUC1.Size = new System.Drawing.Size(1610, 987);
-            this.sendOrderRequestUC1.TabIndex = 1;
-            // 
-            // viewWearHouseCropUC1
-            // 
-            this.viewWearHouseCropUC1.BackColor = System.Drawing.Color.White;
-            this.viewWearHouseCropUC1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.viewWearHouseCropUC1.Location = new System.Drawing.Point(0, 0);
-            this.viewWearHouseCropUC1.Name = "viewWearHouseCropUC1";
-            this.viewWearHouseCropUC1.Size = new System.Drawing.Size(1610, 987);
-            this.viewWearHouseCropUC1.TabIndex = 2;
-            // 
-            // walletPnl1
-            // 
-            this.walletPnl1.BackColor = System.Drawing.Color.White;
-            this.walletPnl1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.walletPnl1.Location = new System.Drawing.Point(0, 0);
-            this.walletPnl1.Name = "walletPnl1";
-            this.walletPnl1.Size = new System.Drawing.Size(1610, 987);
-            this.walletPnl1.TabIndex = 3;
-            // 
-            // changeAccount1
-            // 
-            this.changeAccount1.BackColor = System.Drawing.Color.White;
-            this.changeAccount1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.changeAccount1.Location = new System.Drawing.Point(0, 0);
-            this.changeAccount1.Name = "changeAccount1";
-            this.changeAccount1.Size = new System.Drawing.Size(1610, 987);
-            this.changeAccount1.TabIndex = 4;
-            // 
-            // viewOrdersStatus1
-            // 
-            this.viewOrdersStatus1.BackColor = System.Drawing.Color.White;
-            this.viewOrdersStatus1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.viewOrdersStatus1.Location = new System.Drawing.Point(0, 0);
-            this.viewOrdersStatus1.Name = "viewOrdersStatus1";
-            this.viewOrdersStatus1.Size = new System.Drawing.Size(1610, 987);
-            this.viewOrdersStatus1.TabIndex = 5;
+            this.reports1.BackColor = System.Drawing.Color.White;
+            this.reports1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.reports1.Location = new System.Drawing.Point(0, 0);
+            this.reports1.Name = "reports1";
+            this.reports1.Size = new System.Drawing.Size(1610, 987);
+            this.reports1.TabIndex = 7;
             // 
             // OrganizationForm
             // 
@@ -655,5 +751,9 @@
         private FarmerManagerUI.ViewWearHouseCropUC viewWearHouseCropUC1;
         private SendOrderRequestUC sendOrderRequestUC1;
         private OrganizationDashBoardUC organizationDashBoardUC1;
+        private Components.Subscription subscription1;
+        private Guna.UI2.WinForms.Guna2Button btnSubscription;
+        private Guna.UI2.WinForms.Guna2Button btnReports;
+        private Components.Reports reports1;
     }
 }

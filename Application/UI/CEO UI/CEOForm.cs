@@ -66,5 +66,11 @@ namespace Farmer_Representive_Final_Project_DB_.UI.CEO_UI
         {
             WindowState = FormWindowState.Minimized;
         }
+
+        private void btnReports_Click(object sender, EventArgs e)
+        {
+            sidePanel.Top = btnReports.Top;
+            reports1.BringToFront();
+        }
     }
 }

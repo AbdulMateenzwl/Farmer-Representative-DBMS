@@ -82,6 +82,18 @@
     <Compile Include="UI\Components\OrganizationSignUpForm.Designer.cs">
       <DependentUpon>OrganizationSignUpForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="UI\Components\Reports.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\Components\Reports.Designer.cs">
+      <DependentUpon>Reports.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Components\Subscription.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\Components\Subscription.Designer.cs">
+      <DependentUpon>Subscription.cs</DependentUpon>
+    </Compile>
     <Compile Include="UI\DriverUI\Deliveries.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -332,6 +344,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="UI\Components\OrganizationSignUpForm.resx">
       <DependentUpon>OrganizationSignUpForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Components\Reports.resx">
+      <DependentUpon>Reports.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Components\Subscription.resx">
+      <DependentUpon>Subscription.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UI\DriverUI\Deliveries.resx">
       <DependentUpon>Deliveries.cs</DependentUpon>

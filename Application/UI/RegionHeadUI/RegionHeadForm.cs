@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Farmer_Representive_Final_Project_DB_.UI.Components;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -66,6 +67,13 @@ namespace Farmer_Representive_Final_Project_DB_.UI.RegionHeadUI
         {
             sidePanel.Top = btnBecomeManager.Top;
             becomeManagerUC1.BringToFront();
+        }
+
+        private void btnReports_Click(object sender, EventArgs e)
+        {
+
+            sidePanel.Top = btnReports.Top;
+            reports1.BringToFront();
         }
     }
 }
