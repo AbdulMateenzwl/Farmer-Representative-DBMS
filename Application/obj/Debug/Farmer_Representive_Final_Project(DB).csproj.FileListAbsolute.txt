@@ -1,0 +1,73 @@
+E:\4th Semeter Record\DBMS Lab\Farmer_Representive_Final_Project(DB)\bin\Debug\Farmer_Representive_Final_Project(DB).exe.config
+E:\4th Semeter Record\DBMS Lab\Farmer_Representive_Final_Project(DB)\bin\Debug\Farmer_Representive_Final_Project(DB).exe
+E:\4th Semeter Record\DBMS Lab\Farmer_Representive_Final_Project(DB)\bin\Debug\Farmer_Representive_Final_Project(DB).pdb
+E:\4th Semeter Record\DBMS Lab\Farmer_Representive_Final_Project(DB)\obj\Debug\Farmer_Representive_Final_Project(DB).csproj.AssemblyReference.cache
+E:\4th Semeter Record\DBMS Lab\Farmer_Representive_Final_Project(DB)\obj\Debug\Farmer_Representive_Final_Project(DB).csproj.SuggestedBindingRedirects.cache
+E:\4th Semeter Record\DBMS Lab\Farmer_Representive_Final_Project(DB)\obj\Debug\Farmer_Representive_Final_Project_DB_.Form1.resources
+E:\4th Semeter Record\DBMS Lab\Farmer_Representive_Final_Project(DB)\obj\Debug\Farmer_Representive_Final_Project_DB_.Properties.Resources.resources
+E:\4th Semeter Record\DBMS Lab\Farmer_Representive_Final_Project(DB)\obj\Debug\Farmer_Representive_Final_Project(DB).csproj.GenerateResource.cache
+E:\4th Semeter Record\DBMS Lab\Farmer_Representive_Final_Project(DB)\obj\Debug\Farmer_Representive_Final_Project(DB).csproj.CoreCompileInputs.cache
+E:\4th Semeter Record\DBMS Lab\Farmer_Representive_Final_Project(DB)\obj\Debug\Farmer_Representive_Final_Project(DB).exe
+E:\4th Semeter Record\DBMS Lab\Farmer_Representive_Final_Project(DB)\obj\Debug\Farmer_Representive_Final_Project(DB).pdb
+E:\4th Semeter Record\DBMS Lab\Farmer_Representive_Final_Project(DB)\bin\Debug\Guna.UI2.dll
+E:\4th Semeter Record\DBMS Lab\Farmer_Representive_Final_Project(DB)\obj\Debug\Farmer_Representive_Final_Project(DB).csproj.CopyComplete
+E:\4th Semeter Record\DBMS Lab\Farmer_Representive_Final_Project(DB)\obj\Debug\Farmer_Representive_Final_Project_DB_.SignInForm.resources
+E:\4th Semeter Record\DBMS Lab\Farmer_Representive_Final_Project(DB)\obj\Debug\Farmer_Representive_Final_Project_DB_.FarmerForm.resources
+C:\Users\dnmug\OneDrive\Desktop\DB2021FinalProjectG-39\Application\bin\Debug\Farmer_Representive_Final_Project(DB).exe.config
+C:\Users\dnmug\OneDrive\Desktop\DB2021FinalProjectG-39\Application\bin\Debug\Farmer_Representive_Final_Project(DB).exe
+C:\Users\dnmug\OneDrive\Desktop\DB2021FinalProjectG-39\Application\bin\Debug\Farmer_Representive_Final_Project(DB).pdb
+C:\Users\dnmug\OneDrive\Desktop\DB2021FinalProjectG-39\Application\bin\Debug\Guna.UI2.dll
+C:\Users\dnmug\OneDrive\Desktop\DB2021FinalProjectG-39\Application\obj\Debug\Farmer_Representive_Final_Project(DB).csproj.AssemblyReference.cache
+C:\Users\dnmug\OneDrive\Desktop\DB2021FinalProjectG-39\Application\obj\Debug\Farmer_Representive_Final_Project(DB).csproj.SuggestedBindingRedirects.cache
+C:\Users\dnmug\OneDrive\Desktop\DB2021FinalProjectG-39\Application\obj\Debug\Farmer_Representive_Final_Project_DB_.Form1.resources
+C:\Users\dnmug\OneDrive\Desktop\DB2021FinalProjectG-39\Application\obj\Debug\Farmer_Representive_Final_Project_DB_.Properties.Resources.resources
+C:\Users\dnmug\OneDrive\Desktop\DB2021FinalProjectG-39\Application\obj\Debug\Farmer_Representive_Final_Project_DB_.SignInForm.resources
+C:\Users\dnmug\OneDrive\Desktop\DB2021FinalProjectG-39\Application\obj\Debug\Farmer_Representive_Final_Project(DB).csproj.GenerateResource.cache
+C:\Users\dnmug\OneDrive\Desktop\DB2021FinalProjectG-39\Application\obj\Debug\Farmer_Representive_Final_Project(DB).csproj.CoreCompileInputs.cache
+C:\Users\dnmug\OneDrive\Desktop\DB2021FinalProjectG-39\Application\obj\Debug\Farmer_Representive_Final_Project(DB).csproj.CopyComplete
+C:\Users\dnmug\OneDrive\Desktop\DB2021FinalProjectG-39\Application\obj\Debug\Farmer_Representive_Final_Project(DB).exe
+C:\Users\dnmug\OneDrive\Desktop\DB2021FinalProjectG-39\Application\obj\Debug\Farmer_Representive_Final_Project(DB).pdb
+C:\Users\dnmug\OneDrive\Desktop\DB2021FinalProjectG-39\Application\obj\Debug\Farmer_Representive_Final_Project_DB_.UI.FarmerUI.CropsCrud.resources
+C:\Users\dnmug\OneDrive\Desktop\DB2021FinalProjectG-39\Application\obj\Debug\Farmer_Representive_Final_Project_DB_.UI.FarmerUI.FieldCrud.resources
+C:\Users\dnmug\OneDrive\Desktop\DB2021FinalProjectG-39\Application\obj\Debug\Farmer_Representive_Final_Project_DB_.UI.FarmerUI.UserControl1.resources
+C:\Users\dnmug\OneDrive\Desktop\DB2021FinalProjectG-39\Application\obj\Debug\Farmer_Representive_Final_Project_DB_.UI.FarmerUI.walletPnl.resources
+C:\Users\dnmug\OneDrive\Desktop\DB2021FinalProjectG-39\Application\obj\Debug\Farmer_Representive_Final_Project_DB_.UI.FarmerUI.DashBoard.resources
+C:\Users\dnmug\OneDrive\Desktop\DB2021FinalProjectG-39\Application\obj\Debug\Farmer_Representive_Final_Project_DB_.UI.FarmerUI.changeAccount.resources
+C:\Users\dnmug\OneDrive\Desktop\DB2021FinalProjectG-39\Application\obj\Debug\Farmer_Representive_Final_Project_DB_.UI.DriverUI.DriverForm.resources
+C:\Users\dnmug\OneDrive\Desktop\DB2021FinalProjectG-39\Application\obj\Debug\Farmer_Representive_Final_Project_DB_.UI.DriverUI.VehicleCrud.resources
+C:\Users\dnmug\OneDrive\Desktop\DB2021FinalProjectG-39\Application\obj\Debug\Farmer_Representive_Final_Project_DB_.UI.DriverUI.Deliveries.resources
+C:\Users\dnmug\OneDrive\Desktop\DB2021FinalProjectG-39\Application\obj\Debug\Farmer_Representive_Final_Project_DB_.FarmerForm.resources
+C:\Users\dnmug\OneDrive\Desktop\DB2021FinalProjectG-39\Application\obj\Debug\Farmer_Representive_Final_Project_DB_.UI.FarmerUI.SignUpForm.resources
+C:\Users\dnmug\OneDrive\Desktop\DB2021FinalProjectG-39\Application\obj\Debug\Farmer_Representive_Final_Project_DB_.UI.TransportManagerUI.ApproveDrivers.resources
+C:\Users\dnmug\OneDrive\Desktop\DB2021FinalProjectG-39\Application\obj\Debug\Farmer_Representive_Final_Project_DB_.UI.FarmerManagerUI.TransportManager.resources
+C:\Users\dnmug\OneDrive\Desktop\DB2021FinalProjectG-39\Application\obj\Debug\Farmer_Representive_Final_Project_DB_.UI.TransportManagerUI.Approve_Vehicle.resources
+C:\Users\dnmug\OneDrive\Desktop\DB2021FinalProjectG-39\Application\obj\Debug\Farmer_Representive_Final_Project_DB_.UI.TransportManagerUI.Assign_Delivery_To_Driver.resources
+C:\Users\dnmug\OneDrive\Desktop\DB2021FinalProjectG-39\Application\obj\Debug\Farmer_Representive_Final_Project_DB_.UI.TransportManagerUI.View_Drivers_and_Deliveries.resources
+C:\Users\dnmug\OneDrive\Desktop\DB2021FinalProjectG-39\Application\obj\Debug\Farmer_Representive_Final_Project_DB_.UI.TransportManagerUI.View_Drivers_and_Vehicles.resources
+C:\Users\dnmug\OneDrive\Desktop\DB2021FinalProjectG-39\Application\obj\Debug\Farmer_Representive_Final_Project_DB_.UI.TransportManagerUI.TransportManagerDashBoard.resources
+C:\Users\dnmug\OneDrive\Desktop\DB2021FinalProjectG-39\Application\obj\Debug\Farmer_Representive_Final_Project_DB_.UI.FarmerManagerUI.ApproveFarmersUC.resources
+C:\Users\dnmug\OneDrive\Desktop\DB2021FinalProjectG-39\Application\obj\Debug\Farmer_Representive_Final_Project_DB_.UI.FarmerManagerUI.FarmerManagerForm.resources
+C:\Users\dnmug\OneDrive\Desktop\DB2021FinalProjectG-39\Application\obj\Debug\Farmer_Representive_Final_Project_DB_.UI.FarmerManagerUI.ApproveFieldsUC.resources
+C:\Users\dnmug\OneDrive\Desktop\DB2021FinalProjectG-39\Application\obj\Debug\Farmer_Representive_Final_Project_DB_.UI.FarmerManagerUI.ApproveCropsUC.resources
+C:\Users\dnmug\OneDrive\Desktop\DB2021FinalProjectG-39\Application\obj\Debug\Farmer_Representive_Final_Project_DB_.UI.FarmerManagerUI.ViewFarmerFieldUC.resources
+C:\Users\dnmug\OneDrive\Desktop\DB2021FinalProjectG-39\Application\obj\Debug\Farmer_Representive_Final_Project_DB_.UI.FarmerManagerUI.FarmerManangerDashBoardUC.resources
+C:\Users\dnmug\OneDrive\Desktop\DB2021FinalProjectG-39\Application\obj\Debug\Farmer_Representive_Final_Project_DB_.UI.FarmerManagerUI.ViewWearHouseCropUC.resources
+C:\Users\dnmug\OneDrive\Desktop\DB2021FinalProjectG-39\Application\obj\Debug\Farmer_Representive_Final_Project_DB_.UI.OrganisationManagerUI.ApproveOrganzationUC.resources
+C:\Users\dnmug\OneDrive\Desktop\DB2021FinalProjectG-39\Application\obj\Debug\Farmer_Representive_Final_Project_DB_.UI.OrganisationManagerUI.OrganisationManagerForm.resources
+C:\Users\dnmug\OneDrive\Desktop\DB2021FinalProjectG-39\Application\obj\Debug\Farmer_Representive_Final_Project_DB_.UI.OrganisationManagerUI.ApproveOrdersUC.resources
+C:\Users\dnmug\OneDrive\Desktop\DB2021FinalProjectG-39\Application\obj\Debug\Farmer_Representive_Final_Project_DB_.UI.OrganisationManagerUI.ViewOrganizationOrdersUC.resources
+C:\Users\dnmug\OneDrive\Desktop\DB2021FinalProjectG-39\Application\obj\Debug\Farmer_Representive_Final_Project_DB_.UI.OrganisationManagerUI.OrganizationManagerDashBoardUC.resources
+C:\Users\dnmug\OneDrive\Desktop\DB2021FinalProjectG-39\Application\obj\Debug\Farmer_Representive_Final_Project_DB_.UI.RegionHeadUI.ApproveManagerUC.resources
+C:\Users\dnmug\OneDrive\Desktop\DB2021FinalProjectG-39\Application\obj\Debug\Farmer_Representive_Final_Project_DB_.UI.RegionHeadUI.RegionHeadForm.resources
+C:\Users\dnmug\OneDrive\Desktop\DB2021FinalProjectG-39\Application\obj\Debug\Farmer_Representive_Final_Project_DB_.UI.RegionHeadUI.RegionHeadDashBoardUC.resources
+C:\Users\dnmug\OneDrive\Desktop\DB2021FinalProjectG-39\Application\obj\Debug\Farmer_Representive_Final_Project_DB_.UI.OrganizationUI.OrganizationForm.resources
+C:\Users\dnmug\OneDrive\Desktop\DB2021FinalProjectG-39\Application\obj\Debug\Farmer_Representive_Final_Project_DB_.UI.OrganizationUI.SendOrderRequestUC.resources
+C:\Users\dnmug\OneDrive\Desktop\DB2021FinalProjectG-39\Application\obj\Debug\Farmer_Representive_Final_Project_DB_.UI.OrganizationUI.OrganizationDashBoardUC.resources
+C:\Users\dnmug\OneDrive\Desktop\DB2021FinalProjectG-39\Application\obj\Debug\Farmer_Representive_Final_Project_DB_.UI.OrganizationUI.ViewOrdersStatus.resources
+C:\Users\dnmug\OneDrive\Desktop\DB2021FinalProjectG-39\Application\obj\Debug\Farmer_Representive_Final_Project_DB_.UI.CEO_UI.ApproveRegionHeads.resources
+C:\Users\dnmug\OneDrive\Desktop\DB2021FinalProjectG-39\Application\obj\Debug\Farmer_Representive_Final_Project_DB_.UI.CEO_UI.CEODashBoardUC.resources
+C:\Users\dnmug\OneDrive\Desktop\DB2021FinalProjectG-39\Application\obj\Debug\Farmer_Representive_Final_Project_DB_.UI.CEO_UI.CEOForm.resources
+C:\Users\dnmug\OneDrive\Desktop\DB2021FinalProjectG-39\Application\obj\Debug\Farmer_Representive_Final_Project_DB_.UI.Components.BecomeManagerUC.resources
+C:\Users\dnmug\OneDrive\Desktop\DB2021FinalProjectG-39\Application\obj\Debug\Farmer_Representive_Final_Project_DB_.UI.Components.OrganizationSignUpForm.resources
+C:\Users\dnmug\OneDrive\Desktop\DB2021FinalProjectG-39\Application\obj\Debug\Farmer_Representive_Final_Project_DB_.UI.Components.Subscription.resources
+C:\Users\dnmug\OneDrive\Desktop\DB2021FinalProjectG-39\Application\obj\Debug\Farmer_Representive_Final_Project_DB_.UI.Components.Reports.resources
