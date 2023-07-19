@@ -9,7 +9,7 @@
 
 ## Collaborators
 
-- [Abdul Mateen](https://linktr.ee/AbdulMateenzwl)
+- [Abdul Mateen](https://connect.AbdulMateenzwl.com)
 - [Muhammad Ibrahim](https://linktr.ee/M_ibrahim_pro)
 - Muhammad Danish
 - [Muhammad Ahmad](https://www.linkedin.com/in/muhammad-ahmad-782b34262)
